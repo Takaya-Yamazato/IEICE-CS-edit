@@ -28,7 +28,6 @@ When I'm pondering various ideas, I run into questions about what a paper is, wh
 
 I would like to share my thoughts on the paper.
 Why write a journal paper? Let's put it bluntly. 
-
 It's all about the transfer of research and technology. 
 
 We refer to books as the source of knowledge, and a journal is a compilation of findings in a specialized field. 
@@ -46,5 +45,5 @@ With this in mind, it is no exaggeration to say that the IEICE Transaction on Co
 Now, ladies and gentlemen, for the next generation of engineers and researchers and the future of communications, let's submit a paper. 
 
 We plan two special sections on ICETC 2020 for you.
-IEICE Transactions on Communications and IEICE Communication Express (Comex)
+IEICE Transactions on Communications and IEICE Communication Express (ComEX).
 We look forward to receiving your submissions.
