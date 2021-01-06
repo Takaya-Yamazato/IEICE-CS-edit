@@ -3,7 +3,7 @@ templateKey: index-page
 title: IEICE Communication Society Editorial Board
 image: /img/home-jumbotron.jpg
 heading: IEICE Communication Society Editorial Board
-subheading: Support sustainable farming while enjoying a cup
+subheading: Support the future of communications
 mainpitch:
   title: Why IEICE
   description: >
