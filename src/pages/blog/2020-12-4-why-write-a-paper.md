@@ -10,7 +10,6 @@ tags:
   - communication society
 ---
 <iframe src="https://player.vimeo.com/video/491092904" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/491092904">Why-write-a-paper</a> from <a href="https://vimeo.com/user96502067">Takaya YAMAZATO</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Taromaru-sensei, thank you for the introduction.
 
@@ -25,8 +24,8 @@ It is also a good opportunity for the audience to ask questions directly to the 
 Now, let me share my slide.
 
 When I'm pondering various ideas, I run into questions about what a paper is, why we write papers, what editing is, and so on.
-
 I would like to share my thoughts on the paper.
+
 Why write a journal paper? Let's put it bluntly. 
 It's all about the transfer of research and technology. 
 
