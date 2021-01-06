@@ -5,9 +5,9 @@ image: /img/home-jumbotron.jpg
 heading: IEICE Communication Society Editorial Board
 subheading: Support the future of communications
 mainpitch:
-  title: Why IEICE
+  title: IEICE Communication Society Editorial Board
   description: >
-    The IEICE - Institute of Electronics, Information and Communication Engineers - is a Japanese institute specializing in the areas of electronic, information and communication engineering and associated fields. Its headquarters are located in Tokyo, Japan. It is a membership organization with the purpose of advancing the field of electronics, information and communications and support activities of its members.
+    The IEICE Communication Society Editorial Board governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).
 description: >-
     The IEICE Communication Society Editorial Board governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).
 intro:
