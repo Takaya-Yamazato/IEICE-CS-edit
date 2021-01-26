@@ -7,9 +7,9 @@ subheading: Support the future of communications
 mainpitch:
   title: IEICE Communication Society Editorial Board
   description: >
-    We governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).
+    We governs four of the society journals; IEICE Transaction on Communications (EB), IEICE Transactions on Communications (Japanese Edition, JB), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).
 description: >-
-    Publishing online monthly, our journals are intereseted in the best research from across the field of communicaiton engineering.  All editorial decisions are made by a team of top researchers.
+    Publishing online monthly (EB, JB and ComEX) and quartarly (Bplus), our journals are intereseted in the best research from across the field of communicaiton engineering.  All editorial decisions are made by a team of top researchers.
 intro:
   blurbs:
     - image: /img/eb.jpg
