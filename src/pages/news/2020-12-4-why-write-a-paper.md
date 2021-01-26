@@ -2,9 +2,12 @@
 templateKey: blog-post
 title: Why write a paper
 date: 2020-12-4T13:00:10.000Z
+description: The editor-in-chief, Prof. Yamazato, will talk about why write
+  journal paper.  This presentation is a part of opening remark of specail
+  session by editorial board at the first Communication Society falg-ship
+  conference, ICETC.
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
-description: The editor-in-chief, Prof. Yamazato, will talk about why write journal paper.  This presentation is a part of opening remark of specail session by editorial board at the first Communication Society falg-ship conference, ICETC.
+featuredimage: /img/bplus.gif
 tags:
   - journal paper
   - communication society
