@@ -14,8 +14,6 @@ tags:
 ---
 <iframe src="https://player.vimeo.com/video/491092904" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-Taromaru-sensei, thank you for the introduction.
-
 My name is Takaya Yamazato from Nagoya University.
 I'm the editor-in-chief of the IEICE Communication Society.
 On behalf of the editorial board, I would like to extend my greetings to the organizing committee of ICETC 2020 and the invited speakers of the special session, and all the participants.
