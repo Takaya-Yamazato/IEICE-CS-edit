@@ -33,6 +33,9 @@ jobs:
         run: |
           yarn
           npm run build
+# 確認のためのリスト表示　必要なければ削除  
+      - name: List output files
+        run: ls -laFG
       
 # rsync の設定
       - name: rsync deployments
