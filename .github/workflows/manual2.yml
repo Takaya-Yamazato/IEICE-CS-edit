@@ -6,7 +6,7 @@ name: Gatsby build and ｄeploy to a server
 on:
   push:
     branches:
-      - master
+      - push
 
 # 以下，jobs の定義
 jobs: 
