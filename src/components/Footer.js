@@ -30,8 +30,8 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/journals">
-                        Journals
+                      <Link className="navbar-item" to="/recommendations">
+                        Recommendations
                       </Link>
                     </li>
                     <li>
@@ -40,8 +40,13 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
+                      <Link className="navbar-item" to="/blog">
+                        News
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/contact">
+                        Contact
                       </Link>
                     </li>
                     <li>
@@ -62,13 +67,23 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        News
+                        IEICE Transaction on Communications (EB)
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
-                        Contact
+                        IEICE Transactions on Communications (Japanese Edition, JB)
                       </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/contact">
+                        IEICE Communications Express (ComEX)
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/contact">
+                      IEICE Bplus (Communication Society Magazine)
+                      </Link>  
                     </li>
                   </ul>
                 </section>
