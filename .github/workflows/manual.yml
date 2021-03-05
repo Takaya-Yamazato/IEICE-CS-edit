@@ -30,7 +30,6 @@ jobs:
           node-version: '15.x'
 # Node の実行（npm install, npm run build）
       - name: Check versions
-        run: node -v
         run: gatsby -v
       - name: Build Project
         run: |
