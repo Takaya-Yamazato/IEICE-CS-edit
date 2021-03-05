@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 # ワークフロー名の設定
-name: Gatsby build and ｄeploy to a server
+name: Gatsby build and deploy to a server
 
 # master branch へ push したときにこのワークフローを実行するよう指定
 on:
@@ -32,6 +32,7 @@ jobs:
       - name: Build Project
         run: |
           yarn
+          # npm install
           npm run build
 # 確認のためのリスト表示　必要なければ削除  
       - name: List output files
