@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from "gatsby"
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
 
