@@ -5,12 +5,12 @@ import cloudinary from 'netlify-cms-media-library-cloudinary'
 import AwardsPagePreview from './preview-templates/AwardsPagePreview'
 import BlogPostPreview from './preview-templates/BlogPostPreview'
 import RecommendationsPagePreview from './preview-templates/RecommendationsPagePreview'
-import IndexPagePreview from './preview-templates/IndexPagePreview'
+// import IndexPagePreview from './preview-templates/IndexPagePreview'
 
 // CMS.registerMediaLibrary(uploadcare)
 // CMS.registerMediaLibrary(cloudinary)
 
-CMS.registerPreviewTemplate('index', IndexPagePreview)
+// CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AwardsPagePreview)
 CMS.registerPreviewTemplate('products', RecommendationsPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)

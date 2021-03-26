@@ -6,7 +6,7 @@ import BlogRoll from '../components/BlogRoll'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const IndexPage = ({ data }) => (
-      <Layout>
+  <Layout>
         <div
           className="full-width-image margin-top-0"
           style={{
@@ -148,27 +148,10 @@ const IndexPage = ({ data }) => (
         </div>
       </div>
     </section>
-{/* 
-     
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <h3 className="has-text-weight-semibold is-size-2">
-                  Latest news and announcements
-              </h3>
-                <BlogRoll />
-                <div className="column is-12 has-text-centered">
-                  <Link className="btn" to="/blog">
-                    Read more
-                  </Link>
-                </div>
-            </div>
-          </div>
-        </section> */}
-      </Layout>
-    )
-//    }
-//  }
+
+  </Layout>
+)
+
 
 
 // IndexPageTemplate.propTypes = {
@@ -217,14 +200,6 @@ const IndexPage = ({ data }) => (
 
   export default IndexPage
 
-
-  // const ComponentName = ({ data }) => {
-  //   const { MarkdownRemark } = data
-  //   return (
-  // <pre>{JSON.stringify(MarkdownRemark, null, 4)}</pre>
-  //   )
-  // }
-  // export default ComponentName
 
 export const pageQuery = graphql`
 query IndexPage {
