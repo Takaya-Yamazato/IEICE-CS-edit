@@ -13,7 +13,7 @@ public_folder: /img
 
 collections:
   - name: "news"
-    label: "News"
+    label: "News and Updates"
     folder: "src/pages/news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -31,7 +31,7 @@ collections:
     label: "Pages"
     files:
       - file: "src/pages/index.md"
-        label: "Landing Page"
+        label: "Top Page"
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
