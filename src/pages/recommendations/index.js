@@ -2,57 +2,39 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
+// import Content, { HTMLContent } from '../../components/Content'
 
 const Recommendation = ({ data, location }) => {
     const post = data.markdownRemark
     const siteTitle = data.site.siteMetadata?.title || `Title`
-
+    // const PostContent = Content
 return (
   <Layout location={location} title={siteTitle}>
     <SEO
       title={post.frontmatter.title}
       description={post.frontmatter.description || post.excerpt}
     />
-    <article
-      className="blog-post"
-      itemScope
-      itemType="http://schema.org/Article"
-    >
-      <header>
-        <h1 itemProp="headline">{post.frontmatter.title}</h1>
-        <p>{post.frontmatter.date}</p>
-      </header>
-      {/* <section
-        dangerouslySetInnerHTML={{ __html: post.html }}
-        itemProp="articleBody"
-      /> */}
-        <section className="section">
-          <div className="container">
-            <div className="content">
-            {post.html}
+      <section className="section section--gradient">
+      <div className="container">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <div className="section">
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+              {post.frontmatter.title}
+              </h2>
+              <h5>{post.frontmatter.date}</h5>
+              <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
           </div>
-        </section>
-
-
-    </article>
+        </div>
+      </div>
+    </section>
   </Layout>
 )
 }
 
 export default Recommendation
 
-// const Recommendation = ({ data }) => (
-//     <Layout>
-//     <div>
-//     {data.markdownRemark.frontmatter.title}
-//     {data.markdownRemark.frontmatter.templateKey}
-//     {data.markdownRemark.frontmatter.path}
-//     {data.markdownRemark.fields.slug}
-//     </div>
-//     {data.markdownRemark.html}
-//     </Layout>
-// )
 export const query = graphql`
 query RecommendationQuery {
     site {
@@ -72,4 +54,3 @@ query RecommendationQuery {
       }
     }
 `;
-// export default Recommendation;
