@@ -3,7 +3,6 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
-import Features from '../components/Features'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const IndexPage = ({ data }) => (
@@ -131,16 +130,10 @@ const IndexPage = ({ data }) => (
                   </div>
               </div>
 
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
+
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                  News and Updates
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
@@ -155,28 +148,23 @@ const IndexPage = ({ data }) => (
         </div>
       </div>
     </section>
-
+{/* 
+     
         <section className="section">
           <div className="container">
             <div className="content">
-                <div className="columns">
-                    <div className="column">
-                    First column
-                    </div>
-                    <div className="column">
-                    Second column
-                    </div>
+              <h3 className="has-text-weight-semibold is-size-2">
+                  Latest news and announcements
+              </h3>
+                <BlogRoll />
+                <div className="column is-12 has-text-centered">
+                  <Link className="btn" to="/blog">
+                    Read more
+                  </Link>
                 </div>
             </div>
           </div>
-        </section>        
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <BlogRoll />
-            </div>
-          </div>
-        </section>
+        </section> */}
       </Layout>
     )
 //    }

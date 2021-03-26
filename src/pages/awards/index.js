@@ -2,12 +2,11 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-// import Content, { HTMLContent } from '../../components/Content'
 
-const Recommendation = ({ data, location }) => {
+const Award = ({ data, location }) => {
     const post = data.markdownRemark
     const siteTitle = data.site.siteMetadata?.title || `Title`
-    // const PostContent = Content
+
 return (
   <Layout location={location} title={siteTitle}>
     <SEO
@@ -20,9 +19,9 @@ return (
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-              Updated: {post.frontmatter.title}
+                {post.frontmatter.title}
               </h2>
-              <h5>{post.frontmatter.date}</h5>
+              <h5>Updated: {post.frontmatter.date}</h5>
               <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
           </div>
@@ -33,16 +32,16 @@ return (
 )
 }
 
-export default Recommendation
+export default Award
 
 export const query = graphql`
-query RecommendationQuery {
+query AwardQuery {
     site {
         siteMetadata {
           title
         }
       }
-    markdownRemark(frontmatter: {templateKey: {eq: "recommendations"}}) {
+    markdownRemark(frontmatter: {templateKey: {eq: "awards"}}) {
         id
         excerpt(pruneLength: 160)
         frontmatter {
