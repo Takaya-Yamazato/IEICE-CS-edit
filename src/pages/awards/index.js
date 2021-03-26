@@ -21,7 +21,7 @@ return (
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {post.frontmatter.title}
               </h2>
-              <h5>Updated: {post.frontmatter.date}</h5>
+              <h5>{post.frontmatter.date}</h5>
               <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
           </div>
