@@ -49,11 +49,11 @@ export default function AwardsPageTemplate() {
   )
 }
 
-// AwardsPageTemplate.propTypes = {
-//   title: PropTypes.string.isRequired,
-//   content: PropTypes.string,
-//   contentComponent: PropTypes.func,
-// }
+AwardsPageTemplate.propTypes = {
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string,
+  contentComponent: PropTypes.func,
+}
 
 // const AwardsPage = ({ data }) => {
 //   const { markdownRemark: post } = data
