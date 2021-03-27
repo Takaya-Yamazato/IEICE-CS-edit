@@ -1,16 +1,38 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import Layout from "../../components/Layout"
 import SEO from "../../components/seo"
 
-const Award = ({ data, location }) => {
+export default function Award () {
+  const data = useStaticQuery( graphql`
+query AwardQuery {
+    site {
+        siteMetadata {
+          title
+        }
+      }
+    markdownRemark(frontmatter: {templateKey: {eq: "awards"}}) {
+        id
+        excerpt(pruneLength: 160)
+        frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            description
+          }
+        html
+      }
+    }
+`)
+
     const post = data.markdownRemark
     const siteTitle = data.site.siteMetadata?.title || `Title`
 
 return (
-  <Layout location={location} title={siteTitle}>
+  // <Layout location={location} title={siteTitle}>
+  <Layout>
     <SEO
-      title={post.frontmatter.title}
+      // title={post.frontmatter.title}
+      title={siteTitle}
       description={post.frontmatter.description || post.excerpt}
     />
       <section className="section section--gradient">
@@ -29,27 +51,8 @@ return (
       </div>
     </section>
   </Layout>
-)
+  )
 }
 
-export default Award
 
-export const query = graphql`
-query AwardQuery {
-    site {
-        siteMetadata {
-          title
-        }
-      }
-    markdownRemark(frontmatter: {templateKey: {eq: "awards"}}) {
-        id
-        excerpt(pruneLength: 160)
-        frontmatter {
-            title
-            date(formatString: "MMMM DD, YYYY")
-            description
-          }
-        html
-      }
-    }
-`;
+
