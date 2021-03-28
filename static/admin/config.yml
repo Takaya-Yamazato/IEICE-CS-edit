@@ -44,7 +44,6 @@ collections:
           - label: "Eb"
             name: "eb"
             widget: "object"
-            collapsed: true
             fields: 
             - {label: EBimage, name: ebimage, widget: image}
             - {label: EBtext, name: ebtext, widget: string}
