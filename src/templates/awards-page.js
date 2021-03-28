@@ -27,7 +27,7 @@ export default function AwardsPageTemplate() {
   `)
 
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  // const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return (
    <Layout>
@@ -38,7 +38,7 @@ export default function AwardsPageTemplate() {
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
               {post.frontmatter.title}
-              {siteTitle}
+              {/* {siteTitle} */}
               </h2>
               <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
