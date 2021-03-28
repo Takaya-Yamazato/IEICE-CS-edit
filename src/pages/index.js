@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => (
           >
             {data.markdownRemark.frontmatter.title}
           </h1>
-          <h3
+          {/* <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
@@ -41,7 +41,7 @@ const IndexPage = ({ data }) => (
           }}
         >
           {data.markdownRemark.frontmatter.subtitle}
-        </h3>        
+        </h3>         */}
         </div>
         <section className="section section--gradient">
       <div className="container">
@@ -51,9 +51,6 @@ const IndexPage = ({ data }) => (
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    About Us
-                    </h3>
                     <p>{data.markdownRemark.frontmatter.aboutUs}</p>
                   </div>
                   <section className="content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
@@ -234,7 +231,6 @@ export const pageQuery = graphql`query IndexPage {
           gatsbyImageData(width: 2048, quality: 100, layout: CONSTRAINED)
         }
       }
-      aboutUs
       heading
       description
       eb {
