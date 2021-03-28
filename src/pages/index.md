@@ -15,7 +15,6 @@ aboutUs: We governs four of the society journals; IEICE Transaction on
 html: >-
   ### About us
 
-
   We governs four of the society journals; IEICE Transaction on Communications (EB), IEICE Transactions on Communications (Japanese Edition, JB), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).
 intro:
   journals:
@@ -99,8 +98,6 @@ bPlus:
     通信ソサイエティでは新しい刊行物として通信ソサイエティマガジンを創刊しました．学会は今までには論文，技術報告，書籍，会誌（現在の学会誌）等で会員の皆様に電子情報通信分野の情報をお届けしてまいりました．論文，技術報告（以下論文等）は会員の最新の研究成果を皆様に提供しているため，発表，議論の場と情報提供の場の機能を同時に果たしていることになります．書籍は学問・技術を体系的にまとめたものです．これに対して，会誌は最新の技術動向の提供，学会活動の紹介を目的としております．本学会が担当している学問，技術分野は我が国産業ほとんど全てで応用されている広い分野です．このため会誌だけで最新技術動向の提供するのは困難になりつつあり，商業誌の方が対象分野を細分化して技術情報を提供しているケースも見られます．通信ソサイエティではこのような現状を考慮して，マガジン発行の検討を開始しました．マガジンはIEEEのソサイエティ誌をモデルとしておりますが，委員会ではそれにとらわれることなく，精力的に新しいコンセプトを議論し、皆様にお届けします。
   bplusimage: /img/B-PLUS.jpg
   bplustext: Bplus
-ebimage: /img/eb.jpg
-bplusimage: /img/B-PLUS.jpg
 ---
 
 ### About us
