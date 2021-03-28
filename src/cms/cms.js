@@ -3,8 +3,8 @@ import CMS from 'netlify-cms-app'
 // import cloudinary from 'netlify-cms-media-library-cloudinary'
 
 // import AwardsPagePreview from './preview-templates/AwardsPagePreview'
-import BlogPostPreview from './preview-templates/BlogPostPreview'
-import RecommendationsPagePreview from './preview-templates/RecommendationsPagePreview'
+// import BlogPostPreview from './preview-templates/BlogPostPreview'
+// import RecommendationsPagePreview from './preview-templates/RecommendationsPagePreview'
 // import IndexPagePreview from './preview-templates/IndexPagePreview'
 
 // CMS.registerMediaLibrary(uploadcare)
@@ -12,5 +12,5 @@ import RecommendationsPagePreview from './preview-templates/RecommendationsPageP
 
 // CMS.registerPreviewTemplate('index', IndexPagePreview)
 // CMS.registerPreviewTemplate('awards', AwardsPagePreview)
-CMS.registerPreviewTemplate('recommendations', RecommendationsPagePreview)
-CMS.registerPreviewTemplate('blog', BlogPostPreview)
+// CMS.registerPreviewTemplate('recommendations', RecommendationsPagePreview)
+// CMS.registerPreviewTemplate('blog', BlogPostPreview)
