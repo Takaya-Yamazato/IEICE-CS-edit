@@ -40,8 +40,11 @@ collections:
           - {label: AboutUs, name: aboutUs, widget: string}
           - {label: "Body", name: "html", widget: "markdown"}            
           - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string} 
-          - {label: eb, name: eb, widget: object, fields: [{label: EBimage, name: ebimage, widget: image}, {label: EBtext, name: ebtext, widget: string}]
+          - {label: Description, name: description, widget: string}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: Eb, name: eb, widget: object, fields: [{label: EBimage, name: ebimage, widget: image}, {label: EBtext, name: ebtext, widget: string}]
+
+          - {label: eb, name: eb, widget: object, fields: [{label: "EBimage", name: "ebimage", widget: image}, {label: "EBtext", name: "ebtext", widget: string}]
           - {label: comext, name: comex, widget: object, fields: [{label: ComEXimage, name: comeximage, widget: image}, {label: ComEXtext, name: comextext, widget: string}]
           - {label: jb, name: jb, widget: object, fields: [{label: JBimage, name: jbimage, widget: image}, {label: JBtext, name: jbtext, widget: string}]
           - {label: bPlus, name: bPlus, widget: object, fields: [{label: Bplusimage, name: bplusimage, widget: image}, {label: Bplustext, name: bplustext, widget: string}]
