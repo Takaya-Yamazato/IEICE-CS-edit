@@ -37,7 +37,8 @@ export default function AwardsPageTemplate() {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {post.frontmatter.title}
+              {post.frontmatter.title}
+              {siteTitle}
               </h2>
               <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
@@ -52,7 +53,7 @@ export default function AwardsPageTemplate() {
 AwardsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  // contentComponent: PropTypes.func,
 }
 
 // const AwardsPage = ({ data }) => {
