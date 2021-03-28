@@ -201,8 +201,7 @@ const IndexPage = ({ data }) => (
   export default IndexPage
 
 
-export const pageQuery = graphql`
-query IndexPage {
+export const pageQuery = graphql`query IndexPage {
   markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
     id
     frontmatter {
@@ -214,9 +213,7 @@ query IndexPage {
           text
           image {
             childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
             }
           }
         }
@@ -242,9 +239,7 @@ query IndexPage {
         text
         image {
           childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
           }
         }
       }
@@ -252,9 +247,7 @@ query IndexPage {
         text
         image {
           childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
           }
         }
       }
@@ -262,9 +255,7 @@ query IndexPage {
         text
         image {
           childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
           }
         }
       }
@@ -272,14 +263,11 @@ query IndexPage {
         text
         image {
           childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
           }
         }
       }
     }
   }
 }
-
 `
