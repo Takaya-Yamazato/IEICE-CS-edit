@@ -1,6 +1,7 @@
 ---
 templateKey: index-page
 title: IEICE Communication Society Editorial Board
+subtitle: CE-EDIT
 image: /img/home-jumbotron2.jpg
 date: "2021-03-28"
 aboutUs: >
