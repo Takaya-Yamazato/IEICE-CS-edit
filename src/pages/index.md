@@ -2,6 +2,7 @@
 templateKey: index-page
 title: IEICE Communication Society Editorial Board
 image: /img/home-jumbotron2.jpg
+date: "2021-03-28"
 aboutUs: >
     We governs four of the society journals; IEICE Transaction on Communications (EB), IEICE Transactions on Communications (Japanese Edition, JB), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).
 heading: Journal information
@@ -9,7 +10,6 @@ description: >-
     Publishing online monthly (EB, JB and ComEX) and quartarly (Bplus), our journals are intereseted in the best research from across the field of communicaiton engineering.  All editorial decisions are made by a team of top researchers.
 eb:
     image: /img/trans_b.jpg
-    link: https://search.ieice.org/bin/index.php?category=B&amp;lang=E
     text: >
       The IEICE Transactions on Communications originates from the IEICE Transactions (Japanese language) that started in 1918, and took the current form in 1991 as one of the four English-language Transactions. It receives about 600 paper-submissions every year, of which over 60 percent come from countries outside Japan. Among those contributions, only high quality and outstanding papers are published on a monthly basis. The peer-review process is careful but yet efficient; it typically takes less than 12 months from submission to publication.
 comex:
@@ -40,25 +40,8 @@ intro:
     - image: /img/B-PLUS.jpg
       text: >
         通信ソサイエティでは新しい刊行物として通信ソサイエティマガジンを創刊しました．学会は今までには論文，技術報告，書籍，会誌（現在の学会誌）等で会員の皆様に電子情報通信分野の情報をお届けしてまいりました．論文，技術報告（以下論文等）は会員の最新の研究成果を皆様に提供しているため，発表，議論の場と情報提供の場の機能を同時に果たしていることになります．書籍は学問・技術を体系的にまとめたものです．これに対して，会誌は最新の技術動向の提供，学会活動の紹介を目的としております．本学会が担当している学問，技術分野は我が国産業ほとんど全てで応用されている広い分野です．このため会誌だけで最新技術動向の提供するのは困難になりつつあり，商業誌の方が対象分野を細分化して技術情報を提供しているケースも見られます．通信ソサイエティではこのような現状を考慮して，マガジン発行の検討を開始しました．マガジンはIEEEのソサイエティ誌をモデルとしておりますが，委員会ではそれにとらわれることなく，精力的に新しいコンセプトを議論し、皆様にお届けします。
-
-
-  heading: Aims and Scope
-  description: >
-    IEICE Communication Society published high-quality original research and development in a wide range of topics in communication.   
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---
+
+### Important
+
+This area is for additional information.

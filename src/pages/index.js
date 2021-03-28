@@ -6,11 +6,13 @@ import BlogRoll from '../components/BlogRoll'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const IndexPage = ({ data }) => (
+  
   <Layout>
         <div
           className="full-width-image margin-top-0"
           style={{
             backgroundImage: `url('/img/home-jumbotron2.jpg')`,
+            // backgroundImage: {data.markdownRemark.image},
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`,
           }}
@@ -130,7 +132,10 @@ const IndexPage = ({ data }) => (
                   </div>
               </div>
 
-
+              <div className="column is-12">
+              <div className="content" dangerouslySetInnerHTML={{ __html: data.html }} />
+              </div>
+    
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                   News and Updates
@@ -205,36 +210,16 @@ export const pageQuery = graphql`query IndexPage {
   markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
     id
     frontmatter {
-      description
-      date
-      heading
-      intro {
-        journals {
-          text
-          image {
-            childImageSharp {
-              gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-            }
-          }
-        }
-        description
-        heading
-      }
-      main {
-        description
-        heading
-      }
-      image {
-        childrenImageSharp {
-          fluid(maxWidth: 2048, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      title
-      description
       templateKey
+      title
+      image {
+        childImageSharp {
+          gatsbyImageData(width: 2048, quality: 100, layout: CONSTRAINED)
+        }
+      }
       aboutUs
+      heading
+      description
       eb {
         text
         image {
@@ -268,6 +253,7 @@ export const pageQuery = graphql`query IndexPage {
         }
       }
     }
+    html
   }
 }
 `
