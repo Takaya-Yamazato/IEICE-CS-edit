@@ -38,17 +38,18 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: AboutUs, name: aboutUs, widget: string}
+          - {label: "Body", name: "html", widget: "markdown"}            
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
-          - {label: EBimage, name: ebimage, widget: image}
+          - {label: EBimage, name: image, widget: image}
           - {label: EBtext, name: ebtext, widget: string}
-          - {label: ComEXimage, name: comeximage, widget: image}
+          - {label: ComEXimage, name: image, widget: image}
           - {label: ComEXtext, name: comextext, widget: string}
-          - {label: JBimage, name: jbimage, widget: image}
+          - {label: JBimage, name: image, widget: image}
           - {label: JBtext, name: jbtext, widget: string}
-          - {label: Bplusimage, name: bplusimage, widget: image}
+          - {label: Bplusimage, name: image, widget: image}
           - {label: Bplustext, name: bplustext, widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}                              
+                       
       - file: "src/pages/awards/index.md"
         label: "Awards"
         name: "awards"
@@ -56,6 +57,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "awards-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+
       - file: "src/pages/recommendations/index.md"
         label: "Recommendations"
         name: "recommendations"

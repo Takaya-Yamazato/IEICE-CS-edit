@@ -3,6 +3,7 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
+// import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const IndexPage = ({ data }) => (
@@ -37,9 +38,14 @@ const IndexPage = ({ data }) => (
               <div className="content">
                 <div className="content">
                   <div className="tile">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    About Us
+                    </h3>
                     <p>{data.markdownRemark.frontmatter.aboutUs}</p>
                   </div>
+                  <section className="content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
                 </div>
+
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
@@ -61,6 +67,7 @@ const IndexPage = ({ data }) => (
                           }}
                         >
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.eb.image} />
+                        {/* <GatsbyImage image={data.markdownRemark.frontmatter.eb.image} alt="IEICE EB" /> */}
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.eb.text}</p>
@@ -130,10 +137,6 @@ const IndexPage = ({ data }) => (
                         </div>
                     </section>
                   </div>
-              </div>
-
-              <div className="column is-12">
-              <div className="content" dangerouslySetInnerHTML={{ __html: data.html }} />
               </div>
     
                 <div className="column is-12">
