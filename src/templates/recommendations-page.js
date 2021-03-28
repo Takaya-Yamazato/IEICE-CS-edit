@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 import Layout from '../components/Layout'
-// import Content, { HTMLContent } from '../components/Content'
+
 
 // export default function RecommendationsPage() {
 //   const data = useStaticQuery(graphql`
