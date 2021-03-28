@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 // import Content, { HTMLContent } from '../components/Content'
 
-export default function AwardsPageTemplate() {
+export default function AwardsPage() {
   const data = useStaticQuery(graphql`
 
   query awardPageQuery {
@@ -56,23 +56,23 @@ AwardsPageTemplate.propTypes = {
   // contentComponent: PropTypes.func,
 }
 
-// const AwardsPage = ({ data }) => {
-//   const { markdownRemark: post } = data
+const AwardsPageTemplate = ({ data }) => {
+  const post = data.markdownRemark
 
-//   return (
-//     <Layout>
-//       <AwardsPageTemplate
-//         contentComponent={HTMLContent}
-//         title={post.frontmatter.title}
-//         content={post.html}
-//       />
-//     </Layout>
-//   )
-// }
+  return (
+    <Layout>
+      <AwardsPageTemplate
+        // contentComponent={HTMLContent}
+        title={post.frontmatter.title}
+        content={post.html}
+      />
+    </Layout>
+  )
+}
 
-// AwardsPage.propTypes = {
-//   data: PropTypes.object.isRequired,
-// }
+AwardsPageTemplate.propTypes = {
+  data: PropTypes.object.isRequired,
+}
 
 // export default AwardsPage
 
