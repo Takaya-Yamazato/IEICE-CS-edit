@@ -44,26 +44,26 @@ collections:
             name: "eb"
             widget: "object"
             fields: 
-            - {label: EBimage, name: ebimage, widget: image}
-            - {label: EBtext, name: ebtext, widget: string}
+            - {label: image, name: image, widget: image}
+            - {label: text,  name: text, widget: string}
           - label: Comext
             name: comex
             widget: object
             fields: 
-            - {label: ComEXimage, name: comeximage, widget: image}
-            - {label: ComEXtext, name: comextext, widget: string}
+            - {label: image, name: image, widget: image}
+            - {label: text,  name: text, widget: string}
           - label: JB
             name: jb
             widget: object
             fields: 
-            - {label: JBimage, name: jbimage, widget: image}
-            - {label: JBtext, name: jbtext, widget: string}
+            - {label: image, name: image, widget: image}
+            - {label: text,  name: text, widget: string}
           - label: bPlus
             name: bPlus
             widget: object
             fields: 
-            - {label: Bplusimage, name: bplusimage, widget: image}
-            - {label: Bplustext, name: bplustext, widget: string}
+            - {label: image, name: image, widget: image}
+            - {label: text,  name: text, widget: string}
           - {label: "Body", name: "html", widget: "markdown"}    
                        
       - file: "src/pages/awards/index.md"

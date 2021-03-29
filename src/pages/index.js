@@ -3,8 +3,8 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
-// import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+// import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const IndexPage = ({ data }) => (
   
@@ -76,8 +76,8 @@ const IndexPage = ({ data }) => (
                             display: 'inline-block',
                           }}
                         >
-                        <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.eb.image} />
-                        {/* <GatsbyImage image={data.markdownRemark.frontmatter.eb.image} alt="IEICE EB" /> */}
+                        {/* <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.eb.image} /> */}
+                        <GatsbyImage image={data.markdownRemark.frontmatter.eb.image} alt="IEICE EB" />
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.eb.text}</p>
@@ -96,7 +96,8 @@ const IndexPage = ({ data }) => (
                             display: 'inline-block',
                           }}
                         >
-                        <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.comex.image} />
+                        {/* <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.comex.image} /> */}
+                        <GatsbyImage image={data.markdownRemark.frontmatter.comex.image} alt="IEICE ComEX" />
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.comex.text}</p>
@@ -118,7 +119,8 @@ const IndexPage = ({ data }) => (
                             display: 'inline-block',
                           }}
                         >
-                        <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.jb.image} />
+                        {/* <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.jb.image} /> */}
+                        <GatsbyImage image={data.markdownRemark.frontmatter.jb.image} alt="IEICE JB" />
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.jb.text}</p>
@@ -137,7 +139,8 @@ const IndexPage = ({ data }) => (
                             display: 'inline-block',
                           }}
                         >
-                        <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.bPlus.image} />
+                        {/* <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.bPlus.image} /> */}
+                        <GatsbyImage image={data.markdownRemark.frontmatter.bPlus.image} alt="IEICE bPlus" />
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.bPlus.text}</p>
