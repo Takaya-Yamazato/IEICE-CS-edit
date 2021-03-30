@@ -1,7 +1,7 @@
 module.exports = {
-  flags: {
-    DEV_SSR: true
-  },
+  // flags: {
+  //   DEV_SSR: true
+  // },
   siteMetadata: {
     title: 'IEICE Communication Society Editorial Board',
     description:
@@ -45,8 +45,9 @@ module.exports = {
         name: `markdown-pages`,
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: 'gatsby-transformer-remark',
       options: {
