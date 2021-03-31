@@ -64,7 +64,7 @@ collections:
             fields: 
             - {label: image, name: image, widget: image}
             - {label: text,  name: text, widget: string}
-          - {label: "Body", name: "html", widget: "markdown"}    
+          - {label: "Body", name: "body", widget: "markdown"}    
                        
       - file: "src/pages/awards/index.md"
         label: "Awards"
