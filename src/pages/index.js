@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => (
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <p>{data.markdownRemark.frontmatter.aboutUs}</p>
+                    {/* <p>{data.markdownRemark.frontmatter.aboutUs}</p> */}
                   </div>
                   <section className="content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
                 </div>
