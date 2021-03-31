@@ -6,7 +6,9 @@ description: Awards
 ---
 # Journal Information
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+In May 1917, the Institute of Telegraph and Telephone Engineers of Japan was founded to study the science and art of telegraphy and telephony, exchanging relevant knowledge and promoting related industries.  The institute published the first journal in June 1917, the oldest telecommunication journal in Asia. Communication engineering was a popular research field from the beginning.  In 1987 the institute changed its name to the "Institute of Electronics, Information and Communication Engineers" (IEICE).  The IEICE Transactions on Communications (JB) has been publishing excellent technical and research papers in communication engineering with leading researchers in the field as editorial board members.  All papers have been reviewed by the editorial board of the journal and accepted for publication.
+
+This.
 
 ## Single origin
 
