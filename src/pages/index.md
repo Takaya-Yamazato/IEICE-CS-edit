@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-aboutUs: We governs four of the society journals; IEICE Transaction on
+aboutUs: We govern four of the society journals; IEICE Transaction on
   Communications (EB), IEICE Transactions on Communications (Japanese Edition,
   JB), IEICE Communications Express (ComEX), and IEICE Bplus (Communication
   Society Magazine).
