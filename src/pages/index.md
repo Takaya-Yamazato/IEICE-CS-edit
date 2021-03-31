@@ -5,11 +5,6 @@ aboutUs: We govern four of the society journals; IEICE Transaction on
   JB), IEICE Communications Express (ComEX), and IEICE Bplus (Communication
   Society Magazine).
 heading: Journal information
-html: >
-  ### About us
-
-
-  We govern four of the society journals; IEICE Transaction on Communications (EB), IEICE Transactions on Communications (Japanese Edition, JB), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).
 date: 2021-03-28
 description: Publishing online monthly (EB, JB and ComEX) and quartarly (Bplus),
   our journals are intereseted in the best research from across the field of
