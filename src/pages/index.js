@@ -7,7 +7,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const IndexPage = ({ data }) => (
-  
+
   <Layout>
         <div
           className="full-width-image margin-top-0"
@@ -77,7 +77,7 @@ const IndexPage = ({ data }) => (
                           }}
                         >
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.eb.image} />
-                        {/* <GatsbyImage image={data.markdownRemark.frontmatter.eb.image} alt="IEICE EB" /> */}
+                        {/* <GatsbyImage image={ebimage} style={{ borderRadius: '5px' }} alt="IEICE EB" /> */}
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.eb.text}</p>
@@ -97,7 +97,7 @@ const IndexPage = ({ data }) => (
                           }}
                         >
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.comex.image} />
-                        {/* <GatsbyImage image={data.markdownRemark.frontmatter.comex.image} alt="IEICE ComEX" /> */}
+                        {/* <GatsbyImage image={comeximage} style={{ borderRadius: '5px' }} alt="IEICE ComEX" /> */}
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.comex.text}</p>
@@ -120,7 +120,7 @@ const IndexPage = ({ data }) => (
                           }}
                         >
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.jb.image} />
-                        {/* <GatsbyImage image={data.markdownRemark.frontmatter.jb.image} alt="IEICE JB" /> */}
+                        {/* <GatsbyImage image={jbimage} style={{ borderRadius: '5px' }} alt="IEICE JB" /> */}
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.jb.text}</p>
@@ -140,7 +140,7 @@ const IndexPage = ({ data }) => (
                           }}
                         >
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.bPlus.image} />
-                        {/* <GatsbyImage image={data.markdownRemark.frontmatter.bPlus.image} alt="IEICE bPlus" /> */}
+                        {/* <GatsbyImage image={bPlusimage} style={{ borderRadius: '5px' }} alt="IEICE bPlus" /> */}
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.bPlus.text}</p>

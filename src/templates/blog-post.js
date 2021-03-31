@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
+// import { Helmet } from 'react-helmet'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
@@ -15,6 +15,58 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      <section className="section">
+      <header>
+          <title>{post.frontmatter.title}</title>
+          <meta
+              name="description"
+              content={post.frontmatter.description}
+            />
+      </header>
+      <div className="container content">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+          {post.frontmatter.date}
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            {post.frontmatter.title}
+            </h1>
+            <p>{post.frontmatter.description}</p>
+            <section
+              dangerouslySetInnerHTML={{ __html: post.html }}
+              itemProp="articleBody"
+            />
+            {/* <hr></hr>
+            <nav className="blog-post-nav">
+            <ul
+              style={{
+                display: `flex`,
+                flexWrap: `wrap`,
+                justifyContent: `space-between`,
+                listStyle: `none`,
+                padding: 0,
+              }}
+            >
+              <li>
+                {previous && (
+                  <Link to={previous.fields.slug} rel="prev">
+                    ← {previous.frontmatter.title}
+                  </Link>
+                )}
+              </li>
+              <li>
+                {next && (
+                  <Link to={next.fields.slug} rel="next">
+                    {next.frontmatter.title} →
+                  </Link>
+                )}
+              </li>
+            </ul>
+          </nav>  */}
+          </div>
+        </div>
+      </div>
+    </section>
+{/* 
       <article
         className="blog-post"
         itemScope
@@ -55,7 +107,7 @@ const BlogPostTemplate = ({ data, location }) => {
             )}
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </Layout>
   )
 }

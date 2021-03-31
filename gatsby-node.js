@@ -90,19 +90,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     // const awardPost = awardResult.data.allMarkdownRemark.nodes
 
-    exports.onCreateNode = ({ node, actions, getNode }) => {
-      const { createNodeField } = actions
+    // exports.onCreateNode = ({ node, actions, getNode }) => {
+    //   const { createNodeField } = actions
     
-      if (node.internal.type === `MarkdownRemark`) {
-        const value = createFilePath({ node, getNode })
+    //   if (node.internal.type === `MarkdownRemark`) {
+    //     const value = createFilePath({ node, getNode })
     
-        createNodeField({
-          name: `slug`,
-          node,
-          value,
-        })
-      }
-    }
+    //     createNodeField({
+    //       name: `slug`,
+    //       node,
+    //       value,
+    //     })
+    //   }
+    // }
 
   // Create award posts pages
 
