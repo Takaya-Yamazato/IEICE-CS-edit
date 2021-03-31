@@ -269,7 +269,7 @@ export const pageQuery = graphql`query IndexPage {
         }
       }
     }
-    body
+    html
   }
 }
 `
