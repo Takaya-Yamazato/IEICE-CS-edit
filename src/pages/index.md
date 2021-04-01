@@ -8,7 +8,7 @@ description: Publishing online monthly (EB, JB and ComEX) and quartarly (Bplus),
   communicaiton engineering.  All editorial decisions are made by a team of top
   researchers.
 eb:
-  image: /img/eb.png
+  image: /img/trans_b.jpg
   text: The IEICE Transactions on Communications originates from the IEICE
     Transactions (Japanese language) that started in 1917, and took the current
     form in 1991 as one of the four English-language Transactions.  It receives
