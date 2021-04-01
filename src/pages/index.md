@@ -18,7 +18,7 @@ eb:
     is careful but yet efficient; it typically takes less than 12 months from
     submission to publication.
 comex:
-  image: /img/comex.jpg
+  image: /img/comex.png
   text: IEICE Communications Express (ComEX) is a peer-reviewed online letter
     journal published by the Institute of Electronics, Information and
     Communication Engineers (IEICE) and edited by the IEICE Communications
