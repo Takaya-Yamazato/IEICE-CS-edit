@@ -48,9 +48,9 @@ bPlus:
     easy-to-understand articles targeting students who aspire to work in
     telecommunications and engineers in companies close to the field.  In
     addition to purely technical issues, the magazine also includes articles on
-    international standardization of technologies and new fields that integrate
-    social perspectives. The editorial committee plans these papers and
-    articles, of course, but we also accept active contributions from our
+    the international standardization of technologies and new fields that
+    integrate social perspectives. The editorial committee plans these papers
+    and articles, of course, but we also accept active contributions from our
     members.
 ---
 
