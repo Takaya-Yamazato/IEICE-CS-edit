@@ -1,22 +1,25 @@
 ---
-templateKey: 'recommendations'
-title: Our recommendations
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+templateKey: recommendations
+title: Recommended Presentations by Editorial Board
+description: "The IEICE Communication Society Editorial Board is pleased to
+  announce the launch of a new initiative to encourage authors of outstanding
+  papers to present their papers at international and technical committee
+  conferences organized by the IEICE Communication Society. This initiative aims
+  to increase the number of presentations at research meetings, international
+  conferences, and workshops by strengthening the collaboration between the
+  Technical Committee and the Editorial Board. It also aims to help authors of
+  outstanding papers to develop their research by providing them with
+  opportunities to present their work.  "
+date: 2021-04-01T07:38:44.463Z
 ---
+## Recommended Presentations by Editorial Board
 
-# Shade-grown coffee
+The IEICE Communication Society Editorial Board is pleased to announce the launch of a new initiative to encourage authors of outstanding papers to present their papers at international and technical committee conferences organized by the IEICE Communication Society. This initiative aims to increase the number of presentations at research meetings, international conferences, and workshops by strengthening the collaboration between the Technical Committee and the Editorial Board. It also aims to help authors of outstanding papers to develop their research by providing them with opportunities to present their work.  
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+The secret target of this system is authors living overseas. Those who live overseas may submit papers but have no opportunity to present them at research meetings. By providing these people with opportunities to present their papers at our conferences, we hope to make them aware of our proud techinical committees. Also, we would like them to know about our community by allowing them to present their papers at our international conferences. In this way, we believe that people will naturally become familiar with the IEICE Communication Society, eventually leading to overseas members' acquisition.
 
-## Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+The following is the list of recommended papers selected by the editorial board.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+## 2020 Fall
 
-#### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-##### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+## 2021 Spring
