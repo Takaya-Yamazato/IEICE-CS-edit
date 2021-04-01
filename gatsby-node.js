@@ -12,6 +12,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const tagsPost = path.resolve(`./src/templates/tags.js`)
 
     // Get all markdown blog posts sorted by date
     const blogResult = await graphql(
@@ -25,6 +26,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               id
               fields {
                 slug
+              }
+              frontmatter {
+                tags
+                templateKey
               }
             }
           }
@@ -55,70 +60,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     }
 
-    // // Define a template for awards
-    // const AboutPage = path.resolve(`./src/templates/about-page.js`)
-
-    // // Get all markdown blog posts sorted by date
-    // const awardResult = await graphql(
-    //   `
-    //   {
-    //     allMarkdownRemark(limit: 1000) {
-    //       edges {
-    //         node {
-    //           id
-    //           fields {
-    //             slug
-    //           }
-    //           frontmatter {
-    //             tags
-    //             templateKey
-    //           }
-    //         }
-    //       }
-    //     }
-    //   }
-    //   `
-    // )
- 
-    // if (awardResult.errors) {
-    //   reporter.panicOnBuild(
-    //     `There was an error loading your about-page`,
-    //     awardResult.errors
-    //   )
-    //   return
-    // }
-
-    // const awardPost = awardResult.data.allMarkdownRemark.nodes
-
-    // exports.onCreateNode = ({ node, actions, getNode }) => {
-    //   const { createNodeField } = actions
-    
-    //   if (node.internal.type === `MarkdownRemark`) {
-    //     const value = createFilePath({ node, getNode })
-    
-    //     createNodeField({
-    //       name: `slug`,
-    //       node,
-    //       value,
-    //     })
-    //   }
-    // }
-
-  // Create award posts pages
-
-
-  // Create blog posts pages
-  // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
-  // `context` is available in the template as a prop and as a variable in GraphQL
-
   if (posts.length > 0) {
     posts.forEach((post, index) => {
+    // posts.forEach((post) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
 
       createPage({
         path: post.fields.slug,
-        component: blogPost,
+        tags: post.frontmatter.tags,
+        // component: blogPost,
+        component: path.resolve(
+          `src/templates/${String(post.frontmatter.templateKey)}.js`
+        ),
         context: {
           id: post.id,
           previousPostId,
@@ -128,10 +82,31 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   }
 
-      // createPage({
-      //   path: awardPost.fields.slug,
-      //   component: awardPost,
-      // })
+    // Tag pages:
+    let tags = []
+    // Iterate through each post, putting all found tags into `tags`
+    posts.forEach((post) => {
+      // if (_.get(post, `post.frontmatter.tags`)) {
+        tags = tags.concat(post.frontmatter.tags)
+      // }
+    })
+
+    // Eliminate duplicate tags
+    tags = _.uniq(tags)
+
+    // Make tag pages
+    tags.forEach((tag) => {
+      const tagPath = `/tags/${_.kebabCase(tag)}/`
+
+      createPage({
+        path: tagPath,
+        component: path.resolve(`src/templates/tags.js`),
+        context: {
+          tag,
+        },
+      }) // End createPage
+
+    }) // End Make tag pages
 
 }
 

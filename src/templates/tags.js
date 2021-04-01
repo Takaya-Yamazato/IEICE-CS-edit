@@ -66,6 +66,8 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
+            templateKey
+            tags
           }
         }
       }

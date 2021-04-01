@@ -1,17 +1,24 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-
+import * as React from "react"
+// import PropTypes from 'prop-types'
+import { Link, graphql } from "gatsby"
+import SEO from "../components/seo"
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+// import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-const IndexPage = ({ data }) => (
+const IndexPageTemplate = ({ data }) => (
+
   <Layout>
+      <SEO
+        title={data.markdownRemark.frontmatter.title}
+        description={data.markdownRemark.frontmatter.description}
+      />
         <div
           className="full-width-image margin-top-0"
           style={{
             backgroundImage: `url('/img/home-jumbotron2.jpg')`,
+            // backgroundImage: {data.markdownRemark.image},
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`,
           }}
@@ -27,6 +34,19 @@ const IndexPage = ({ data }) => (
           >
             {data.markdownRemark.frontmatter.title}
           </h1>
+          {/* <h3
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          style={{
+            boxShadow:
+              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 68, 0)',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
+        >
+          {data.markdownRemark.frontmatter.subtitle}
+        </h3>         */}
         </div>
         <section className="section section--gradient">
       <div className="container">
@@ -36,9 +56,11 @@ const IndexPage = ({ data }) => (
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <p>{data.markdownRemark.frontmatter.aboutUs}</p>
+                    {/* <p>{data.markdownRemark.frontmatter.aboutUs}</p> */}
                   </div>
+                  <section className="content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
                 </div>
+
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
@@ -60,6 +82,7 @@ const IndexPage = ({ data }) => (
                           }}
                         >
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.eb.image} />
+                        {/* <GatsbyImage image={ebimage} style={{ borderRadius: '5px' }} alt="IEICE EB" /> */}
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.eb.text}</p>
@@ -79,6 +102,7 @@ const IndexPage = ({ data }) => (
                           }}
                         >
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.comex.image} />
+                        {/* <GatsbyImage image={comeximage} style={{ borderRadius: '5px' }} alt="IEICE ComEX" /> */}
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.comex.text}</p>
@@ -101,6 +125,7 @@ const IndexPage = ({ data }) => (
                           }}
                         >
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.jb.image} />
+                        {/* <GatsbyImage image={jbimage} style={{ borderRadius: '5px' }} alt="IEICE JB" /> */}
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.jb.text}</p>
@@ -120,6 +145,7 @@ const IndexPage = ({ data }) => (
                           }}
                         >
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.bPlus.image} />
+                        {/* <GatsbyImage image={bPlusimage} style={{ borderRadius: '5px' }} alt="IEICE bPlus" /> */}
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.bPlus.text}</p>
@@ -130,8 +156,7 @@ const IndexPage = ({ data }) => (
                     </section>
                   </div>
               </div>
-
-
+    
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                   News and Updates
@@ -153,91 +178,74 @@ const IndexPage = ({ data }) => (
   </Layout>
 )
 
-IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
-
-const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
-
-  return (
-    <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-      />
-    </Layout>
-  )
-}
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
-
-export default IndexPage
 
 
-export const pageQuery = graphql`
-query IndexPage {
+// IndexPageTemplate.propTypes = {
+//     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+//     top_title: PropTypes.string,
+//     heading: PropTypes.string,
+//     subheading: PropTypes.string,
+//     mainpitch: PropTypes.object,
+//     description: PropTypes.string,
+//     intro: PropTypes.shape({
+//       blurbs: PropTypes.array,
+//     }),
+//   }
+  
+
+
+  // const IndexPage = ({ data }) => {
+  //     const post = data
+  //   // const { frontmatter } = data
+  //   // const { data } = this.props
+  //   //  const { edges: posts } = data.allMarkdownRemark
+  //   return (
+  //     <Layout>
+  //       <IndexPageTemplate
+  //       //   image={data.allMarkdownRemark.edges.frontmatter.image}
+  //       //   image={posts.frontmatter.image}
+  //       //   title={posts.frontmatter.title}
+  //       //   heading={posts.frontmatter.heading}
+  //       //   subheading={frontmatter.subheading}
+  //       //   mainpitch={frontmatter.mainpitch}
+  //       //   description={frontmatter.description}
+  //       //   intro={frontmatter.intro}
+  //       />
+  //     </Layout>
+  //   )
+  // }
+  
+
+  // IndexPage.propTypes = {
+  //   data: PropTypes.shape({
+  //     allMarkdownRemark: PropTypes.shape({
+  //       edges: PropTypes.array,
+  //     }),
+  //   }),
+  // }
+
+  export default IndexPageTemplate
+
+
+export const pageQuery = graphql`query IndexPageTemplate {
   markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
     id
     frontmatter {
-      description
-      date
-      heading
-      intro {
-        journals {
-          text
-          image {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-        description
-        heading
-      }
-      main {
-        description
-        heading
-      }
-      image {
-        childrenImageSharp {
-          fluid(maxWidth: 2048, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      title
-      description
       templateKey
-      aboutUs
+      title
+      subtitle
+      image {
+        childImageSharp {
+          gatsbyImageData(width: 2048, quality: 100, layout: CONSTRAINED)
+        }
+      }
+      heading
+      description
       eb {
         text
         image {
           childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
           }
         }
       }
@@ -245,9 +253,7 @@ query IndexPage {
         text
         image {
           childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
           }
         }
       }
@@ -255,9 +261,7 @@ query IndexPage {
         text
         image {
           childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
           }
         }
       }
@@ -265,14 +269,12 @@ query IndexPage {
         text
         image {
           childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
           }
         }
       }
     }
+    html
   }
 }
-
 `

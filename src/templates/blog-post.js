@@ -1,5 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import PropTypes from 'prop-types'
+import { kebabCase } from 'lodash'
 // import { Helmet } from 'react-helmet'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -8,6 +10,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  const tags = post.frontmatter.tags
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -35,6 +38,18 @@ const BlogPostTemplate = ({ data, location }) => {
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"
             />
+            {tags && tags.length ? (
+              <div style={{ marginTop: `4rem` }}>
+                <h4>Tags</h4>
+                <ul className="taglist">
+                  {post.frontmatter.tags.map((tag) => (
+                    <li key={tag + `tag`}>
+                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
             {/* <hr></hr>
             <nav className="blog-post-nav">
             <ul
@@ -133,6 +148,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
