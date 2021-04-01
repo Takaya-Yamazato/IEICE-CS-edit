@@ -4,35 +4,99 @@ title: Awards
 date: 2015-05-01T22:12:03.284Z
 description: Awards
 ---
-# Journal Information
 
-In May 1917, the Institute of Telegraph and Telephone Engineers of Japan was founded to study the science and art of telegraphy and telephony, exchanging relevant knowledge and promoting related industries.  The institute published the first journal in June 1917, the oldest telecommunication journal in Asia. Communication engineering was a popular research field from the beginning.  In 1987 the institute changed its name to the "Institute of Electronics, Information and Communication Engineers" (IEICE).  The IEICE Transactions on Communications (JB) has been publishing excellent technical and research papers in communication engineering with leading researchers in the field as editorial board members.  All papers have been reviewed by the editorial board of the journal and accepted for publication.
+We are delighted to announce the IEICE Best Paper Award. The list of the awarded papers published in the Transactions of the Communications Society is as follows Congratulations to all the award winners.
 
-This.
+# ２０１９ 
+## IEICE Paper of the Year
+- Field Trial on 5G Low Latency Radio Communication System Towards Application to Truck Platooning
 
-## Single origin
+Manabu MIKAMI (SoftBank Corp.)
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Hitoshi YOSHINO (SoftBank Corp.)
 
-### Sustainable farming
+[IEICE TRANS. COMMUN., VOL.E102–B, NO.8 AUGUST 2019]
 
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+## Best Paper Award
 
-#### Direct sourcing
+- For the Applications of Stochastic Resonance in the Telecommunications
 
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Yukihiro TADOKORO (TOYOTA Central R&D Labs., Inc.)
 
-##### Reinvest profits
+Takaya YAMAZATO (Nagoya University)
 
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Hiroya TANAKA (TOYOTA Central R&D Labs., Inc.)
 
-## Our recommendation
+Shintaro ARAI (Okayama University of Science)
 
-* First paper
-* Second paper
-* Third paper
+Yasuo NAKASHIMA (Nagoya University)
 
-### Our prioriy on editing
+Shintaro HIRAOKA (Nagoya University)
 
-* our number one priority
-* our second priority
+[IEICE TRANS. COMMUN., Vol. J102–B No. 6 JUNE 2019]
+
+- Field Trial on 5G Low Latency Radio Communication System Towards Application to Truck Platooning
+
+Manabu MIKAMI (SoftBank Corp.)
+
+Hitoshi YOSHINO (SoftBank Corp.)
+
+[IEICE TRANS. COMMUN., VOL.E102–B, NO.8 AUGUST 2019]
+
+
+- Improved Optical Amplification Efficiency by Using Turbo Cladding
+Pumping Scheme for Multicore Fiber Optical Networks
+
+Hitoshi TAKESHITA (NEC Corporation)
+
+Keiichi MATSUMOTO (NEC Corporation)
+
+Hiroshi HASEGAWA (Nagoya University)
+
+Ken-ichi SATO (National Institute of Advanced Industrial Science and Technology)
+
+Emmanuel Le Taillandier de GABORY (NEC Corporation)
+
+[IEICE TRANS. COMMUN., VOL.E102–B, NO.8 AUGUST 2019]
+
+## IEICE Transactions on Communications (Japanese Edition)
+
+### 【Best Paper Award】
+Weathercast-linked Control of Lithium-Ion Battery in Green Base Stations
+Masaki NAKAMURA, Kazuhiko TAKENO
+Development of Search Coil Magnetometer with Built-in ASIC Preamplifier Improving High Radiation Tolerance In Space Environments
+Yuya TOKUNAGA, Mitsunori OZAKI, Satoshi YAGITANI, Hiroki KOJI, Hirotsugu KOJIMA, Daisuke YONETOKU
+
+### 【Best Tutorial Paper Award】
+Deep Learning Based Optical Monitoring toward Optical Network Automation
+Takahito TANIMURA, Takeshi HOSHIDA, Kazunari SHIOTA, Eri KATAYAMA, Tomoyuki KATO, Shigeki WATANABE, Hiroyuki MORIKAWA
+End-to-end Application Design of Internet of Things in Agricultural Sensor System
+Ryo SHIGETA, Yoshihiro KAWAHARA
+
+## IEICE Transactions on Communications
+
+### 【Best Paper Award】
+Design of Criterion for Adaptively Scaled Belief in Iterative Large MIMO Detection
+Takumi TAKAHASHI, Shinsuke IBI, Seiichi SAMPEI
+Designing Distributed SDN C-Plane Considering Large-Scale Disruption and Restoration
+Takahiro HIRAYAMA, Masahiro JIBIKI, Hiroaki HARAI
+A Novel Low Complexity Lattice Reduction-Aided Iterative Receiver for Overloaded MIMO
+Satoshi DENNO, Yuta KAWAGUCHI, Tsubasa INOUE, Yafei HOU
+
+### 【Best Tutorial Paper Award】
+A Survey of Social Network Analysis Techniques and their Applications to Socially Aware Networking
+Sho TSUGAWA
+On-Demand Data Gathering with a Drone-Based Mobile Sink in Wireless Sensor Networks Exploiting Wake-Up Receivers
+Hiroyuki YOMO, Akitoshi ASADA, Masato MIYATAKE
+
+## IEICE Communications Express
+
+### 【ComEX Best Letter Award】
+Improved adaptive STBC-TD in low-to-high mobility environments
+Tomoyuki SAITO, Amnart BOONKAJAY, Fumiyuki ADACHI
+
+## IEICE Communications Society Magazine (Japanese Edition)
+
+### 【Best Magazine Paper Award】
+Instructional Design: Techniques to Improve Effectiveness, Efficiency, and Engagement of Learning
+Katsuaki Suzuki
