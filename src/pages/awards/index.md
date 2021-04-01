@@ -1,8 +1,11 @@
 ---
 templateKey: awards
 title: Awards
+description: We are delighted to announce the IEICE Best Paper Award. The list
+  of the awarded papers published in the transactions and magazine of the
+  communications society is as follows. Congratulations to all the award
+  winners.
 date: 2015-05-01T22:12:03.284Z
-description: Awards
 ---
 
 We are delighted to announce the IEICE Best Paper Award. The list of the awarded papers published in the transactions and magazine of the communications society is as follows. Congratulations to all the award winners.
