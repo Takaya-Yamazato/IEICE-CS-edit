@@ -7,6 +7,9 @@ description: We are delighted to announce the IEICE Best Paper Award. The list
   winners.
 date: 2015-05-01T22:12:03.284Z
 ---
+We are delighted to announce the IEICE Best Paper Award and the IEICE Communication Society Best Paper Award. The list of the awarded papers published in the transactions and magazine of the communications society is as follows. 
+
+Congratulations to all the award winners.
 
 # ２０１９ 
 ## IEICE Paper of the Year
@@ -38,6 +41,8 @@ Pumping Scheme for Multicore Fiber Optical Networks
 Hitoshi TAKESHITA (NEC Corporation), Keiichi MATSUMOTO (NEC Corporation), Hiroshi HASEGAWA (Nagoya University), Ken-ichi SATO (National Institute of Advanced Industrial Science and Technology), Emmanuel Le Taillandier de GABORY (NEC Corporation)
 
 [IEICE TRANS. COMMUN., VOL.E102–B, NO.8 AUGUST 2019]
+
+-------------
 
 ## IEICE Transactions on Communications (Japanese Edition)
 
