@@ -1,8 +1,6 @@
 ---
 templateKey: index-page
 title: IEICE Communication Society Editorial Board (CS-EDIT)
-subtitle: CE-EDIT
-image: /img/home-jumbotron2.jpg
 heading: Journal information
 date: 2021-03-28
 description: Publishing online monthly (EB, JB and ComEX) and quartarly (Bplus),
@@ -28,12 +26,32 @@ comex:
     where researchers provide and exchange new topics easily and in a timely
     manner. Materials contained in the first several years will be freely
     available for anyone to read, download, or print from the journal web site.
+subtitle: CE-EDIT
+image: /img/home-jumbotron2.jpg
 jb:
-  text: In May 1917, the Institute of Telegraph and Telephone Engineers of Japan was founded to study the science and art of telegraphy and telephony, exchanging relevant knowledge and promoting related industries.  The institute published the first journal in June 1917, the oldest telecommunication journal in Asia. Communication engineering was a popular research field from the beginning.  In 1987 the institute changed its name to the "Institute of Electronics, Information and Communication Engineers" (IEICE).  The IEICE Transactions on Communications (JB) has been publishing excellent technical and research papers in communication engineering with leading researchers in the field as editorial board members.  All articles have been reviewed by the editorial board of the journal and accepted for publication.
+  text: In May 1917, the Institute of Telegraph and Telephone Engineers of Japan
+    was founded to study the science and art of telegraphy and telephony,
+    exchanging relevant knowledge and promoting related industries.  The
+    institute published the first journal in June 1917, the oldest
+    telecommunication journal in Asia. Communication engineering was a popular
+    research field from the beginning.  In 1987 the institute changed its name
+    to the "Institute of Electronics, Information and Communication Engineers"
+    (IEICE).  The IEICE Transactions on Communications (JB) has been publishing
+    excellent technical and research papers in communication engineering with
+    leading researchers in the field as editorial board members.  All articles
+    have been reviewed by the editorial board of the journal and accepted for
+    publication.
   image: /img/wabun_b.jpg
 bPlus:
-  image: /img/B-PLUS.jpg
-  text: The IEICE Communications Society Magazine (IEICE Bplus) publishes easy-to-understand articles targeting students who aspire to work in telecommunications and engineers in companies close to the field.  In addition to purely technical issues, the magazine also includes articles on international standardization of technologies and new fields that integrate social perspectives. The editorial committee plans these papers and articles, of course, but we also accept active contributions from our members.
+  image: /img/bplus.png
+  text: The IEICE Communications Society Magazine (IEICE Bplus) publishes
+    easy-to-understand articles targeting students who aspire to work in
+    telecommunications and engineers in companies close to the field.  In
+    addition to purely technical issues, the magazine also includes articles on
+    international standardization of technologies and new fields that integrate
+    social perspectives. The editorial committee plans these papers and
+    articles, of course, but we also accept active contributions from our
+    members.
 ---
 
 ### About us
