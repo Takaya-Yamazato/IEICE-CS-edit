@@ -29,18 +29,11 @@ comex:
     manner. Materials contained in the first several years will be freely
     available for anyone to read, download, or print from the journal web site.
 jb:
-  text: In May 1917, the Institute of Telegraph and Telephone Engineers of Japan was founded to study the science and art of telegraphy and telephony, exchanging relevant knowledge and promoting related industries.  The institute published the first journal in June 1917, the oldest telecommunication journal in Asia. Communication engineering was a popular research field from the beginning.  In 1987 the institute changed its name to the "Institute of Electronics, Information and Communication Engineers" (IEICE).  The IEICE Transactions on Communications (JB) has been publishing excellent technical and research papers in communication engineering with leading researchers in the field as editorial board members.  All papers have been reviewed by the editorial board of the journal and accepted for publication.
+  text: In May 1917, the Institute of Telegraph and Telephone Engineers of Japan was founded to study the science and art of telegraphy and telephony, exchanging relevant knowledge and promoting related industries.  The institute published the first journal in June 1917, the oldest telecommunication journal in Asia. Communication engineering was a popular research field from the beginning.  In 1987 the institute changed its name to the "Institute of Electronics, Information and Communication Engineers" (IEICE).  The IEICE Transactions on Communications (JB) has been publishing excellent technical and research papers in communication engineering with leading researchers in the field as editorial board members.  All articles have been reviewed by the editorial board of the journal and accepted for publication.
   image: /img/wabun_b.jpg
 bPlus:
   image: /img/B-PLUS.jpg
-  text: The Communications Society of IEICE is pleased to announce a new
-    publication, Communications Society Magazine (IEICE Bplus). The
-    Communications Society of IEICE  has been providing its members with
-    information in electronics, information, and communications through papers,
-    technical reports, books, and journals (the current journal). Although the
-    magazine refers to the IEEE Society Magazine, the committee will not be
-    bound by it but will vigorously discuss new concepts and deliver them to
-    you.
+  text: The IEICE Communications Society Magazine (IEICE Bplus) publishes easy-to-understand articles targeting students who aspire to work in telecommunications and engineers in companies close to the field.  In addition to purely technical issues, the magazine also includes articles on international standardization of technologies and new fields that integrate social perspectives. The editorial committee plans these papers and articles, of course, but we also accept active contributions from our members.
 ---
 
 ### About us

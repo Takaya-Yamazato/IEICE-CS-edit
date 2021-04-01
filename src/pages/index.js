@@ -1,14 +1,19 @@
 import * as React from "react"
 // import PropTypes from 'prop-types'
 import { Link, graphql } from "gatsby"
+import SEO from "../components/seo"
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+// import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const IndexPage = ({ data }) => (
 
   <Layout>
+      <SEO
+        title={data.markdownRemark.frontmatter.title}
+        description={data.markdownRemark.frontmatter.description}
+      />
         <div
           className="full-width-image margin-top-0"
           style={{
