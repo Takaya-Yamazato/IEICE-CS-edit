@@ -11,7 +11,7 @@ We are delighted to announce the IEICE Best Paper Award and the IEICE Communicat
 
 Congratulations to all the award winners.
 
-# ２０１９ 
+# 2019
 ## IEICE Paper of the Year
 
 #### Field Trial on 5G Low Latency Radio Communication System Towards Application to Truck Platooning
