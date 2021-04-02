@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 // import Content, { HTMLContent } from '../components/Content'
 
-export default function defaultPage() {
+export default function DefaultPage() {
   const data = useStaticQuery(graphql`
 
   query defaultPageQuery {
@@ -13,7 +13,7 @@ export default function defaultPage() {
             title
           }
         }
-      markdownRemark(frontmatter: {templateKey: {eq: "awards"}}) {
+      markdownRemark(frontmatter: {templateKey: {eq: "default-page"}}) {
           id
           excerpt(pruneLength: 160)
           frontmatter {

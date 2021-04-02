@@ -13,7 +13,7 @@ export default function AwardsPage() {
             title
           }
         }
-      markdownRemark(frontmatter: {templateKey: {eq: "awards"}}) {
+      markdownRemark(frontmatter: {templateKey: {eq: "awards-page"}}) {
           id
           excerpt(pruneLength: 160)
           frontmatter {
@@ -50,7 +50,7 @@ export default function AwardsPage() {
   )
 }
 
-AwardsPageTemplate.propTypes = {
+AwardsPageTemplate.PropTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   // contentComponent: PropTypes.func,
@@ -70,19 +70,7 @@ const AwardsPageTemplate = ({ data }) => {
   )
 }
 
-AwardsPageTemplate.propTypes = {
+AwardsPageTemplate.PropTypes = {
   data: PropTypes.object.isRequired,
 }
 
-// export default AwardsPage
-
-// export const awardsPageQuery = graphql`
-//   query AwardsPage($id: String!) {
-//     markdownRemark(id: { eq: $id }) {
-//       html
-//       frontmatter {
-//         title
-//       }
-//     }
-//   }
-// `

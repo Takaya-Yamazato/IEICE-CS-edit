@@ -11,7 +11,7 @@ query AwardQuery {
           title
         }
       }
-    markdownRemark(frontmatter: {templateKey: {eq: "awards"}}) {
+    markdownRemark(frontmatter: {templateKey: {eq: "awards-page"}}) {
         id
         excerpt(pruneLength: 160)
         frontmatter {

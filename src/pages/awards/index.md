@@ -1,5 +1,5 @@
 ---
-templateKey: awards
+templateKey: awards-page
 title: Awards
 description: We are delighted to announce the IEICE Best Paper Award. The list
   of the awarded papers published in the transactions and magazine of the
@@ -11,7 +11,15 @@ We are delighted to announce the IEICE Best Paper Award and the IEICE Communicat
 
 Congratulations to all the award winners.
 
+---------------
+
+- [IEICE Best Paper Award](https://www.ieice.org/eng_r/awards/new_honorary_members_award_winners.html?id=d)
+- [IEICE Communications Society Excellent Paper Award](https://www.ieice.org/cs_r/eng/about/award/ronbun.html)
+
+---------------
+
 # 2019
+
 ## IEICE Paper of the Year
 
 #### Field Trial on 5G Low Latency Radio Communication System Towards Application to Truck Platooning

@@ -1,6 +1,8 @@
 ---
 templateKey: index-page
-title: IEICE Communication Society Editorial Board (CS-EDIT)
+title: IEICE Communication Society Editorial Board
+subtitle: CE-EDIT
+image: /img/home-jumbotron2.jpg
 heading: Journal information
 date: 2021-03-28
 description: Publishing online monthly (EB, JB and ComEX) and quartarly (Bplus),
@@ -26,8 +28,6 @@ comex:
     where researchers provide and exchange new topics easily and in a timely
     manner. Materials contained in the first several years will be freely
     available for anyone to read, download, or print from the journal web site.
-subtitle: CE-EDIT
-image: /img/home-jumbotron2.jpg
 jb:
   text: In May 1917, the Institute of Telegraph and Telephone Engineers of Japan
     was founded to study the science and art of telegraphy and telephony,
@@ -56,4 +56,4 @@ bPlus:
 
 ### About us
 
-We govern four of the society journals; IEICE Transaction on Communications (EB), IEICE Transactions on Communications (Japanese Edition, JB), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).
+We govern four of the society transactions and magazine; IEICE Transaction on Communications (EB), IEICE Transactions on Communications (Japanese Edition, JB), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).

@@ -30,17 +30,17 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/recommendations">
-                        Recommendations
-                      </Link>
-                    </li>
-                    <li>
                       <Link className="navbar-item" to="/awards">
                         Awards
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/blog">
+                      <Link className="navbar-item" to="/recommendations">
+                        Recommendations
+                      </Link>
+                    </li>                    
+                    <li>
+                      <Link className="navbar-item" to="/news">
                       News and Updates
                       </Link>
                     </li>
@@ -72,14 +72,14 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
-                        IEICE Transactions on Communications (Japanese Edition, JB)
+                        IEICE Communications Express (ComEX)
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
-                        IEICE Communications Express (ComEX)
+                        IEICE Transactions on Communications (Japanese Edition, JB)
                       </Link>
-                    </li>
+                    </li>                    
                     <li>
                       <Link className="navbar-item" to="/contact">
                       IEICE Bplus (Communication Society Magazine)
