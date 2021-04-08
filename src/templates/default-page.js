@@ -50,11 +50,11 @@ export default function DefaultPage() {
   )
 }
 
-DefaultPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  // contentComponent: PropTypes.func,
-}
+// DefaultPageTemplate.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   content: PropTypes.string,
+//   // contentComponent: PropTypes.func,
+// }
 
 const DefaultPageTemplate = ({ data }) => {
   const post = data.markdownRemark
@@ -70,6 +70,6 @@ const DefaultPageTemplate = ({ data }) => {
   )
 }
 
-DefaultPageTemplate.propTypes = {
-  data: PropTypes.object.isRequired,
-}
+// DefaultPageTemplate.propTypes = {
+//   data: PropTypes.object.isRequired,
+// }
