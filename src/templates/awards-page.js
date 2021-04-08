@@ -50,11 +50,11 @@ export default function AwardsPage() {
   )
 }
 
-AwardsPageTemplate.PropTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  // contentComponent: PropTypes.func,
-}
+// AwardsPageTemplate.PropTypes = {
+//   title: PropTypes.string.isRequired,
+//   content: PropTypes.string,
+//   // contentComponent: PropTypes.func,
+// }
 
 const AwardsPageTemplate = ({ data }) => {
   const post = data.markdownRemark
@@ -70,7 +70,7 @@ const AwardsPageTemplate = ({ data }) => {
   )
 }
 
-AwardsPageTemplate.PropTypes = {
-  data: PropTypes.object.isRequired,
-}
+// AwardsPageTemplate.PropTypes = {
+//   data: PropTypes.object.isRequired,
+// }
 
