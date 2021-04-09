@@ -76,7 +76,7 @@ const Navbar = class extends React.Component {
                 Form Examples
               </Link> */}
             </div>
-            <div className="navbar-end has-text-centered">
+            {/* <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
                 title="twitter" 
@@ -88,7 +88,7 @@ const Navbar = class extends React.Component {
                   <img src={twitter} alt="twitter" />
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
