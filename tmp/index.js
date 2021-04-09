@@ -1,11 +1,11 @@
 import * as React from "react"
 // import PropTypes from 'prop-types'
 import { Link, graphql } from "gatsby"
-import SEO from "../components/seo"
-import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
+import SEO from "../src/components/seo"
+import Layout from '../src/components/Layout'
+import BlogRoll from '../src/components/BlogRoll'
 // import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import PreviewCompatibleImage from '../src/components/PreviewCompatibleImage'
 
 const IndexPage = ({ data }) => (
 

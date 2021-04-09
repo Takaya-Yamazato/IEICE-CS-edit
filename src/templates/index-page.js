@@ -228,6 +228,13 @@ const IndexPageTemplate = ({ data }) => (
 
 
 export const pageQuery = graphql`query IndexPageTemplate {
+  site {
+    siteMetadata {
+      title
+      description
+    }
+    pathPrefix
+  }
   markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
     id
     frontmatter {
