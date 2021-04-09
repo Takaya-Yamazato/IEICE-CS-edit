@@ -96,7 +96,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     // Make tag pages
     tags.forEach((tag) => {
-      const tagPath = `/tags${_.kebabCase(tag)}/`
+      const tagPath = `/tags/${_.kebabCase(tag)}/`
 
       createPage({
         path: tagPath,
