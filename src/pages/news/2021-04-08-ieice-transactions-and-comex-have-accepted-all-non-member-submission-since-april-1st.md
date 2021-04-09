@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: IEICE Transactions and ComEX have accepted all non-member submission
-  since April 1st
+title: The IEICE Transactions and ComEX will accept submissions from non-members
+  from April 1, 2021
 date: 2021-04-01T12:49:52.779Z
 description: "Effective from April 1, 2021, We are happy to announce that
   non-member submission to our four IEICE Transactions and ComEX are
