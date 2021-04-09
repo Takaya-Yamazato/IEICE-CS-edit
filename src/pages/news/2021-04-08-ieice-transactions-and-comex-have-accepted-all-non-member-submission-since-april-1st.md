@@ -7,6 +7,8 @@ description: "Effective from April 1, 2021, we are happy to announce that
   accepted.  "
 featuredpost: true
 featuredimage: /img/cs-transactions.jpg
+tags:
+  - Non-member submissions
 ---
 By then, we asked to include at least one member as the author.  We, however, decided to relax the condition, and now everyone can submit their work.
 
