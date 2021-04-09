@@ -11,13 +11,13 @@ const IndexPage = ({ data }) => (
 
   <Layout>
       <SEO
-        title={data.markdownRemark.frontmatter.title}
-        description={data.markdownRemark.frontmatter.description}
+        title={data.siteMetadata.title}
+        description={data.stiteMetadata.description}
       />
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url('/img/home-jumbotron2.jpg')`,
+            backgroundImage: `url(${data.site.pathPrefix}'/img/home-jumbotron2.jpg')`,
             // backgroundImage: `url(${data.frontmatter.image.childImageSharp})`,
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`,
@@ -228,6 +228,12 @@ const IndexPage = ({ data }) => (
 
 
 export const pageQuery = graphql`query IndexPage {
+  site {
+    siteMetadata {
+      title
+    }
+    pathPrefix
+  }
   markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
     id
     frontmatter {
