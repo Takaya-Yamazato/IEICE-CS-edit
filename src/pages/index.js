@@ -231,6 +231,7 @@ export const pageQuery = graphql`query IndexPage {
   site {
     siteMetadata {
       title
+      description
     }
     pathPrefix
   }
