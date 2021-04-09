@@ -7,6 +7,10 @@ module.exports = {
     title: 'IEICE Communication Society Editorial Board',
     description:
       'The IEICE Communication Society Editorial Board governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).',
+    siteUrl: `https://www.ieice.org/`,
+    social: {
+        twitter: `ieice_EIC`,
+    },
   },
   plugins: [
     'gatsby-plugin-react-helmet',

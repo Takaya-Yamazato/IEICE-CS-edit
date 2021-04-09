@@ -20,7 +20,7 @@ const ContactUsPage = () => (
               Contact
               </h2>
               <div class="columns">
-                <div class="column is-half is-size-5">For your inquiry, please contact us via email.</div>
+                <div class="column is-size-5">For your inquiry, please contact us via email.</div>
               </div>
               <div class="columns">
                 <div class="column is-half">Transactions on Communications</div>
