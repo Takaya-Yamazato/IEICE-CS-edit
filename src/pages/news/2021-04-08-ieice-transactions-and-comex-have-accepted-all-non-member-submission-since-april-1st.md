@@ -6,7 +6,7 @@ description: "Effective from April 1, 2021, we are happy to announce that
   non-member submission to our four IEICE Transactions and ComEX are
   accepted.  "
 featuredpost: true
-featuredimage: /img/cs-transactions.jpg
+featuredimage: /img/cs-edit-green.jpg
 tags:
   - Non-member submissions
 ---
