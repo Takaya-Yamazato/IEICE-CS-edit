@@ -2,7 +2,7 @@ module.exports = {
   // flags: {
   //   DEV_SSR: true
   // },
-  pathPrefix: `~yamazato/public_html`,
+  pathPrefix: `~yamazato`,
   siteMetadata: {
     title: 'IEICE Communication Society Editorial Board',
     description:
