@@ -7,7 +7,7 @@ description: "Effective from April 1, 2021, we are happy to announce that
   non-member submission to our four IEICE Transactions and ComEX are
   accepted.  "
 featuredpost: true
-featuredimage: /img/logo.svg
+featuredimage: /img/eb.png
 ---
 By then, we asked to include at least one member as the author.  We, however, decided to relax the condition, and now everyone can submit their work.
 
