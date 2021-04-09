@@ -17,8 +17,8 @@ const IndexPage = ({ data }) => (
         <div
           className="full-width-image margin-top-0"
           style={{
-            // backgroundImage: `url('/img/home-jumbotron2.jpg')`,
-            backgroundImage: `url(${data.frontmatter.image.childImageSharp})`,
+            backgroundImage: `url('/img/home-jumbotron2.jpg')`,
+            // backgroundImage: `url(${data.frontmatter.image.childImageSharp})`,
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`,
           }}
