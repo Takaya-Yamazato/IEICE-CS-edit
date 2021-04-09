@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => (
   <Layout>
       <SEO
         title={data.site.siteMetadata.title}
-        description={data.site.stiteMetadata.description}
+        description={data.site.siteMetadata.description}
       />
         <div
           className="full-width-image margin-top-0"
