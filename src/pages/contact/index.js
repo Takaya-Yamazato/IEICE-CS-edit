@@ -17,15 +17,15 @@ const ContactUsPage = () => (
                 <div class="column is-size-5">For your inquiry, please contact us via email.</div>
               </div>
               <div class="columns">
-                <div class="column is-half has-text-centered">Transactions on Communications</div>
+                <div class="column is-half">Transactions on Communications</div>
                 <div class="column">trans-b (at) ieice.org</div>
               </div>
               <div class="columns">
-                <div class="column is-half has-text-right">Communications Express</div>
+                <div class="column is-half">Communications Express</div>
                 <div class="column">comex (at) ieice.org</div>
               </div>
               <div class="columns">
-                <div class="column is-half has-text-right">General Inquiries</div>
+                <div class="column is-half">General Inquiries</div>
                 <div class="column">cs-secretariat (at) ieice.org</div>
               </div>
             </div>
