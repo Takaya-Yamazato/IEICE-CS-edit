@@ -7,7 +7,7 @@ description: "The IEICE Communication Society Editorial Board is pleased to
   papers to present their papers at international and technical committee
   conferences organized by the IEICE Communication Society.  "
 featuredpost: true
-featuredimage: /img/cs-transactions.jpg
+featuredimage: /img/cs-edit.jpg
 tags:
   - 2020 Fall
   - Recommended Presentations by Editorial Board
