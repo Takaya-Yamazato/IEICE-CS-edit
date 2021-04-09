@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 2020 Fall Recommended Presentations by Editorial Board
+title: 2020 Fall Recommended Presentations
 date: 2020-12-01T07:57:21.383Z
 description: "The IEICE Communication Society Editorial Board is pleased to
   announce the launch of a new initiative to encourage authors of outstanding
