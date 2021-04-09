@@ -12,7 +12,7 @@ description: "The IEICE Communication Society Editorial Board is pleased to
   outstanding papers to develop their research by providing them with
   opportunities to present their work.  "
 featuredpost: true
-featuredimage: /img/eb.jpg
+featuredimage: /img/cs-transactions.jpg
 tags:
   - Recommended Presentations by Editorial Board
 ---
