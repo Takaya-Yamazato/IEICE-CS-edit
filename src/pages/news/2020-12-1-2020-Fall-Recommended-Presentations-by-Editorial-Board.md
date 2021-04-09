@@ -2,9 +2,12 @@
 templateKey: blog-post
 title: 2020 Fall Recommended Presentations by Editorial Board
 date: 2020-12-01T07:57:21.383Z
-description: "The IEICE Communication Society Editorial Board is pleased to announce the launch of a new initiative to encourage authors of outstanding papers to present their papers at international and technical committee conferences organized by the IEICE Communication Society.  "
+description: "The IEICE Communication Society Editorial Board is pleased to
+  announce the launch of a new initiative to encourage authors of outstanding
+  papers to present their papers at international and technical committee
+  conferences organized by the IEICE Communication Society.  "
 featuredpost: true
-featuredimage: /img/eb.jpg
+featuredimage: /img/cs-transactions.jpg
 tags:
   - 2020 Fall
   - Recommended Presentations by Editorial Board
