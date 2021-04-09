@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import twitter from '../img/social/twitter.svg'
+import cslogo from '../img/cslogo.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -76,19 +76,19 @@ const Navbar = class extends React.Component {
                 Form Examples
               </Link> */}
             </div>
-            {/* <div className="navbar-end has-text-centered">
+            <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
                 title="twitter" 
-                href="https://twitter.com/ieice_EIC"
+                href="https://www.ieice.org/cs_r/eng/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={twitter} alt="twitter" />
+                  <img src={cslogo} alt="twitter" />
                 </span>
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
       </nav>
