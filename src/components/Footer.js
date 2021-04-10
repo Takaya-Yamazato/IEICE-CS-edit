@@ -69,24 +69,24 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="https://www.ieice.org/cs/jpn/EB/index.html">
+                      <a className="navbar-item" href="https://www.ieice.org/cs/jpn/EB/index.html">
                         IEICE Transaction on Communications (EB)
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="https://www.ieice.org/publications/comex/">
+                      <a className="navbar-item" href="https://www.ieice.org/publications/comex/">
                         IEICE Communications Express (ComEX)
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="https://www.ieice.org/cs/jpn/JB/index-new.html">
+                      <a className="navbar-item" href="https://www.ieice.org/cs/jpn/JB/index-new.html">
                         IEICE Transactions on Communications (Japanese Edition, JB)
-                      </Link>
+                      </a>
                     </li>                    
                     <li>
-                      <Link className="navbar-item" to="https://www.ieice.org/~cs-edit/magazine/">
+                      <a className="navbar-item" href="https://www.ieice.org/~cs-edit/magazine/">
                       IEICE Bplus (Communication Society Magazine)
-                      </Link>  
+                      </a>  
                     </li>
                   </ul>
                 </section>

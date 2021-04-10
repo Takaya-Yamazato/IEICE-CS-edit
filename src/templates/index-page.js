@@ -17,7 +17,7 @@ const IndexPageTemplate = ({ data }) => (
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url('/img/home-jumbotron2.jpg')`,
+            backgroundImage: `url('/img/home-jumbotron.jpg')`,
             // backgroundImage: {data.markdownRemark.image},
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`,
@@ -81,8 +81,10 @@ const IndexPageTemplate = ({ data }) => (
                             display: 'inline-block',
                           }}
                         >
+                        <a href="https://www.ieice.org/cs/jpn/EB/index.html" target="_blank" rel="noopener noreferrer">
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.eb.image} />
                         {/* <GatsbyImage image={ebimage} style={{ borderRadius: '5px' }} alt="IEICE EB" /> */}
+                        </a>
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.eb.text}</p>
@@ -100,9 +102,10 @@ const IndexPageTemplate = ({ data }) => (
                             width: '240px',
                             display: 'inline-block',
                           }}
-                        >
+                        ><a href="https://www.ieice.org/publications/comex/" target="_blank" rel="noopener noreferrer">
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.comex.image} />
                         {/* <GatsbyImage image={comeximage} style={{ borderRadius: '5px' }} alt="IEICE ComEX" /> */}
+                        </a>
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.comex.text}</p>
@@ -123,9 +126,10 @@ const IndexPageTemplate = ({ data }) => (
                             width: '240px',
                             display: 'inline-block',
                           }}
-                        >
+                        ><a href="https://www.ieice.org/cs/jpn/JB/index-new.html" target="_blank" rel="noopener noreferrer">
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.jb.image} />
                         {/* <GatsbyImage image={jbimage} style={{ borderRadius: '5px' }} alt="IEICE JB" /> */}
+                        </a>
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.jb.text}</p>
@@ -143,9 +147,10 @@ const IndexPageTemplate = ({ data }) => (
                             width: '240px',
                             display: 'inline-block',
                           }}
-                        >
+                        ><a href="https://www.ieice.org/~cs-edit/magazine/" target="_blank" rel="noopener noreferrer">
                         <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.bPlus.image} />
                         {/* <GatsbyImage image={bPlusimage} style={{ borderRadius: '5px' }} alt="IEICE bPlus" /> */}
+                        </a>
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.bPlus.text}</p>

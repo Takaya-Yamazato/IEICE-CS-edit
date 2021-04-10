@@ -109,7 +109,7 @@ export default () => (
           featuredpost
           featuredimage {
             childImageSharp {
-              gatsbyImageData(width: 120, quality: 100, layout: CONSTRAINED)
+              gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
             }
           }
         }
