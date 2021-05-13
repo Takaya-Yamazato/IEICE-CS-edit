@@ -1,27 +1,28 @@
-import * as React from "react"
+import * as React from "react";
 // import { graphql } from "gatsby"
-import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import Layout from "../../components/Layout";
+import BlogRoll from "../../components/BlogRoll";
 
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-          <div
+        <div
           className="full-width-image margin-top-0"
           style={{
             backgroundImage: `url('/img/home-jumbotron.jpg')`,
             // backgroundImage: {data.markdownRemark.image},
             backgroundPosition: `top left`,
-            backgroundAttachment: `fixed`,
-          }}>
+            backgroundAttachment: `fixed`
+          }}
+        >
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
-              boxShadow: '0.5rem 0 0 #004400, -0.5rem 0 0 #004400',
-              backgroundColor: '#004400',
-              color: 'white',
-              padding: '1rem',
+              boxShadow: "0.5rem 0 0 #004400, -0.5rem 0 0 #004400",
+              backgroundColor: "#004400",
+              color: "white",
+              padding: "1rem"
             }}
           >
             News and Updates
@@ -35,6 +36,6 @@ export default class BlogIndexPage extends React.Component {
           </div>
         </section>
       </Layout>
-    )
+    );
   }
 }
