@@ -2,7 +2,8 @@ module.exports = {
   // flags: {
   //   DEV_SSR: true
   // },
-  pathPrefix: `~yamazato`,
+  // pathPrefix: `~yamazato`,　//チェック用
+  pathPrefix: `/cs/cs-edit/en`,　// https://www.ieice.org/cs/cs-edit/en/
   siteMetadata: {
     title: "IEICE Communication Society Editorial Board",
     description: "The IEICE Communication Society Editorial Board governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).",
