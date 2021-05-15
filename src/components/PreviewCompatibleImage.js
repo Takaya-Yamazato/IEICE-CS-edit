@@ -6,6 +6,10 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = { borderRadius: '5px' }
   const { alt = '', childImageSharp, image } = imageInfo
 
+  if (!!image && typeof image === 'string'){
+    return <img style={imageStyle} src={image} alt={alt} />
+  }
+
   if (!!image && !!image.childImageSharp) {
     return (
       <GatsbyImage
@@ -19,10 +23,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     return <GatsbyImage image={childImageSharp.gatsbyImageData} style={imageStyle} alt={alt} />;
   }
 
-  if (!!image && typeof image === 'string')
-    return <img style={imageStyle} src={image} alt={alt} />
 
-  return null
 }
 
 PreviewCompatibleImage.propTypes = {
