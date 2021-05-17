@@ -22,12 +22,6 @@ module.exports = {
         name: "uploads"
       }
     },
-    // {
-    //   resolve: 'gatsby-plugin-sass',
-    //   options: {
-    //     indentedSyntax: true
-    //   }
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
