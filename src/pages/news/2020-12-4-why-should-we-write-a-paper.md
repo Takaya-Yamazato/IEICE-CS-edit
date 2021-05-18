@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Why write a paper
+title: Why should we write papers
 date: 2020-12-4T13:00:10.000Z
 description: The editor-in-chief, Prof. Yamazato, will talk about why we write
   journal paper.  This presentation is a part of opening remark of specail
