@@ -33,4 +33,4 @@ The role of an editor is to ensure that what is written in a paper is correct, v
 
 With this in mind, it is no exaggeration to say that the IEICE Transactions on Communication will create the future of the field of communications.
 
-Now, ladies and gentlemen, for the next generation of engineers and researchers, and the future of communications, lets submit a paper.
+Now, ladies and gentlemen, for the next generation of engineers and researchers, and the future of communications, let's submit a paper.
