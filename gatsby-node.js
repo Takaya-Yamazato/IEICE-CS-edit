@@ -148,7 +148,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       subtitle: String
       heading: String
       description: String
-      tags: String
+      tags: [String]
       date: Date @dateformat
       eb: Indexes
       jb: Indexes
