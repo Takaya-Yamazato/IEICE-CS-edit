@@ -25,10 +25,10 @@ The following people are retiring this time.
 - Editor, Communications Society Magazine (Japanese Edition) Hiroyuki Tsuji (NICT)
 
 Thank you very much for your contribution to the editorial activities of Communications Society for a long time.
-We regret that we could not hold the meeting face-to-face due to the Covid-19 disaster. In particular, I regret that we could not have a social gathering at all.
-I would like to plan a reunion when things settle down.
+We regret that we could not hold the meeting face-to-face due to the Covid-19 disaster. In particular, we regret that we could not have a social gathering at all.
+We would like to plan a reunion when things settle down.
 
-I wish you all the best in your future endeavors.
+We wish you all the best in your future endeavors.
 
 Takaya Yamazato, <br>
 Chair, Editorial Board, <br>
