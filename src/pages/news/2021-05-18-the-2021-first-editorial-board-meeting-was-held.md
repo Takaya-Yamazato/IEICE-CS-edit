@@ -7,7 +7,6 @@ featuredpost: true
 featuredimage: /img/cs-edit-green.jpg
 tags:
   - Communication Society Editorial Board
-  - 2021
 ---
 
 The first meeting is usually a handover of old and new members.
