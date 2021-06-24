@@ -15,7 +15,7 @@ tags:
 
 We are delighted to announce the 2021 Spring Recommended Presentations by Editorial Board.
 
-Congratulations to all the award winners.
+Congratulations to all the recommended authors.
 
 ---
 
