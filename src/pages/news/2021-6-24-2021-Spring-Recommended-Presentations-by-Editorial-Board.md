@@ -22,15 +22,15 @@ Congratulations to all the award winners.
 
 IEICE Transactions on Communications
 
-- [Field Trial on 5G Low Latency Radio Communication System Towards Application to Truck Platooning](https://search.ieice.org/bin/summary.php?id=e102-b_8_1447)
+- [Field Trial on 5G Low Latency Radio Communication System Towards Application to Truck Platooning](https://www.jstage.jst.go.jp/article/transcom/E102.B/8/E102.B_2018TTP0021/_article/-char/en)
   - Manabu MIKAMI and Hitoshi YOSHINO
-- [Improved Optical Amplification Efficiency by Using Turbo Cladding Pumping Scheme for Multicore Fiber Optical Networks](https://search.ieice.org/bin/summary.php?id=e102-b_8_1579)
+- [Improved Optical Amplification Efficiency by Using Turbo Cladding Pumping Scheme for Multicore Fiber Optical Networks](https://www.jstage.jst.go.jp/article/transcom/E102.B/8/E102.B_2018EBP3296/_article/-char/en)
   - Hitoshi TAKESHITA, Keiichi MATSUMOTO, Hiroshi HASEGAWA, Ken-ichi SATO, and Emmanuel Le Taillandier de GABORY
-- [Design of Criterion for Adaptively Scaled Belief in Iterative Large MIMO Detection](https://search.ieice.org/bin/summary.php?id=e102-b_2_285)
+- [Design of Criterion for Adaptively Scaled Belief in Iterative Large MIMO Detection](https://www.jstage.jst.go.jp/article/transcom/E102.B/2/E102.B_2018EBP3136/_article)
   - Takumi TAKAHASHI, Shinsuke IBI, and Seiichi SAMPEI
 - [Designing Distributed SDN C-Plane Considering Large-Scale Disruption and Restoration](https://www.jstage.jst.go.jp/article/transcom/E102.B/3/E102.B_2018NVP0005/_article/-char/en)
   - Takahiro HIRAYAMA, Masahiro JIBIKI, and Hiroaki HARAI
-- [A Novel Low Complexity Lattice Reduction-Aided Iterative Receiver for Overloaded MIMO](https://search.ieice.org/bin/summary.php?id=e102-b_5_1045)
+- [A Novel Low Complexity Lattice Reduction-Aided Iterative Receiver for Overloaded MIMO](https://www.jstage.jst.go.jp/article/transcom/advpub/0/advpub_2018EBP3215/_article/-char/en)
   - Satoshi DENNO, Yuta KAWAGUCHI, Tsubasa INOUE, and Yafei HOU
 - [A Survey of Social Network Analysis Techniques and their Applications to Socially Aware Networking](https://www.jstage.jst.go.jp/article/transcom/E102.B/1/E102.B_2017EBI0003/_article)
   - Sho TSUGAWA
