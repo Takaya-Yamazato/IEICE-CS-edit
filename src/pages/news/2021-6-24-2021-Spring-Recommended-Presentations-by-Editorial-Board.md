@@ -14,7 +14,6 @@ tags:
 ---
 
 We are delighted to announce the 2021 Spring Recommended Presentations by Editorial Board.
-The initiative aims to encourage authors of outstanding papers to present their papers at international and technical committee conferences organized by the IEICE Communication Society.
 
 Congratulations to all the award winners.
 
