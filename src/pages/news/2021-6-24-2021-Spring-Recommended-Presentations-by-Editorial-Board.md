@@ -4,7 +4,7 @@ title: 2021 Spring Recommended Presentations
 date: 2021-6-24T07:57:21.383Z
 description: "The IEICE Communication Society Editorial Board is pleased to
   announce the launch of a new initiative to encourage authors of outstanding
-  papers to present their papers at international and technical committee
+  papers to present their works at international and technical committee
   conferences organized by the IEICE Communication Society.  "
 featuredpost: true
 featuredimage: /img/cs-edit-green.jpg
@@ -29,15 +29,15 @@ IEICE Transactions on Communications
   - Takumi TAKAHASHI, Shinsuke IBI, and Seiichi SAMPEI
 - [Designing Distributed SDN C-Plane Considering Large-Scale Disruption and Restoration](https://www.jstage.jst.go.jp/article/transcom/E102.B/3/E102.B_2018NVP0005/_article/-char/en)
   - Takahiro HIRAYAMA, Masahiro JIBIKI, and Hiroaki HARAI
-- [A Novel Low Complexity Lattice Reduction-Aided Iterative Receiver for Overloaded MIMO](https://www.jstage.jst.go.jp/article/transcom/advpub/0/advpub_2018EBP3215/_article/-char/en)
+- [A Novel Low Complexity Lattice Reduction-Aided Iterative Receiver for Overloaded MIMO](https://www.jstage.jst.go.jp/article/transcom/E102.B/5/E102.B_2018EBP3215/_article/-char/en)
   - Satoshi DENNO, Yuta KAWAGUCHI, Tsubasa INOUE, and Yafei HOU
 - [A Survey of Social Network Analysis Techniques and their Applications to Socially Aware Networking](https://www.jstage.jst.go.jp/article/transcom/E102.B/1/E102.B_2017EBI0003/_article)
   - Sho TSUGAWA
 - [On-Demand Data Gathering with a Drone-Based Mobile Sink in Wireless Sensor Networks Exploiting Wake-Up Receivers](https://www.jstage.jst.go.jp/article/transcom/E101.B/10/E101.B_2017NEI0002/_article)
   - Hiroyuki YOMO, Akitoshi ASADA, and Masato MIYATAKE
-- [Separating Predictable and Unpredictable Flows via Dynamic Flow Mining for Effective Traffic Engineering](https://search.ieice.org/bin/summary.php?id=e101-b_2_538)
+- [Separating Predictable and Unpredictable Flows via Dynamic Flow Mining for Effective Traffic Engineering](https://www.jstage.jst.go.jp/article/transcom/E101.B/2/E101.B_2017EBT0001/_article/-char/en)
   - Yousuke TAKAHASHI, Keisuke ISHIBASHI, Masayuki TSUJINO, Noriaki KAMIYAMA, Kohei SHIOMOTO, Tatsuya OTOSHI, Yuichi OHSITA, and Masayuki MURATA
-- [A Novel Low-Overhead Channel Sounding Protocol for Downlink Multi-User MIMO in IEEE 802.11ax WLAN](https://www.jstage.jst.go.jp/article/transcom/advpub/0/advpub_2017EBP3106/_article/-char/ja/)
+- [A Novel Low-Overhead Channel Sounding Protocol for Downlink Multi-User MIMO in IEEE 802.11ax WLAN](https://www.jstage.jst.go.jp/article/transcom/E101.B/3/E101.B_2017EBP3106/_article/-char/en)
   - Toshihisa NABETANI, Narendar MADHAVAN, Hiroki MORI, and Tsuguhide AOKI
 
 ---
