@@ -4,7 +4,7 @@ title: Be a two-way player
 date: 2021-9-2T07:57:21.383Z
 description: "Welcome, ComSoc members!"
 featuredpost: true
-featuredimage: /img/cs-edit-green.jpg
+featuredimage: /img/ComMag-CS.jpg
 tags:
   - 2021 Communication Magazine
   - Be a two-way player
