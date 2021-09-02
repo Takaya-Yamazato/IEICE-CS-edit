@@ -45,3 +45,18 @@ The Technical Committee also holds conferences in Japan on a regular basis.
 Publishing online monthly (EB, JB, and ComEX) and quarterly (Bplus), our journals are interested in the best research from across the field of communication engineering. A team of top researchers makes all editorial decisions.
 
 - [Publications of IEICE Communicaiton Society](https://www.ieice.org/cs/cs-edit/en/)
+
+---
+
+By the way, you may have reached this page thanks to the QR code.
+[QR code was registered as an IEEE Milestone in 2020.](https://spectrum.ieee.org/how-a-board-game-and-skyscrapers-inspired-the-development-of-the-qr-code)
+
+It seems that there is a seed of new research lurking in Japan.
+
+How about being a two-way player?
+
+Takaya Yamazato, Nagoya University. <br>
+
+Editor-in-chief, Communication Society,<br>
+
+Institute of Electronics, Information and Communication Engineers (IEICE)
