@@ -5,10 +5,9 @@ subtitle: CE-EDIT
 image: /img/home-jumbotron2.jpg
 heading: Journal information
 date: 2021-03-28
-description: Publishing online monthly (EB, JB and ComEX) and quartarly (Bplus),
-  our journals are intereseted in the best research from across the field of
-  communicaiton engineering.  All editorial decisions are made by a team of top
-  researchers.
+description: "Publishing online monthly (EB, JB, and ComEX) and quarterly (Bplus), 
+our journals are interested in the best research from across the field of communication engineering. 
+A team of top researchers makes all editorial decisions."
 eb:
   image: /img/trans_b.jpg
   text: The IEICE Transactions on Communications originates from the IEICE
