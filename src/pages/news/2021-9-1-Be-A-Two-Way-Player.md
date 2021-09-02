@@ -10,7 +10,7 @@ tags:
   - Be a two-way player
 ---
 
-Did you know that many of the active members of the IEICE Communication Society are two-way players, like Shohei Ohtani?
+Do you know that many of the active members of the IEICE Communication Society are two-way players, like Shohei Ohtani?
 
 We are not only members of IEICE but also members of IEEE.
 We believe that belonging to both societies allows us to learn the unique essence of each, which is the starting point for originality and excellence in our research.
