@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Be a two-way player
-date: 2021-6-24T07:57:21.383Z
+date: 2021-9-2T07:57:21.383Z
 description: "Welcome, ComSoc members!"
 featuredpost: true
 featuredimage: /img/cs-edit-green.jpg
