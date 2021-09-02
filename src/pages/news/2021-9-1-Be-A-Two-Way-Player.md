@@ -56,3 +56,9 @@ And "Konnichiwa" is a Japanese word meaning "Hello."
 It seems that there is a seed of new research lurking in Japan.
 
 How about being a two-way player?
+
+<br><br>
+
+Takaya Yamazato, Nagoya University. <br>
+Editor-in-chief, Communication Society,<br>
+Institute of Electronics, Information and Communication Engineers (IEICE)
