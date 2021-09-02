@@ -48,8 +48,10 @@ Publishing online monthly (EB, JB, and ComEX) and quarterly (Bplus), our journal
 
 ---
 
-By the way, you may have reached this page thanks to the QR code.
+Thanks to the QR code, you may have reached this page by the two-dimensional code pattern.  
 [QR code was registered as an IEEE Milestone in 2020.](https://spectrum.ieee.org/how-a-board-game-and-skyscrapers-inspired-the-development-of-the-qr-code)
+
+And "Konnichiwa" is a Japanese word meaning "Hello."
 
 It seems that there is a seed of new research lurking in Japan.
 
