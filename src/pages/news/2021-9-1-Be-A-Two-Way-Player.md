@@ -36,7 +36,7 @@ As a sister society of ComSoc, we technically support some of ComSoc's conferenc
 
 These conferences are supported by our Technical Committee.
 
-ｰ [List of Technical Committee](https://www.ieice.org/cs_r/eng/events/technical_committees/list.html)
+- [List of Technical Committee](https://www.ieice.org/cs_r/eng/events/technical_committees/list.html)
 
 The Technical Committee also holds conferences in Japan on a regular basis.
 
@@ -54,9 +54,3 @@ By the way, you may have reached this page thanks to the QR code.
 It seems that there is a seed of new research lurking in Japan.
 
 How about being a two-way player?
-
-Takaya Yamazato, Nagoya University. <br>
-
-Editor-in-chief, Communication Society,<br>
-
-Institute of Electronics, Information and Communication Engineers (IEICE)
