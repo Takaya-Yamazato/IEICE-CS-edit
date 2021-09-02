@@ -42,6 +42,7 @@ The Technical Committee also holds conferences in Japan on a regular basis.
 
 - [Technical Committee Conference Schedule](https://www.ieice.org/ken/program/index.php?instsoc=IEICE-B&tgid=&year=0&region=0&schkey=&sch1=1&pskey=&ps1=1&ps2=1&ps3=1&ps4=1&ps5=1&search_mode=&pnum=0&psize=2&psort=0&layout=&lang=eng)
 
+And last but not least, I would like to introduce transactions and magazine of the IEICE Communication Society.
 Publishing online monthly (EB, JB, and ComEX) and quarterly (Bplus), our journals are interested in the best research from across the field of communication engineering. A team of top researchers makes all editorial decisions.
 
 - [Publications of IEICE Communicaiton Society](https://www.ieice.org/cs/cs-edit/en/)
