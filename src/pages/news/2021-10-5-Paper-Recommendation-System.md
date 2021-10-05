@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 研専推薦論文制度
 date: 2021-10-5T07:57:21.383Z
-description: "電子情報通信学会通信ソサイエティ研究推薦論文制度は，通信ソサイエティ（通ソ）の研究専門委員会（研専）が実施する研究会での優秀な発表に対して，研専から通ソが発行する論文誌（和文論文誌B，英文論文誌B，およびCommunications Express）に推薦する制度です．"
+description: "電子情報通信学会通信ソサイエティ研専推薦論文制度は，通信ソサイエティ（通ソ）の研究専門委員会（研専）が実施する研究会での優秀な発表に対して，研専から通ソが発行する論文誌（和文論文誌B，英文論文誌B，およびCommunications Express）に推薦する制度です．"
 featuredpost: true
 featuredimage: /img/cs-edit-green.jpg
 tags:
@@ -10,7 +10,7 @@ tags:
   - Technical Committee Paper Recommendation System
 ---
 
-本推薦論文制度は次の手順を経て推薦されます．
+研専推薦論文制度は次の手順を経て推薦されます．
 
 1. まず，各研専が優秀な研究会発表を選定します．
 2. 次に，研専は著者に推薦対象となったことを通知します．同時に，すべての論文誌編集委員会にも推薦が通知されます．
