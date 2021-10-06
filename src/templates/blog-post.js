@@ -26,7 +26,10 @@ const BlogPostTemplate = ({ data, location }) => {
               {post.frontmatter.date}
               <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{post.frontmatter.title}</h1>
               <p>{post.frontmatter.description}</p>
-              <section dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
+              {/* <section dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" /> */}
+              <p className="blogPost">
+                <section dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
+              </p>
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
                   <h4>Tags</h4>
