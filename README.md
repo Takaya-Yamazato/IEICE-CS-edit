@@ -1,126 +1,318 @@
-# Gatsby + Netlify CMS Starter
+<p align="center">
+  <a href="https://www.gatsbyjs.com">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  academic-central
+</h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)
+このサイトは [Gatsby](https://www.gatsbyjs.com/) を使って作成しています．
 
-**Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
+### 注意：
 
-This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
+Github のアカウントがあることを前提にしています。
 
-It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
+大学関係者であれば[Github Pro アカウント](https://docs.github.com/ja/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount)を取得できます。
 
-## Features
+また、ビルドには `yarn` もしくは　`npm` が必要になります。
 
-- A simple landing page with blog functionality built with Netlify CMS
-- Editabe Pages: Landing, About, Product, Blog-Collection and Contact page with Netlify Form support
-- Create Blog posts from Netlify CMS
-- Tags: Separate page for posts under each tag
-- Basic directory organization
-- Uses Bulma for styling, but size is reduced by `purge-css-plugin`
-- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-- Uses `gatsby-image` with Netlify-CMS preview support
-- Separate components for everything
-- Netlify deploy configuration
-- Netlify function support, see `lambda` folder
-- Perfect score on Lighthouse for SEO, Accessibility and Performance (wip:PWA)
-- ..and more
+## 🚀 インストール
 
-## Prerequisites
-
-- Node (I recommend using v8.2.0 or higher)
-- [Gatsby CLI](https://www.gatsbyjs.org/docs/)
-- [Netlify CLI](https://github.com/netlify/cli)
-
-## Getting Started (Recommended)
-
-Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. The example here is the Kaldi coffee company template (adapted from [One Click Hugo CMS](https://github.com/netlify-templates/one-click-hugo-cms)). Use the button below to build and deploy your own copy of the repository:
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/gatsby-starter-netlify-cms&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
-After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
-
-### Access Locally
-
-Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
-```
-$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
-$ cd [REPO_NAME]
-$ yarn
-$ netlify dev # or ntl dev
-```
-
-This uses the new [Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=netlifycms&utm_campaign=devex) CLI feature to serve any functions you have in the `lambda` folder.
-
-To test the CMS locally, you'll need to run a production build of the site:
+まず、Github からクローンします。
+適当な作業ディレクトに移動して、以下を実行。
 
 ```
-$ npm run build
-$ netlify dev # or ntl dev
+% git clone git@github.com:Github-ID/IEICE-CS-edit.git
 ```
 
-### Media Libraries (installed, but optional)
+ここで`Github-ID`は Github のアカウント名です。
 
-Media Libraries have been included in this starter as a default. If you are not planning to use `Uploadcare` or `Cloudinary` in your project, you **can** remove them from module import and registration in `src/cms/cms.js`. Here is an example of the lines to comment or remove them your project.
-
-```javascript
-import CMS from 'netlify-cms-app'
-// import uploadcare from 'netlify-cms-media-library-uploadcare'
-// import cloudinary from 'netlify-cms-media-library-cloudinary'
-
-import AboutPagePreview from './preview-templates/AboutPagePreview'
-import BlogPostPreview from './preview-templates/BlogPostPreview'
-import ProductPagePreview from './preview-templates/ProductPagePreview'
-import IndexPagePreview from './preview-templates/IndexPagePreview'
-
-// CMS.registerMediaLibrary(uploadcare);
-// CMS.registerMediaLibrary(cloudinary);
-
-CMS.registerPreviewTemplate('index', IndexPagePreview)
-CMS.registerPreviewTemplate('about', AboutPagePreview)
-CMS.registerPreviewTemplate('products', ProductPagePreview)
-CMS.registerPreviewTemplate('blog', BlogPostPreview)
-```
-
-Note: Don't forget to also remove them from `package.json` and `yarn.lock` / `package-lock.json` using `yarn` or `npm`. During the build netlify-cms-app will bundle the media libraries as well, having them removed will save you build time.
-Example:
-```
-yarn remove netlify-cms-media-library-uploadcare
-```
-OR
-```
-yarn remove netlify-cms-media-library-cloudinary
-```
-## Getting Started (Without Netlify)
+クローンしたディレクトに移動し、そこで作業します。
 
 ```
-$ gatsby new [SITE_DIRECTORY_NAME] https://github.com/netlify-templates/gatsby-starter-netlify-cms/
-$ cd [SITE_DIRECTORY_NAME]
-$ npm run build
-$ npm run serve
+% cd academic-central
+% ls
+CODE_OF_CONDUCT.md LICENSE            _headers           gatsby-node.js     netlify.toml       renovate.json      static
+CONTRIBUTING.md    README.md          gatsby-config.js   lambda             package.json       src                yarn.lock
 ```
 
-### Setting up the CMS
+🧐 What's inside?
 
-Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
-
-## Debugging
-
-Windows users might encounter `node-gyp` errors when trying to npm install.
-To resolve, make sure that you have both Python 2.7 and the Visual C++ build environment installed.
+ディレクトリは以下のようになっています．
 
 ```
-npm config set python python2.7
-npm install --global --production windows-build-tools
+$ tree -L 1
+.
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── PULL_REQUEST_TEMPLATE.md
+├── README.md
+├── _headers
+├── gatsby-config.js
+├── gatsby-node.js
+├── lambda
+├── netlify.toml
+├── node_modules
+├── package.json
+├── public
+├── renovate.json
+├── src
+├── static
+├── tmp
+└── yarn.lock
 ```
 
-[Full details here](https://www.npmjs.com/package/node-gyp 'NPM node-gyp page')
+以下，重要なものだけ説明します．
 
-MacOS users might also encounter some errors, for more info check [node-gyp](https://github.com/nodejs/node-gyp). We recommend using the latest stable node version.
+/node_modules:
+ここに npm package でインストールしたモジュールが入ります．
+このディレクトリに対して特段のアクションは必要ありません．ほっとけば良いです．
 
-## Purgecss
+/src:
+このディレクトリに公開用のファイルが一式入ります．
+つまり，ブラウザで表示するのに必要なファイルが格納されています．
+従って，このディレクトリに入っているファイルの修正，追加，削除することで Web ページのデザインを行います．
 
-This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
+/static:
+このディレクトリは，Gatsby では参照されるのみで特段の操作は行いません．
+従って，こちらには画像ファイルや既に作成してある静的ファイルなどをおきます．
 
-# CONTRIBUTING
+/public:
+公開用のディレクトリです．
+gatsby build を実行すると，このディレクトリに公開用ファイルが生成されます．
+また，gatsby clean を実行すると，このディレクトリとキャッシュがクリアされます．
 
-Contributions are always welcome, no matter how large or small. Before contributing,
-please read the [code of conduct](CODE_OF_CONDUCT.md).
+.gitignore:
+Github リポジトリから除外するファイルを指定します．
+
+gatsby-config.js:
+Gatsby サイトの設定ファイルです．
+
+gatsby-node.js:
+Gatsby Node API の設定ファイルです．
+
+package-lock.json (See package.json below, first).
+npm によって自動生成されるファイルです．
+
+package.json:
+Node で実行するパッケージを指定するファイルです．
+
+README.md:
+このファイルです．
+
+### 環境構築
+
+`yarn` で環境構築を行います。
+
+```
+% yarn
+```
+
+`npm install` でも OK ですが、`yarn`の方が早いです。
+なお、`yarn`と`npm`を混在して使うと誤動作する場合がありますので、やめましょう。
+
+## ビルド (build)
+
+ビルドとは、サイトを公開するための html, Javascript や CSS ファイルを作成することを言います。
+ビルドが通れば Warning が出ても問題ありません。
+
+ビルドは以下のコマンドで実行できます。
+
+```
+% gatsby clean && gatsby build
+(npm run clean; npm run build でもOK)
+```
+
+最初の `gatsby clean` はキャッシュや不要ファイルを削除するコマンドです。
+`npm run clean, npm run build` は `package.json`で定義されています。
+
+## ディベロプ (develop)
+
+ディベロプとは、公開前の一次チェックをするために html, Javascript や CSS ファイルを作成することを言います。
+
+```
+% gatsby clean && gatsby develop
+(npm run clean; npm run develop でもOK)
+```
+
+http://localhost:8000/ で見ることができます．
+
+## 公開
+
+Github Actions を設定してありますので，github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
+Github Actions の設定ファイルは `.github/workflows/manual.yml` です．
+
+# コンテンツの追加，修正，削除
+
+コンテンツデータは，src/pages に入っているマークダウンファイルです．
+
+```
+├── cms
+│   ├── cms.js
+│   └── preview-templates
+│       ├── AwardsPagePreview.js
+│       ├── BlogPostPreview.js
+│       └── RecommendationsPagePreview.js
+├── components
+│   ├── BlogRoll.js
+│   ├── Content.js
+│   ├── Footer.js
+│   ├── Layout.js
+│   ├── Navbar.js
+│   ├── PreviewCompatibleImage.js
+│   ├── SiteMetadata.js
+│   ├── all.sass
+│   └── seo.js
+├── images
+│   ├── gatsby-icon.png
+│   └── profile-pic.png
+├── img
+│   ├── cslogo.svg
+│   ├── github-icon.svg
+│   ├── home-jumbotron.jpg
+│   ├── logo.svg
+│   └── social
+│       ├── facebook.svg
+│       ├── instagram.svg
+│       ├── twitter.svg
+│       ├── vimeo.svg
+│       └── youtube.svg
+├── pages
+│   ├── 404.js
+│   ├── awards
+│   │   └── index.md
+│   ├── contact
+│   │   └── index.js
+│   ├── index.md
+│   ├── news
+│   │   ├── 2020-11-01-Recommended-Presentations-by-Editorial-Board.md
+│   │   ├── 2020-12-1-2020-Fall-Recommended-Presentations-by-Editorial-Board.md
+│   │   ├── 2020-12-4-why-should-we-write-a-paper.md
+│   │   ├── 2021-04-08-ieice-transactions-and-comex-have-accepted-all-non-member-submission-since-april-1st.md
+│   │   ├── 2021-05-18-the-2021-first-editorial-board-meeting-was-held.md
+│   │   ├── 2021-10-5-Paper-Recommendation-System.md
+│   │   ├── 2021-11-01-Recommended-Presentations-by-Editorial-Board.md
+│   │   ├── 2021-6-24-2021-Spring-Recommended-Presentations-by-Editorial-Board.md
+│   │   ├── 2021-9-1-Be-A-Two-Way-Player.md
+│   │   └── index.js
+│   ├── recommendations
+│   │   └── index.md
+│   └── tags
+│       └── index.js
+└── templates
+    ├── awards-page.js
+    ├── blog-post.js
+    ├── default-page.js
+    ├── index-page.js
+    ├── recommendations.js
+    └── tags.js
+```
+
+## コンテンツの修正
+
+src/pages のマークダウンファイルを編集してください．
+
+## コンテンツの削除
+
+src/pages のマークダウンファイルを削除してください．
+
+## コンテンツの追加
+
+src/pages に新しいマークダウンファイルを追加してください．
+マークダウンファイルは，同じディレクトリにあるファイルをコピーし，ファイル名を変更して作成するのが早いです．
+このとき，マークダウンファイルに記載のフォーマットは変更しないようにしてください．
+特に上段の Frontmatter の項目は src/templates/\*.js が参照しますので，コロン以降のみ変更するようにしてください．
+
+以下，src/news の 2021-9-1-Be-A-Two-Way-Player.md を例に説明します．
+
+ファイル名がそのまま slug になります．たとえば，この例ですと，
+
+https://www.ieice.org/cs/cs-edit/en/news/2021-9-1-Be-A-Two-Way-Player/
+
+となります．
+
+src/news/2021-9-1-Be-A-Two-Way-Player.md は以下のようになっています．
+
+```
+---
+templateKey: blog-post
+title: Be a two-way player
+date: 2021-9-2T07:57:21.383Z
+description: "Welcome, ComSoc members!"
+featuredpost: true
+featuredimage: /img/ComMag-CS.jpg
+tags:
+  - 2021 Communication Magazine
+  - Be a two-way player
+---
+
+Do you know that many of the active members of the IEICE Communication Society are two-way players, like Shohei Ohtani?
+
+We are not only members of IEICE but also members of IEEE.
+We believe that belonging to both societies allows us to learn the unique essence of each, which is the starting point for originality and excellence in our research.
+
+I know it sounds like a cliché, but diversity is the key to outstanding results.
+
+.....
+
+```
+
+ここで，`templateKey: blog-post` は変更してはいけません．
+この templateKey は src/pages 以下のディレクトリでそれぞれ指定され，指定されたテンプレート(src/pages/templates/blog-post.js)を利用して表示用ファイルが生成されます．
+News の場合は templateKey を blog-post と指定しています．なお，awards の場合は awards-page と指定します．
+
+`title` はタイトルですので，適宜修正してください．
+
+`description` は概要ですので，適宜修正してください．
+
+`featuredpost: true` はそのまま変更しなくて結構です．
+
+`featuredimage` はアイキャッチ画像になります．ディフォルト画像は static/img/ にある画像です．
+アップロードして利用したい場合には static/img/ におき，/img/ファイル名 で指定してください．
+たとえば，static/img/cs-edit-green.jpg を指定する場合は `featuredimage: /img/cs-edit-green.jpg` となります．
+
+`date` は掲載日ですので，適宜修正してください．
+
+`tags` はタグになります．タグは上に記載のように「-」で一行にひとつ書いてください．
+
+ここまでが，Frontmatter です．
+「---」以降が本文になり，マークダウン形式で記載してください．
+
+この例ですと
+
+```
+Do you know that many of the active members of the IEICE Communication Society are two-way players, like Shohei Ohtani?
+
+We are not only members of IEICE but also members of IEEE.
+We believe that belonging to both societies allows us to learn the unique essence of each, which is the starting point for originality and excellence in our research.
+
+I know it sounds like a cliché, but diversity is the key to outstanding results.
+．．．
+```
+
+が本文になり，マークダウン形式で記載されています．
+
+# Github でのデータの追加・修正・削除
+
+このサイトは Github Actions を設定してあります．
+Github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
+
+従って，データ修正は main branch では行わず，branch をきってからデータ修正を行ってください．
+データ修正後は `gatsby develop` で問題無いことを確認の上，pull request を行い，main branch へマージしてください．
+
+面倒ですが，main branch とは異なる branch で作業することで，思わぬミスを防ぐことができますので安全です．
+
+# Netlify CMS でのデータの追加・修正・削除
+
+データの追加・修正・削除は [Netlify CMS](https://ieice-cs-edit.netlify.app/admin/#/collections/news)でもできます。
+
+Netlify CMS へアクセスすると以下のように表示されます。
+コンテンツの追加・修正・削除はここから行ってください。
+
+<img width="1090" alt="スクリーンショット 2021-11-11 15 30 11" src="https://user-images.githubusercontent.com/12372151/141249433-3147432a-d02f-4a12-891a-793b7e69a2b5.png">
+
+画像は上の「Media」ボタンを押下することで追加・修正・削除ができます。
+
+<img width="1072" alt="スクリーンショット 2021-11-11 15 34 22" src="https://user-images.githubusercontent.com/12372151/141249562-e72145dd-f3ab-4e28-88af-b8737c1a6a3e.png">
