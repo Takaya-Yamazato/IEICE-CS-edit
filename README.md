@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  academic-central
+  IEICE Communication Society Editorial Board
 </h1>
 
 このサイトは [Gatsby](https://www.gatsbyjs.com/) を使って作成しています．
