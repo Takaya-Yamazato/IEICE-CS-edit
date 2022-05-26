@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Why should we write papers
 date: 2020-12-4T13:00:10.000Z
-description: The editor-in-chief, Prof. Yamazato, will talk about why we write
+description: The editor-in-chief, Prof. Yamazato (2020-2021), will talk about why we write
   journal paper.  This presentation is a part of opening remark of specail
   session by the editorial board at the first Communication Society falg-ship
   conference, ICETC.
@@ -12,6 +12,7 @@ tags:
   - Journal paper
   - Communication society
 ---
+
 <iframe src="https://player.vimeo.com/video/491092904" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 When I am pondering various ideas, I run into questions about what a paper is, why we write papers, what editing is, and so on.
@@ -34,6 +35,6 @@ Now, ladies and gentlemen, for the next generation of engineers and researchers,
 
 Takaya Yamazato, Nagoya University. <br>
 
-Editor-in-chief, Communication Society,<br>
+Editor-in-chief (2020-2021), Communication Society,<br>
 
 Institute of Electronics, Information and Communication Engineers (IEICE)

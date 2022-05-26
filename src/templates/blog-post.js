@@ -26,7 +26,6 @@ const BlogPostTemplate = ({ data, location }) => {
               {post.frontmatter.date}
               <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{post.frontmatter.title}</h1>
               <p>{post.frontmatter.description}</p>
-              {/* <section dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" /> */}
               <p className="blogPost">
                 <section dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
               </p>
@@ -34,7 +33,7 @@ const BlogPostTemplate = ({ data, location }) => {
                 <div style={{ marginTop: `4rem` }}>
                   <h4>Tags</h4>
                   <ul className="taglist">
-                    {post.frontmatter.tags.map(tag => (
+                    {post.frontmatter.tags.map((tag) => (
                       <li key={tag + `tag`}>
                         <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                       </li>
@@ -42,79 +41,10 @@ const BlogPostTemplate = ({ data, location }) => {
                   </ul>
                 </div>
               ) : null}
-              {/* <hr></hr>
-            <nav className="blog-post-nav">
-            <ul
-              style={{
-                display: `flex`,
-                flexWrap: `wrap`,
-                justifyContent: `space-between`,
-                listStyle: `none`,
-                padding: 0,
-              }}
-            >
-              <li>
-                {previous && (
-                  <Link to={previous.fields.slug} rel="prev">
-                    ← {previous.frontmatter.title}
-                  </Link>
-                )}
-              </li>
-              <li>
-                {next && (
-                  <Link to={next.fields.slug} rel="next">
-                    {next.frontmatter.title} →
-                  </Link>
-                )}
-              </li>
-            </ul>
-          </nav>  */}
             </div>
           </div>
         </div>
       </section>
-      {/*
-      <article
-        className="blog-post"
-        itemScope
-        itemType="http://schema.org/Article"
-      >
-        <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
-        </header>
-        <section
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          itemProp="articleBody"
-        />
-
-      </article>
-      <nav className="blog-post-nav">
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav> */}
     </Layout>
   );
 };

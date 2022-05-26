@@ -49,7 +49,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       createNodeField({
         name: `slug`,
         node,
-        value
+        value,
       });
     }
   };
@@ -68,8 +68,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         context: {
           id: post.id,
           previousPostId,
-          nextPostId
-        }
+          nextPostId,
+        },
       });
     });
   }
@@ -77,7 +77,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Tag pages:
   let tags = [];
   // Iterate through each post, putting all found tags into `tags`
-  posts.forEach(post => {
+  posts.forEach((post) => {
     // if (_.get(post, `post.frontmatter.tags`)) {
     tags = tags.concat(post.frontmatter.tags);
     // }
@@ -87,15 +87,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   tags = _.uniq(tags);
 
   // Make tag pages
-  tags.forEach(tag => {
+  tags.forEach((tag) => {
     const tagPath = `/tags/${_.kebabCase(tag)}/`;
 
     createPage({
       path: tagPath,
       component: path.resolve(`src/templates/tags.js`),
       context: {
-        tag
-      }
+        tag,
+      },
     }); // End createPage
   }); // End Make tag pages
 };
@@ -109,7 +109,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value
+      value,
     });
   }
 };
@@ -125,15 +125,11 @@ exports.createSchemaCustomization = ({ actions }) => {
   // blog posts are stored inside "content/blog" instead of returning an error
   createTypes(`
     type SiteSiteMetadata {
-      author: Author
+      author: String
       siteUrl: String
       social: Social
       title: String
       description: String
-    }
-    type Author {
-      name: String
-      summary: String
     }
     type Social {
       twitter: String
