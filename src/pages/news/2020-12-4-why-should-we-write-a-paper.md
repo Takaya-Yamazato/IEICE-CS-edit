@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Why should we write papers
 date: 2020-12-4T13:00:10.000Z
-description: The editor-in-chief, Prof. Yamazato (2020-2021), will talk about why we write
+description: The Editorial Board Chair, Prof. Yamazato (2020-2021), will talk about why we write
   journal paper.  This presentation is a part of opening remark of specail
   session by the editorial board at the first Communication Society falg-ship
   conference, ICETC.
@@ -33,8 +33,10 @@ With this in mind, it is no exaggeration to say that the IEICE Transactions on C
 
 Now, ladies and gentlemen, for the next generation of engineers and researchers, and the future of communications, let's submit a paper.
 
+<br />
+
 Takaya Yamazato, Nagoya University. <br>
 
-Editor-in-chief (2020-2021), Communication Society,<br>
+Editorial Board Chair (2020-2021), Communication Society,<br>
 
 Institute of Electronics, Information and Communication Engineers (IEICE)
