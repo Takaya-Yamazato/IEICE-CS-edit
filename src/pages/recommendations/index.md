@@ -14,7 +14,7 @@ This initiative aims to increase the number of presentations at research meeting
 
 The following is the list of recommended papers selected by the editorial board.
 
-- [2022 Spring](/news/2020-05-25-Recommended-Presentations-by-Editorial-Board/)
+- [2022 Spring](/news/2022-05-25-Recommended-Presentations-by-Editorial-Board/)
 
 - [2021 Fall](/news/2021-11-01-Recommended-Presentations-by-Editorial-Board/)
 
