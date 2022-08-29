@@ -63,5 +63,5 @@ How about being a two-way player?
 ---
 
 Takaya Yamazato, Nagoya University. <br>
-Editor-in-chief, Communication Society,<br>
+Editorial Board Chair (2020-2021), Communication Society,<br>
 Institute of Electronics, Information and Communication Engineers (IEICE)
