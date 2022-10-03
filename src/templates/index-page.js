@@ -1,31 +1,34 @@
-import * as React from "react";
+import * as React from 'react'
 // import PropTypes from 'prop-types'
-import { Link, graphql } from "gatsby";
-import SeO from "../components/seo";
-import Layout from "../components/Layout";
-import BlogRoll from "../components/BlogRoll";
+import { Link, graphql } from 'gatsby'
+import SeO from '../components/seo'
+import Layout from '../components/Layout'
+import BlogRoll from '../components/BlogRoll'
 // import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const IndexPageTemplate = ({ data }) => (
   <Layout>
-    <SeO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} />
+    <SeO
+      title={data.markdownRemark.frontmatter.title}
+      description={data.markdownRemark.frontmatter.description}
+    />
     <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url('img/home-jumbotron.jpg')`,
         // backgroundImage: {data.markdownRemark.image},
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`
+        backgroundAttachment: `fixed`,
       }}
     >
       <h1
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: "0.5rem 0 0 #004400, -0.5rem 0 0 #004400",
-          backgroundColor: "#004400",
-          color: "white",
-          padding: "1rem"
+          boxShadow: '0.5rem 0 0 #004400, -0.5rem 0 0 #004400',
+          backgroundColor: '#004400',
+          color: 'white',
+          padding: '1rem',
         }}
       >
         {data.markdownRemark.frontmatter.title}
@@ -51,13 +54,22 @@ const IndexPageTemplate = ({ data }) => (
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">{/* <p>{data.markdownRemark.frontmatter.aboutUs}</p> */}</div>
-                  <section className="content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                  <div className="tile">
+                    {/* <p>{data.markdownRemark.frontmatter.aboutUs}</p> */}
+                  </div>
+                  <section
+                    className="content"
+                    dangerouslySetInnerHTML={{
+                      __html: data.markdownRemark.html,
+                    }}
+                  />
                 </div>
 
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">{data.markdownRemark.frontmatter.heading}</h3>
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {data.markdownRemark.frontmatter.heading}
+                    </h3>
                     <p>{data.markdownRemark.frontmatter.description}</p>
                   </div>
                 </div>
@@ -69,19 +81,32 @@ const IndexPageTemplate = ({ data }) => (
                       <div className="has-text-centered">
                         <div
                           style={{
-                            width: "240px",
-                            display: "inline-block"
+                            width: '240px',
+                            display: 'inline-block',
                           }}
                         >
-                          <a href="https://www.ieice.org/cs/jpn/EB/index.html" target="_blank" rel="noopener noreferrer">
-                            <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.eb.image} />
+                          <a
+                            href="https://www.ieice.org/cs/jpn/EB/index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <PreviewCompatibleImage
+                              imageInfo={
+                                data.markdownRemark.frontmatter.eb.image
+                              }
+                            />
                             {/* <GatsbyImage image={ebimage} style={{ borderRadius: '5px' }} alt="IEICE EB" /> */}
                           </a>
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.eb.text}</p>
                       <div className="column is-12 has-text-centered">
-                        <a className="btn" href="https://search.ieice.org/bin/index.php?category=B&amp;lang=E" target="_blank" rel="noopener noreferrer">
+                        <a
+                          className="btn"
+                          href="https://search.ieice.org/bin/index.php?category=B&amp;lang=E"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           See latest papers
                         </a>
                       </div>
@@ -92,19 +117,32 @@ const IndexPageTemplate = ({ data }) => (
                       <div className="has-text-centered">
                         <div
                           style={{
-                            width: "240px",
-                            display: "inline-block"
+                            width: '240px',
+                            display: 'inline-block',
                           }}
                         >
-                          <a href="https://www.ieice.org/publications/comex/" target="_blank" rel="noopener noreferrer">
-                            <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.comex.image} />
+                          <a
+                            href="https://www.ieice.org/publications/comex/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <PreviewCompatibleImage
+                              imageInfo={
+                                data.markdownRemark.frontmatter.comex.image
+                              }
+                            />
                             {/* <GatsbyImage image={comeximage} style={{ borderRadius: '5px' }} alt="IEICE ComEX" /> */}
                           </a>
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.comex.text}</p>
                       <div className="column is-12 has-text-centered">
-                        <a className="btn" href="https://www.ieice.org/publications/comex/" target="_blank" rel="noopener noreferrer">
+                        <a
+                          className="btn"
+                          href="https://www.ieice.org/publications/comex/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           See latest papers
                         </a>
                       </div>
@@ -118,19 +156,32 @@ const IndexPageTemplate = ({ data }) => (
                       <div className="has-text-centered">
                         <div
                           style={{
-                            width: "240px",
-                            display: "inline-block"
+                            width: '240px',
+                            display: 'inline-block',
                           }}
                         >
-                          <a href="https://www.ieice.org/cs/jpn/JB/index-new.html" target="_blank" rel="noopener noreferrer">
-                            <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.jb.image} />
+                          <a
+                            href="https://www.ieice.org/cs/jpn/JB/index-new.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <PreviewCompatibleImage
+                              imageInfo={
+                                data.markdownRemark.frontmatter.jb.image
+                              }
+                            />
                             {/* <GatsbyImage image={jbimage} style={{ borderRadius: '5px' }} alt="IEICE JB" /> */}
                           </a>
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.jb.text}</p>
                       <div className="column is-12 has-text-centered">
-                        <a className="btn" href="https://search.ieice.org/bin/index.php?category=B&amp;lang=J" target="_blank" rel="noopener noreferrer">
+                        <a
+                          className="btn"
+                          href="https://search.ieice.org/bin/index.php?category=B&amp;lang=J"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           See latest papers
                         </a>
                       </div>
@@ -141,19 +192,32 @@ const IndexPageTemplate = ({ data }) => (
                       <div className="has-text-centered">
                         <div
                           style={{
-                            width: "240px",
-                            display: "inline-block"
+                            width: '240px',
+                            display: 'inline-block',
                           }}
                         >
-                          <a href="https://www.ieice.org/~cs-edit/magazine/" target="_blank" rel="noopener noreferrer">
-                            <PreviewCompatibleImage imageInfo={data.markdownRemark.frontmatter.bPlus.image} />
+                          <a
+                            href="https://www.ieice.org/~cs-edit/magazine/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <PreviewCompatibleImage
+                              imageInfo={
+                                data.markdownRemark.frontmatter.bPlus.image
+                              }
+                            />
                             {/* <GatsbyImage image={bPlusimage} style={{ borderRadius: '5px' }} alt="IEICE bPlus" /> */}
                           </a>
                         </div>
                       </div>
                       <p>{data.markdownRemark.frontmatter.bPlus.text}</p>
                       <div className="column is-12 has-text-centered">
-                        <a className="btn" href="https://www.ieice.org/~cs-edit/magazine/" target="_blank" rel="noopener noreferrer">
+                        <a
+                          className="btn"
+                          href="https://www.ieice.org/~cs-edit/magazine/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           See latest articles
                         </a>
                       </div>
@@ -162,7 +226,9 @@ const IndexPageTemplate = ({ data }) => (
                 </div>
 
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">News and Updates</h3>
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    News and Updates
+                  </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/news">
@@ -177,9 +243,9 @@ const IndexPageTemplate = ({ data }) => (
       </div>
     </section>
   </Layout>
-);
+)
 
-export default IndexPageTemplate;
+export default IndexPageTemplate
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -239,4 +305,4 @@ export const pageQuery = graphql`
       html
     }
   }
-`;
+`

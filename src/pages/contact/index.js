@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 // import { graphql } from "gatsby"
 // import { navigate } from 'gatsby-link'
-import Layout from "../../components/Layout";
+import Layout from '../../components/Layout'
 
 const ContactUsPage = () => (
   <Layout>
@@ -10,9 +10,13 @@ const ContactUsPage = () => (
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">Contact</h2>
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Contact
+              </h2>
               <div class="columns">
-                <div class="column is-size-5">For your inquiry, please contact us via email.</div>
+                <div class="column is-size-5">
+                  For your inquiry, please contact us via email.
+                </div>
               </div>
               <div class="columns">
                 <div class="column is-half">Transactions on Communications</div>
@@ -32,6 +36,6 @@ const ContactUsPage = () => (
       </div>
     </section>
   </Layout>
-);
+)
 
-export default ContactUsPage;
+export default ContactUsPage
