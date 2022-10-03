@@ -1,7 +1,7 @@
-import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
-import Layout from "../components/Layout";
-import SeO from "../components/seo";
+import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import Layout from '../components/Layout'
+import SeO from '../components/seo'
 
 export default function Award() {
   const data = useStaticQuery(graphql`
@@ -22,10 +22,10 @@ export default function Award() {
         html
       }
     }
-  `);
+  `)
 
-  const post = data.markdownRemark;
-  const siteTitle = data.site.siteMetadata?.title || `Title`;
+  const post = data.markdownRemark
+  const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return (
     // <Layout location={location} title={siteTitle}>
@@ -40,14 +40,19 @@ export default function Award() {
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="section">
-                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">{post.frontmatter.title}</h2>
+                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                  {post.frontmatter.title}
+                </h2>
                 <h5>{post.frontmatter.date}</h5>
-                <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
+                <div
+                  className="content"
+                  dangerouslySetInnerHTML={{ __html: post.html }}
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
     </Layout>
-  );
+  )
 }
