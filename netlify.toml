@@ -3,6 +3,6 @@
   command = "yarn run netlify-build"
   functions = "lambda"
 [build.environment]
-  NODE_VERSION = "14.19.2"
+  NODE_VERSION = "18.7.0"
   YARN_VERSION = "1.22.19"
   YARN_FLAGS = "--no-ignore-optional"
