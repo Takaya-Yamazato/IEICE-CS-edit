@@ -123,11 +123,11 @@ README.md:
 
 ```
 % gatsby clean && gatsby build
-(npm run clean; npm run build でもOK)
+(yarn run clean; yarn run build でもOK)
 ```
 
 最初の `gatsby clean` はキャッシュや不要ファイルを削除するコマンドです。
-`npm run clean, npm run build` は `package.json`で定義されています。
+`yarn run clean, yarn run build` は `package.json`で定義されています。
 
 ## ディベロプ (develop)
 
@@ -135,7 +135,7 @@ README.md:
 
 ```
 % gatsby clean && gatsby develop
-(npm run clean; npm run develop でもOK)
+(yarn run clean; yarn run develop でもOK)
 ```
 
 http://localhost:8000/ で見ることができます．
