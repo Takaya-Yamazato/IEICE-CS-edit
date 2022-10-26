@@ -7,11 +7,11 @@ date: 2022-11-01T11:00:57.137Z
 
 IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-Stage to IEEE Xplore.
 
-EB will be open access journal.
+EB will be an open access journal.
 
-We are currently finalizing the transition schedule, Information for Authors, and the revision of publication fees. We will announce these changes through the IEICE Editorial Board homepage (this site), so please check back regularly for updates.
+We are currently finalizing the transition schedule, Information for Authors, and the revision of publication fees. We will announce these changes through the [IEICE Editorial Board homepage](https://www.ieice.org/cs/cs-edit/en/) (this site), so please check back regularly for updates.
 
-There will be no change in the publication on IEICE Transactions online, and EB and ComEX will remain available on IEICE Transactions online.
+There will be no change in the publication on [IEICE Transactions online](https://search.ieice.org/bin/index.php?category=B&lang=E&curr=1), and EB and ComEX will remain available on [IEICE Transactions online](https://search.ieice.org/bin/index.php?category=B&lang=E&curr=1).
 
 ---
 
@@ -21,6 +21,6 @@ There will be no change in the publication on IEICE Transactions online, and EB 
 
 EB についてはオープンアクセスでの公開になります．
 
-現在，移行スケジュール，Information for Authors および掲載料の改定について詰めの作業を行っております．これらについては，通ソ編集会議 HP (このサイトです) などを通して随時お知らせいたしますので，会員の皆様におかれましては適宜ご確認下さいますようお願い申し上げます．
+現在，移行スケジュール，Information for Authors および掲載料の改定について詰めの作業を行っております．これらについては，[通ソ編集会議 HP](https://www.ieice.org/cs/cs-edit/en/) (このサイトです) などを通して随時お知らせいたしますので，会員の皆様におかれましては適宜ご確認下さいますようお願い申し上げます．
 
-なお，IEICE Transactions online での公開については変更はありません．
+なお，[IEICE Transactions online](https://www.ieice.org/jpn_r/transactions/transactions_online/index.html) での公開については変更はありません．
