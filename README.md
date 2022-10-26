@@ -31,10 +31,10 @@ Github のアカウントがあることを前提にしています。
 クローンしたディレクトに移動し、そこで作業します。
 
 ```
-% cd academic-central
+% cd IEICE-CS-edit/
 % ls
-CODE_OF_CONDUCT.md LICENSE            _headers           gatsby-node.js     netlify.toml       renovate.json      static
-CONTRIBUTING.md    README.md          gatsby-config.js   lambda             package.json       src                yarn.lock
+CODE_OF_CONDUCT.md       LICENSE                  README.md                gatsby-config.js         lambda                   node_modules             public                   static
+CONTRIBUTING.md          PULL_REQUEST_TEMPLATE.md _headers                 gatsby-node.js           netlify.toml             package.json             src                      yarn.lock
 ```
 
 🧐 What's inside?
@@ -57,11 +57,12 @@ $ tree -L 1
 ├── node_modules
 ├── package.json
 ├── public
-├── renovate.json
 ├── src
 ├── static
-├── tmp
 └── yarn.lock
+
+5 directories, 11 files
+
 ```
 
 以下，重要なものだけ説明します．
@@ -123,11 +124,11 @@ README.md:
 
 ```
 % gatsby clean && gatsby build
-(npm run clean; npm run build でもOK)
+(yarn run clean; yarn run build でもOK)
 ```
 
 最初の `gatsby clean` はキャッシュや不要ファイルを削除するコマンドです。
-`npm run clean, npm run build` は `package.json`で定義されています。
+`yarn run clean, yarn run build` は `package.json`で定義されています。
 
 ## ディベロプ (develop)
 
@@ -135,7 +136,7 @@ README.md:
 
 ```
 % gatsby clean && gatsby develop
-(npm run clean; npm run develop でもOK)
+(yarn run clean; yarn run develop でもOK)
 ```
 
 http://localhost:8000/ で見ることができます．
