@@ -1,7 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { useStaticQuery, graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import React from "react";
+// import PropTypes from 'prop-types'
+import { useStaticQuery, graphql } from "gatsby";
+import Layout from "../components/Layout";
 // import Content, { HTMLContent } from '../components/Content'
 
 export default function DefaultPage() {
@@ -23,9 +23,9 @@ export default function DefaultPage() {
         html
       }
     }
-  `)
+  `);
 
-  const post = data.markdownRemark
+  const post = data.markdownRemark;
   // const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return (
@@ -39,17 +39,14 @@ export default function DefaultPage() {
                   {post.frontmatter.title}
                   {/* {siteTitle} */}
                 </h2>
-                <div
-                  className="content"
-                  dangerouslySetInnerHTML={{ __html: post.html }}
-                />
+                <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
               </div>
             </div>
           </div>
         </div>
       </section>
     </Layout>
-  )
+  );
 }
 
 // DefaultPageTemplate.propTypes = {
@@ -59,7 +56,7 @@ export default function DefaultPage() {
 // }
 
 const DefaultPageTemplate = ({ data }) => {
-  const post = data.markdownRemark
+  const post = data.markdownRemark;
 
   return (
     <Layout>
@@ -69,8 +66,8 @@ const DefaultPageTemplate = ({ data }) => {
         content={post.html}
       />
     </Layout>
-  )
-}
+  );
+};
 
 // DefaultPageTemplate.propTypes = {
 //   data: PropTypes.object.isRequired,
