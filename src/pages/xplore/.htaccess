@@ -1,2 +1,0 @@
-AuthType Basic AuthUserFile /home/cs/cs-edit/public_html/meeting/.htpasswd AuthName Editorial_Board_Members_Page
-<Limit GET POST> require valid-user </Limit>

@@ -15,6 +15,8 @@ There will be no change in the publication on IEICE Transactions online, and EB 
 
 ---
 
+# EB および ComEX の IEEE Xplore への移行について
+
 通信ソサイエティの英文論文誌，IEICE Transactions on Communications (EB) および IEICE Communications Express (ComEX) は論文の公開サイトを現在の J-Stage から IEEE Xplore へ変更します．
 
 EB についてはオープンアクセスでの公開になります．
