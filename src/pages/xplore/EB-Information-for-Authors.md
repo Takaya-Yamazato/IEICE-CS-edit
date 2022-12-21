@@ -17,7 +17,7 @@ For those who submit their manuscripts before February 1st, 2024, please refer [
 
 ---
 
-## The IEICE Transactions on Communications
+<a id="the-ieice-transactions-on-communications-the-information-for-authors"></a>
 
 ## The Information for Authors (IEEE Xplore version)
 
@@ -33,51 +33,58 @@ This document is for IEEE Xplore publication, which is applicable after the subm
 
 Table of Contents
 
-1.  General guidelines
-    1.1 Type of manuscript
-    1.1.1 PAPER
-    1.1.2 WRITTEN DISCUSSION
-    1.2 Scope
-    1.3 Eligibility for submission
-    1.4 Originality of manuscript
-    1.4.1 Copyright compliance
-    1.4.2 No duplicate submissions
-    1.5 Counter measures against duplicate submission
-    1.6 Protection of Personal Information
-    1.7 Open access publishing
-    1.8 Ethical considerations in research involving human and animal participants
-2.  Process for Initial Submission of a Manuscript
-3.  Manuscript Style Specifications
-    3.1 Length of manuscript
-    3.2 Manuscript style
-    3.3 Manuscript format
-    3.4 When using IEICE LaTeX style file
-    3.5 When using MS-Word Template file
-    3.6 Style for figures, photographs and tables
-    3.7 References
-    3.7.1 Style for references
-    3.7.2 Articles with digital object identifier (DOI)
-    3.7.3 Citation of references
-4.  Galley Proofs
+- [The IEICE Transactions on Communications The Information for Authors](#the-ieice-transactions-on-communications-the-information-for-authors)
+  - [1. General guidelines](#1-general-guidelines)
+    - [1.1 Type of manuscript](#11-type-of-manuscript)
+      - [1.1.1 PAPER](#111-paper)
+      - [1.1.2 WRITTEN DISCUSSION](#112-written-discussion)
+    - [1.2 Scope](#12-scope)
+    - [1.3 Recommendation for non-members to join the IEICE](#13-recommendation-for-non-members-to-join-the-ieice)
+    - [1.4 Originality of manuscript](#14-originality-of-manuscript)
+      - [1.4.1 Copyright Compliance](#141-copyright-compliance)
+      - [1.4.2 No Duplicate Submissions](#142-no-duplicate-submissions)
+    - [1.5 Counter measures against duplicate submission](#15-counter-measures-against-duplicate-submission)
+    - [1.6 Protection of Personal Information](#16-protection-of-personal-information)
+    - [1.7 Open access publishing](#17-open-access-publishing)
+    - [1.8 Ethical considerations in research involving human and animal participants](#18-ethical-considerations-in-research-involving-human-and-animal-participants)
+  - [2. Process for Initial Submission of a Manuscript](#2-process-for-initial-submission-of-a-manuscript)
+  - [3. Manuscript Style Specifications](#3-manuscript-style-specifications)
+    - [3.1 Length of manuscript](#31-length-of-manuscript)
+    - [3.2 Manuscript style](#32-manuscript-style)
+  - [3.3 Manuscript format](#33-manuscript-format)
+  - [3.4 When using IEICE LaTeX style file](#34-when-using-ieice-latex-style-file)
+    - [3.5 When using MS-Word Template file](#35-when-using-ms-word-template-file)
+    - [3.6 Style for figures, photographs and tables](#36-style-for-figures-photographs-and-tables)
+    - [3.7 References](#37-references)
+      - [3.7.1 Style for references](#371-style-for-references)
+      - [3.7.2 Articles with digital object identifier (DOI)](#372-articles-with-digital-object-identifier-doi)
+      - [3.7.3 Citation of references](#373-citation-of-references)
+  - [4. Galley Proofs](#4-galley-proofs)
+  - [5. Article Processing Charges](#5-article-processing-charges)
+    - [5.1 Article processing charges](#51-article-processing-charges)
+      - [Article processing charges for a PAPER](#article-processing-charges-for-a-paper)
+      - [Article processing charges for a WRITTEN DISCUSSION](#article-processing-charges-for-a-written-discussion)
+      - [Overlength charge (per a page): 21,780 yen.](#overlength-charge-per-a-page-21780-yen)
+      - [Non-membership charge: 20,000 yen](#non-membership-charge-20000-yen)
+    - [5.2 Overseas Membership Development Program (OMDP)](#52-overseas-membership-development-program-omdp)
+  - [6. Copyright](#6-copyright)
+  - [7. Review Process](#7-review-process)
+    - [7.1 Review criteria](#71-review-criteria)
+    - [7.2 Decision to accept for publication](#72-decision-to-accept-for-publication)
+      - [\* Revised manuscript submission](#-revised-manuscript-submission)
+    - [7.3 Resubmission](#73-resubmission)
+    - [7.4 Request for Reconsideration](#74-request-for-reconsideration)
+    - [7.5 Withdrawal of Submission](#75-withdrawal-of-submission)
+  - [8. Advance publication (from Oct. 16, 2023)](#8-advance-publication-from-oct-16-2023)
 
-5.  Article Processing Charges
-    5.1 Article processing charges
-    5.2 Overseas Membership Development Program (OMDP)
-6.  Copyright
-
-7.  Review Process
-    7.1 Review criteria
-    7.2 Decision to accept for publication
-    7.3 Resubmission
-    7.4 Request for Reconsideration
-    7.5 Withdrawal of Submission
-8.  [Advance publication](#8-advance-publication)
-
-APPENDIX
+[APPENDIX](#appendix)
 
 Appendix A. Copyright Transfer and Article Processing Charge Agreement
+
 Appendix B. Overlength Request Form
+
 Appendix C. Abbreviated Journal Names
+
 Appendix D. Editorial Subject Indexes of The Four IEICE Transactions
 
 ---
@@ -87,6 +94,8 @@ Appendix D. Editorial Subject Indexes of The Four IEICE Transactions
 The information described herein is subject to change without prior notification. [Last Revised on June 1, 2022]
 
 ## 1. General guidelines
+
+<a id="#1-general-guidelines"></a>
 
 ### 1.1 Type of manuscript
 
@@ -223,6 +232,8 @@ The author(s) must obtain approval from the ethics committee or the equivalent o
 
 ## 2. Process for Initial Submission of a Manuscript
 
+<a id="#2-process-for-initial-submission-of-a-manuscript"></a>
+
 Each submitted manuscript is categorized as either a "PAPER" or a "WRITTEN DISCUSSION". When submitting a manuscript to a Regular Section, the author(s) must register their submission using the "Manuscript Registration Form" provided on our web page. Manuscript Registration Form for Initial Submission.
 
 STEP 1: Register Basic Information, and STEP 2: Register Detailed Information
@@ -272,6 +283,8 @@ Tel: +81-3-3433-6692 Fax: +81-3-3433-6616
 E-mail: Trans. on Communications: trans-b@ieice.org
 
 ## 3. Manuscript Style Specifications
+
+<a id="#3-manuscript-style-specifications"></a>
 
 ### 3.1 Length of manuscript
 
@@ -396,9 +409,13 @@ References must be cited by number in brackets, e.g. [12]. Superscript format mu
 
 ## 4. Galley Proofs
 
+<a id="#4-galley-proofs"></a>
+
 About 6-7 weeks prior to publication, authors will be asked only once to proofread the galley proofs. In revising the manuscript, only misprints may be changed. Be aware that we do not accept any change in the authors' names, including the order of the listed authors.
 
 ## 5. Article Processing Charges
+
+<a id="#5-article-processing-charges"></a>
 
 ### 5.1 Article processing charges
 
@@ -438,6 +455,8 @@ Also note that the OMDP is not applicable if all authors are non-members
 
 ## 6. Copyright
 
+<a id="#6-copyright"></a>
+
 The copyrights of all articles in the Transactions published by the IEICE are automatically transferred to the IEICE. However, the original authors retain the right to copy, translate, or modify their own manuscripts.
 In cases when a manuscript is translated into another language or when any portion of the manuscript is to be submitted to another publication, authors must register the action with the IEICE, and the original manuscript must be clearly cited in the publications.
 
@@ -456,6 +475,8 @@ In cases when a manuscript is translated into another language or when any porti
 For details, refer to the IEICE Provisions on Copyright.
 
 ## 7. Review Process
+
+<a id="7-review-process"></a>
 
 ### 7.1 Review criteria
 

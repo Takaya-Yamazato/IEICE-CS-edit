@@ -22,11 +22,11 @@ There will be no change in the publication on [IEICE Transactions online](https:
 
 # IEICE Transactions on Communications (EB)
 
-- [New information for authors, effective from February 1st, 2024.](/xplore/EB/Information-for-Authors/)
+- [New information for authors, effective from February 1st, 2024.](/xplore/EB-Information-for-Authors/)
 
 # IEICE Communications Express (ComEX)
 
-- [New information for authors, effective from June 1st, 2023.](/xplore/ComEX/Information-for-Authors/)
+- [New information for authors, effective from June 1st, 2023.](/xplore/ComEX-Information-for-Authors/)
 
 ---
 
@@ -42,8 +42,8 @@ EB についてはオープンアクセスでの公開になります．
 
 # IEICE Transactions on Communications (EB)
 
-- [新しい投稿のしおり（2024 年 2 月 1 日以降の投稿から有効）](/xplore/EB/Information-for-authors/)
+- [新しい投稿のしおり（2024 年 2 月 1 日以降の投稿から有効）](/xplore/EB-Information-for-authors/)
 
 # IEICE Communications Express (ComEX)
 
-- [新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）](/xplore/ComEX/Information-for-authors/)
+- [新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）](/xplore/ComEX-Information-for-authors/)
