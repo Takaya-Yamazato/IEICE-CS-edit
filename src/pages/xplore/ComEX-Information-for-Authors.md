@@ -64,10 +64,15 @@ If there are non-members among the authors, we recommend that the authors take t
 All ComEX papers are classified with LETTER, which includes reports on research, developments, and examinations for the specific fields shown in the category list, such as detailed below, the contents of which may advance the development of science and industry:
 
 1. Reports on research for a prompt announcement.
+
    (a) Reports on new theories, experiments with new contents, or extensions of and supplements to conventional theories and experiments.
+
    (b) Reports on the development of measurement technology and various applied technologies.
+
    (c) Reports on the planning, design, manufacture, testing, or operation of facilities, machinery, parts, materials, etc.
-   (d) Presentation of new methods, a suggestion of new angles, ideas, systematization, software, or any new facts regarding the above (a) to (c).
+
+   (d) Presentation of new methods, a suggestion of new angles, ideas, systematization, software, or any new facts regarding the above (a) to (c).<br /><br />
+
 2. Written discussions to submit opinions to articles published in ComEX.
 3. Suggestion of critical opinions conceived in relation to research.
 
@@ -227,13 +232,17 @@ An Associate Editor will carry out the manuscript review in as expeditious a fas
 
 ## Advance publication:
 
-For letters submitted from June 1st, 2023, accepted letters will be published online on J-STAGE and IEEE Xplore. Accepted letters will be published under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). Please note that advance publication articles have not been proofread. These articles will be replaced by the finalized versions after proofreading. The date of advance publication is the date of publication of the article. To cite an advance publication article, the article’s Digital Object Identifier (DOI) should be used. The DOI is a unique identifier for each article, and does not change after official publication. Although the volume, number and pages are assigned to the article after official publication, it is recommended that the DOI is also indicated.
+For letters submitted from June 1st, 2023, accepted letters will be published online on J-STAGE and IEEE Xplore. Accepted letters will be published under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/). Please note that advance publication articles have not been proofread. These articles will be replaced by the finalized versions after proofreading. The date of advance publication is the date of publication of the article. To cite an advance publication article, the article’s Digital Object Identifier (DOI) should be used. The DOI is a unique identifier for each article, and does not change after official publication. Although the volume, number and pages are assigned to the article after official publication, it is recommended that the DOI is also indicated.
 
 A style for listing cited advance publication articles:
+
 [1] A. Anyone and B. Another, "On advance publication," IEICE Commun. Express., Jan. 2015. DOI:10.1587/comex.2015XBL1234.
 
 A style for listing cited articles after official publication:
-Same as for advance publication articles, or, [2] A. Anyone and B. Another, "On advance publication," IEICE Commun. Express., vol.4, no.x, (Month) 2015. DOI:10.1587/comex.2015XBL1234.
+
+Same as for advance publication articles, or,
+
+[2] A. Anyone and B. Another, "On advance publication," IEICE Commun. Express., vol.4, no.x, (Month) 2015. DOI:10.1587/comex.2015XBL1234.
 
 <a id="reading-page-proof"></a>
 
