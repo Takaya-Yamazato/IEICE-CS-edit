@@ -15,6 +15,8 @@ tags:
 **Please note that this is for the authors who submit their manuscripts to IEICE Transactions on Communications (EB) <span style="color: red; ">after February 1st, 2024</span>.<br />
 For those who submit their manuscripts before February 1st, 2024, please refer [here](https://www.ieice.org/eng/shiori/mokuji_cs.html).</span>**
 
+The contents are subject to change without notification in advance.
+
 ---
 
 <a id="the-ieice-transactions-on-communications-the-information-for-authors"></a>

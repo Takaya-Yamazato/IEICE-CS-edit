@@ -16,6 +16,7 @@ tags:
 For those who submit their manuscripts before June 1st, 2023, please refer [here](https://www.ieice.org/cs_r/eng/comex/for_authors.html).**
 
 The contents are subject to change without notification in advance. Authors who submit manuscripts to ComEX must comply with the guidelines laid out in this document.
+
 The charter of ethics of the IEICE is available on the IEICE web page:
 https://www.ieice.org/eng/about_ieice/charter_of_ethics.html
 
