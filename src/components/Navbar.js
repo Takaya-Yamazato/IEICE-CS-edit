@@ -57,9 +57,9 @@ const Navbar = class extends React.Component {
           </div>
           <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/xplore/">
+              {/* <Link className="navbar-item" to="/xplore/">
                 Migration of EB and ComEX to IEEE Xplore
-              </Link>
+              </Link> */}
               <Link className="navbar-item" to="/awards/">
                 Awards
               </Link>
