@@ -21,7 +21,7 @@ The contents are subject to change without notification in advance.
 
 <a id="the-ieice-transactions-on-communications-the-information-for-authors"></a>
 
-## The Information for Authors (IEEE Xplore version)
+## The Information for Authors (IEEE Xplore version)<!-- omit in toc -->
 
 The contents would be subject to change without notification in advance.
 [Last Revised on Dec. xx, 2022] since October 1, 2002.
@@ -64,16 +64,11 @@ Table of Contents
   - [4. Galley Proofs](#4-galley-proofs)
   - [5. Article Processing Charges](#5-article-processing-charges)
     - [5.1 Article processing charges](#51-article-processing-charges)
-      - [Article processing charges for a PAPER](#article-processing-charges-for-a-paper)
-      - [Article processing charges for a WRITTEN DISCUSSION](#article-processing-charges-for-a-written-discussion)
-      - [Overlength charge (per a page): 21,780 yen.](#overlength-charge-per-a-page-21780-yen)
-      - [Non-membership charge: 20,000 yen](#non-membership-charge-20000-yen)
     - [5.2 Overseas Membership Development Program (OMDP)](#52-overseas-membership-development-program-omdp)
   - [6. Copyright](#6-copyright)
   - [7. Review Process](#7-review-process)
     - [7.1 Review criteria](#71-review-criteria)
     - [7.2 Decision to accept for publication](#72-decision-to-accept-for-publication)
-      - [\* Revised manuscript submission](#-revised-manuscript-submission)
     - [7.3 Resubmission](#73-resubmission)
     - [7.4 Request for Reconsideration](#74-request-for-reconsideration)
     - [7.5 Withdrawal of Submission](#75-withdrawal-of-submission)
@@ -95,13 +90,17 @@ Appendix D. Editorial Subject Indexes of The Four IEICE Transactions
 
 The information described herein is subject to change without prior notification. [Last Revised on June 1, 2022]
 
+<a id="1-general-guidelines"></a>
+
 ## 1. General guidelines
 
-<a id="#1-general-guidelines"></a>
+<a id="11-type-of-manuscript"></a>
 
 ### 1.1 Type of manuscript
 
 The manuscripts published in the Transactions are categorized as PAPER or WRITTEN DISCUSSION. PAPER is further classified into (regular) PAPER, SURVEY PAPER, or POSITION PAPER.
+
+<a id="111-paper"></a>
 
 #### 1.1.1 PAPER
 
@@ -135,9 +134,13 @@ POSITION PAPER: Articles with at least one of the following features and potenti
 
 Comprehensive evaluations of the proposed viewpoints, frameworks, paradigms, or ideas are not necessarily required. In view of this criterion, POSITION PAPERs are assumed to be shorter (around 6 pages) than PAPERs (standard number of pages is 8), although there is no restriction on the number of pages.
 
+<a id="112-written-discussion"></a>
+
 #### 1.1.2 WRITTEN DISCUSSION
 
 WRITTEN DISCUSSIONs are aimed at presenting opinions on articles published in the Transactions as well as raising readers' critical intellect through completely objective discussions.
+
+<a id="12-scope"></a>
 
 ### 1.2 Scope
 
@@ -164,11 +167,17 @@ IEICE Transactions on Communications is an all-electronic journal published occa
 
 Military technology is outside the scope of IEICE Transactions on Communications. IEICE Transactions on Communications will not reject a submission the basis of the source of research funding or the affiliation of authors. If necessary, IEICE Transactions on Communications will negotiate with authors.
 
+<a id="13-recommendation-for-non-members-to-join-the-ieice"></a>
+
 ### 1.3 Recommendation for non-members to join the IEICE
 
 If there are non-members among the authors, we recommend that the authors take this opportunity to join the IEICE. For detailed information on the IEICE Membership Application, go here. If all authors are non-members, the article processing charge for non-members will be applied, except for invited papers. Also note that OMDP (Overseas Membership Development Program in Section 5.2) is inapplicable if all authors are non-members.
 
+<a id="14-originality-of-manuscript"></a>
+
 ### 1.4 Originality of manuscript
+
+<a id="141-copyright-compliance"></a>
 
 #### 1.4.1 Copyright Compliance
 
@@ -181,6 +190,8 @@ If there are non-members among the authors, we recommend that the authors take t
 (3) Even if you are the author(s) of a manuscript, do not submit it if copyright problems exist, for example, if the copyright is held by a body other than the IEICE and cannot be transferred to the IEICE.
 
 (4) In cases deemed to comprise plagiarism, penalties identical to those assessed in the event of duplicate submission shall be applied.
+
+<a id="142-no-duplicate-submissions"></a>
 
 #### 1.4.2 No Duplicate Submissions
 
@@ -207,6 +218,8 @@ Manuscripts based on previously published conference papers are eligible for con
 
 \* As indicated in 1.1.1, POSITION PAPERs may be published even if comprehensive evaluations of the proposed viewpoints, frameworks, paradigms, or ideas are not presented. We encourage extended versions of POSITION PAPERs based on the same approach but with the associated thorough evaluations to be submitted to IEICE Transactions on Communications as a PAPER. In this case, note that the original POSITION PAPER must be appropriately referred to in the PAPER.
 
+<a id="15-counter-measures-against-duplicate-submission"></a>
+
 ### 1.5 Counter measures against duplicate submission
 
 If a manuscript is suspected of being a duplicate submission to any other journal, the IEICE Editorial Committee has the right to investigate the situation by exchanging information with the Editorial board of the journal concerned. When the duplicate submission is confirmed by discreet inquiries, the IEICE Editorial Committee will apply the following sanctions against all the authors of the manuscript.
@@ -219,22 +232,28 @@ If a manuscript is suspected of being a duplicate submission to any other journa
 
 (4) Publication of a notice announcing the cancelation of the paper (or written discussion) as well as the cancelation on the publishing web sites (IEEE Xplore,J-STAGE, and IEICE Transactions Online), in the case that the manuscript has already been published in our transactions.
 
+<a id="16-protection-of-personal-information"></a>
+
 ### 1.6 Protection of Personal Information
 
 Sufficient care must be exercised when submitting a manuscript bearing personal data such as photographs or names to the transactions. If necessary, written permission must be obtained from the individual(s) concerned.
+
+<a id="17-open-access-publishing"></a>
 
 ### 1.7 Open access publishing
 
 All papers after February 2024 are open to all readers in the world through IEEE Xplore.
 Note that this rule may be changed without notice.
 
+<a id="18-ethical-considerations-in-research-involving-human-and-animal-participants"></a>
+
 ### 1.8 Ethical considerations in research involving human and animal participants
 
 The author(s) must obtain approval from the ethics committee or the equivalent organization within the author's institution for research related to living organisms or the life activity of the participants. However, if the authors in the group belong to different institutions, it is sufficient to obtain approval from at least one of the institutions.
 
-## 2. Process for Initial Submission of a Manuscript
+<a id="2-process-for-initial-submission-of-a-manuscript"></a>
 
-<a id="#2-process-for-initial-submission-of-a-manuscript"></a>
+## 2. Process for Initial Submission of a Manuscript
 
 Each submitted manuscript is categorized as either a "PAPER" or a "WRITTEN DISCUSSION". When submitting a manuscript to a Regular Section, the author(s) must register their submission using the "Manuscript Registration Form" provided on our web page. Manuscript Registration Form for Initial Submission.
 
@@ -284,13 +303,17 @@ Tel: +81-3-3433-6692 Fax: +81-3-3433-6616
 
 E-mail: Trans. on Communications: trans-b@ieice.org
 
+<a id="3-manuscript-style-specifications"></a>
+
 ## 3. Manuscript Style Specifications
 
-<a id="#3-manuscript-style-specifications"></a>
+<a id="31-length-of-manuscript"></a>
 
 ### 3.1 Length of manuscript
 
 The standard number of pages is 8 for a PAPER and 2 for a WRITTEN DISCUSSION. The maximum number of pages for the initial submission of a PAPER is 15 and that of a WRITTEN DISCUSSION is 4. One page has approximately 900 words. If the authors would like to submit a PAPER, which exceeds the maximum number of pages for the initial submission, they must obtain permission from the Editorial board of the journal before submitting the manuscript. The Editorial Board does not accept any overlength requests about WRITTIN DISCUSSION.
+
+<a id="32-manuscript-style"></a>
 
 ### 3.2 Manuscript style
 
@@ -314,6 +337,8 @@ A manuscript must contain the following elements in the order specified below. I
 
 9. Appendix, if any 10. Photograph and biography of each author (not necessary for a WRITTEN DISCUSSION) 11. All figures, photographs, or tables
 
+<a id="33-manuscript-format"></a>
+
 ## 3.3 Manuscript format
 
 Two formats are available for manuscript submissions. Please prepare your manuscript using either
@@ -332,6 +357,8 @@ The LaTeX style file provided by the IEICE allows you to produce a manuscript vi
 
 The MS-Word template file provided by the IEICE allows you to produce a manuscript close to the final published version. Please note however that the page charge will be higher if you use the MS-Word template file.
 
+<a id="34-when-using-ieice-latex-style-file"></a>
+
 ## 3.4 When using IEICE LaTeX style file
 
 Submit a PDF file of the manuscript created by converting the manuscript prepared using the IEICE LaTeX style (ver. 2.2 for PLaTeX2E recommended) to PDF. This PDF file will be referred to in the preparation of the final published version. In the case of a manuscript submitted after a conditional acceptance, the revised parts must not be highlighted in the PDF file of the manuscript to be included in the editable electronic files. Diagrams created in the LaTeX environment, as well as figures produced electronically and then imported into the text in EPS or other format, must be output as they are. In the case of diagrams that cannot be thus imported into the text, enter the diagram number at the appropriate point in the text, along with the caption, leaving enough space for the diagram. Then, in the margin of the PDF file of the manuscript, enter the number of the diagram to be inserted. When submitting the electronic data of the manuscript and accompanying diagrams, please keep the following in mind:
@@ -343,6 +370,8 @@ Submit a PDF file of the manuscript created by converting the manuscript prepare
 (c) Insert tables directly in the source file of the text using the LaTeX table environment. Tables created using other software can be imported into the text in EPS or other format, in which case an EPS file of the relevant tables must be attached.
 
 (d) The minimum line width for figures and photographs in the final published version is 0.1 mm; please keep the scale ratio in mind when preparing your manuscript. If preparing figures or photographs in an application that does not allow you to adjust the line width numerically, do not use the smallest line width.
+
+<a id="35-when-using-ms-word-template-file"></a>
 
 ### 3.5 When using MS-Word Template file
 
@@ -360,6 +389,8 @@ Submit a PDF file of the manuscript created by converting the manuscript prepare
 
 (f) During the preparation of your manuscript, remember that the minimum line width that can be used for figures and photographs in the final published version is 0.1 mm. If using an application that does not allow you to adjust the line width numerically, do not use the smallest line width.
 
+<a id="36-style-for-figures-photographs-and-tables"></a>
+
 ### 3.6 Style for figures, photographs and tables
 
 1. All figures, photographs, and tables must be original works of the author(s).
@@ -370,7 +401,11 @@ Submit a PDF file of the manuscript created by converting the manuscript prepare
 6. Figures, photographs, and tables must have a width of 8 cm if they are to occupy one column and a width of 16 cm if they are to occupy 2 columns. In the case of submission of these items in hard copy, they must be the same scale as of the publication.
 7. Printed characters in figures and tables must be 7-point size (minimum).
 
+<a id="37-references"></a>
+
 ### 3.7 References
+
+<a id="371-style-for-references"></a>
 
 #### 3.7.1 Style for references
 
@@ -397,6 +432,8 @@ Web pages
 
 [5] Copyright Management Committee, "Standards for requesting the use of copyrighted articles etc. published in the Japanese and English IEICE publications (Except the IEICE Technical Report)," Institute of Electronics, Information and Communication Engineers, https://www.ieice.org/eng/about/explanation_table3.html, accessed Aug. 3. 2009.
 
+<a id="372-articles-with-digital-object-identifier-doi"></a>
+
 #### 3.7.2 Articles with digital object identifier (DOI)
 
 If an article has a DOI, its inclusion in the citation is recommended.
@@ -405,19 +442,23 @@ Example
 
 [6] I. Yamagami and J. Yamashita, "A Medium Access Control Protocol for Cognitive Radio Networks," IEICE Trans. Commun., vol. E62-B, no. 1, pp. 20-27, Jan. 2014. DOI:10.1587/transcom.2014EBP0001
 
+<a id="373-citation-of-references"></a>
+
 #### 3.7.3 Citation of references
 
 References must be cited by number in brackets, e.g. [12]. Superscript format must not be used.
 
-## 4. Galley Proofs
+<a id="4-galley-proofs"></a>
 
-<a id="#4-galley-proofs"></a>
+## 4. Galley Proofs
 
 About 6-7 weeks prior to publication, authors will be asked only once to proofread the galley proofs. In revising the manuscript, only misprints may be changed. Be aware that we do not accept any change in the authors' names, including the order of the listed authors.
 
+<a id="5-article-processing-charges"></a>
+
 ## 5. Article Processing Charges
 
-<a id="#5-article-processing-charges"></a>
+<a id="51-article-processing-charges"></a>
 
 ### 5.1 Article processing charges
 
@@ -425,13 +466,13 @@ Upon acceptance for publication, all authors, including authors of invited paper
 
 The article processing charges will be calculated on the basis of the format (LaTeX or Word) of the electronic source files. The use of the IEICE LaTeX style file incurs a lower article processing charge than the use of the Word format. Because files cannot be changed after a "Receipt of Manuscript" e-mail is sent to the author, using the IEICE LaTeX style file at the time of submission is recommended to authors who desire a lower article processing charge.
 
-#### Article processing charges for a PAPER
+#### Article processing charges for a PAPER <!-- omit in toc -->
 
 For the manuscripts prepared using the provided IEICE LaTeX style file: 169,070 yen
 
 For the manuscripts prepared using the MS-Word template file: 210,570 yen
 
-#### Article processing charges for a WRITTEN DISCUSSION
+#### Article processing charges for a WRITTEN DISCUSSION <!-- omit in toc -->
 
 For the manuscript prepared using the provided IEICE LaTeX style file: 32,670 yen
 
@@ -439,13 +480,15 @@ For the manuscript prepared using the MS-Word template file: 49,170 yen
 
 NOTE: The overlength charge will be required for PAPER that exceeds the page number limitation of 15 pages.
 
-#### Overlength charge (per a page): 21,780 yen.
+#### Overlength charge (per a page): 21,780 yen. <!-- omit in toc -->
 
 If all authors of a PAPER or a WRITTEN DISCUSSION are not members of IEICE, non-membership charge will be requested.
 
-#### Non-membership charge: 20,000 yen
+#### Non-membership charge: 20,000 yen <!-- omit in toc -->
 
 Note that IEICE Transactions on Communications has previously taken a page charge system, which increases the article processing charge by increasing the number of pages. Since IEICE Transactions on Communications is currently taking the fixed charge system, which does not increase the article processing charge even if the number of pages increases, except for a PAPER having 16 more pages with the permission from the Editorial Board.
+
+<a id="52-overseas-membership-development-program-omdp"></a>
 
 ### 5.2 Overseas Membership Development Program (OMDP)
 
@@ -455,9 +498,9 @@ If the first author of a manuscript meets the requirements of the OMDP, the arti
 NOTE: Because of the recent rapid economic development of China and Singapore, applications from members of these countries for the IEICE Overseas Membership Development Program (OMDP) are no longer accepted as of April 2011. (The OMDP discount on article processing charges is not provided to author(s) whose manuscript was submitted after April 1, 2011 (JST).)
 Also note that the OMDP is not applicable if all authors are non-members
 
-## 6. Copyright
+<a id="6-copyright"></a>
 
-<a id="#6-copyright"></a>
+## 6. Copyright
 
 The copyrights of all articles in the Transactions published by the IEICE are automatically transferred to the IEICE. However, the original authors retain the right to copy, translate, or modify their own manuscripts.
 In cases when a manuscript is translated into another language or when any portion of the manuscript is to be submitted to another publication, authors must register the action with the IEICE, and the original manuscript must be clearly cited in the publications.
@@ -476,9 +519,11 @@ In cases when a manuscript is translated into another language or when any porti
 
 For details, refer to the IEICE Provisions on Copyright.
 
+<a id="7-review-process"></a>
+
 ## 7. Review Process
 
-<a id="7-review-process"></a>
+<a id="71-review-criteria"></a>
 
 ### 7.1 Review criteria
 
@@ -490,6 +535,8 @@ There are three basic criteria upon which a review is based.
 
 For POSITION PAPERs, only papers having the significant feature(s) defined in Section 1.1.1 will be accepted, although comprehensive evaluations of performance or effectiveness will not be required.
 
+<a id="72-decision-to-accept-for-publication"></a>
+
 ### 7.2 Decision to accept for publication
 
 Taking the judgments of the reviewers into consideration, the Editorial Committee will make one of the following decisions regarding PAPERS and WRITTEN DISCUSSIONS.
@@ -499,7 +546,7 @@ Taking the judgments of the reviewers into consideration, the Editorial Committe
 2. Conditional acceptance:<br />
    The manuscript is conditionally accepted if it, in its present form, does not meet the overall criteria described in Section 7.1, but is judged to be capable of meeting them with revision. The conditional acceptance is made only once, and a revised manuscript (described below) that fails to satisfy the conditions will be rejected.
 
-#### \* Revised manuscript submission
+#### \* Revised manuscript submission <!-- omit in toc -->
 
 A revised manuscript must be resubmitted within 60 days of the date of acknowledgement of Conditional Acceptance. If the 60 days limit is exceeded, and there are no extenuating circumstances, then the manuscript will be considered as a new submission. The time limit may be shortened for Special Sections (Special Issues). The author(s) must attach an accompanying letter to the Associate Editor indicating how they have revised the manuscript in accordance with the Reviewer’s and Associate Editor’s comments.
 
@@ -511,9 +558,13 @@ NOTE : When revising the manuscript, be aware of the following.
 3. Rejection:<br />
    The manuscript is rejected if it does not meet the overall criteria described in Section 7.1 and would require major revisions with excessive editing, or if the subject matter is outside the scope of IEICE Transactions.
 
+<a id="73-resubmission"></a>
+
 ### 7.3 Resubmission
 
 For manuscripts receiving rejection notices or conditional acceptance notices but are withdrawn at authors’ discretion, a revised version of the manuscript may be resubmitted. Authors are required to take the same steps as the initial submission when submitting a revised version of such a manuscript. Upon resubmission, the authors are encouraged to provide the previous paper ID number and a “Reply Letter” to expedite the review process.
+
+<a id="74-request-for-reconsideration"></a>
 
 ### 7.4 Request for Reconsideration
 
@@ -526,6 +577,8 @@ Authors who have received a rejection notice may request reconsideration on the 
 (c) The procedures for reconsideration of the manuscript shall be in accordance with the normal review procedures.
 
 (d) Requests for reconsideration shall be limited to one request per manuscript.
+
+<a id="75-withdrawal-of-submission"></a>
 
 ### 7.5 Withdrawal of Submission
 
@@ -554,11 +607,12 @@ If only the contact author signs the letter, he/she must obtain the agreement of
 5. Any request of withdrawal that does not follow the above procedure is treated as invalid.
    If illegal submission, e.g., plagiarized or duplicate submission, is found for a paper, the withdrawal of the paper will not be permitted and the authors will be penalized accordingly.
 
+<a id="8-advance-publication-from-oct-16-2023"></a>
+
 ## 8. Advance publication (from Oct. 16, 2023)
 
-<a id="8-advance-publication"></a>
-
 Accepted papers will be published online on the publishing web sites (IEEE Xplore, J-STAGE, and IEICE Transactions Online) immediately after the payment is completed as an advance publication article. Please note that advance publication articles have not been proofread. These articles will be replaced by the finalized versions after proofreading. The date of advance publication is the date of publication of the article.
+
 To cite an advance publication article, the DOI of the article should be used, which is a unique identifier for each article and it does not change after official publication. Although the volume, number and pages are assigned to the article after official publication, it is recommended that the DOI also be indicated.
 Style for listing cited advance publication articles:
 
