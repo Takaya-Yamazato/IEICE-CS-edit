@@ -18,3 +18,18 @@ For those who submit their manuscripts before February 1st, 2024, please refer [
 The contents are subject to change without notification in advance.
 
 ---
+
+<a id="the-ieice-transactions-on-communications-the-information-for-authors"></a>
+
+## The Information for Authors (IEEE Xplore version)<!-- omit in toc -->
+
+The contents would be subject to change without notification in advance.
+[Last Revised on Dec. xx, 2022] since October 1, 2002.
+
+Important notice:
+
+IEICE Transactions on Communications will be published under IEEE Xplore instead of J-STAGE after the submission date of June 1, 2023. Because of this, Information for Authors (including the amount of article processing charge) will be changed.
+
+This document is for IEEE Xplore publication, which is applicable after the submission date of June 1, 2023. If you submit the manuscript before May 30, 2023, please refer to this site.
+
+---
