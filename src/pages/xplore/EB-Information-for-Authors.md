@@ -30,6 +30,6 @@ Important notice:
 
 IEICE Transactions on Communications will be published under IEEE Xplore instead of J-STAGE after the submission date of June 1, 2023. Because of this, Information for Authors (including the amount of article processing charge) will be changed.
 
-This document is for IEEE Xplore publication, which is applicable after the submission date of June 1, 2023. If you submit the manuscript before May 30, 2023, please refer to this site.
+This document is for IEEE Xplore publication, which is applicable after the submission date of June 1, 2023. If you submit the manuscript before May 30, 2023, please refer to this [site](https://www.ieice.org/eng/shiori/mokuji_cs.html).
 
 ---
