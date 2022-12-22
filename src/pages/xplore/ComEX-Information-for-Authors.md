@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
-title: Information for authors of IEICE Communications Express (ComEX)
-description: New information for authors of IEICE Communications Express (ComEX), effective from June 1st, 2023.
+title: Information for Authors of IEICE Communications Express (ComEX)
+description: New Information for Authors of IEICE Communications Express (ComEX), effective from June 1st, 2023.
 date: 2023-01-01T00:00:57.137Z
 tags:
   - IEICE Communications Express
   - ComEX
-  - Information for authors
+  - Information for Authors
   - IEEE Xplore
 ---
 

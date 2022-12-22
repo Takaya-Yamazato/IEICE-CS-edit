@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
 title: Information for authors of IEICE Transactions on Communications (EB)
-description: New information for authors of IEICE Transactions on Communications (EB), effective from February 1st, 2024.
+description: New Information for Authors of IEICE Transactions on Communications (EB), effective from February 1st, 2024.
 date: 2023-01-01T00:01:57.137Z
 tags:
   - IEICE Transactions on Communications
   - EB
-  - Information for authors
+  - Information for Authors
   - IEEE Xplore
 ---
 
