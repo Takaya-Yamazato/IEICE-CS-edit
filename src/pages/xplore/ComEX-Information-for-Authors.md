@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: xplore
 title: Information for Authors of IEICE Communications Express (ComEX)
 description: New Information for Authors of IEICE Communications Express (ComEX), effective from June 1st, 2023.
 date: 2023-01-01T00:00:57.137Z

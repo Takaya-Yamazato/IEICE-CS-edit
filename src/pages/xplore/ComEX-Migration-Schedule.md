@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: xplore
 title: Migration Schedule of IEICE Communications Express (ComEX)
 description: IEICE Communications Express (ComEX) will migrate to IEEE Xplore according to the schedule below.
 date: 2023-01-01T00:00:57.137Z
