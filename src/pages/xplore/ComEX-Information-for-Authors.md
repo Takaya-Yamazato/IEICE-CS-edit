@@ -22,6 +22,7 @@ https://www.ieice.org/eng/about_ieice/charter_of_ethics.html
 
 ---
 
+<!--
 Table of Contents
 
 - [Recommendation for non-members to join the IEICE:](#recommendation-for-non-members-to-join-the-ieice)
@@ -336,3 +337,4 @@ The Institute of Electronics, Information and Communication Engineers (IEICE)<br
 Kikai-Shinko-Kaikan Bldg.,<br>
 3-5-8, Shibakoen, Minato-ku, Tokyo, 105-0011 JAPAN<br>
 E-mail: comex@ieice.org
+-->
