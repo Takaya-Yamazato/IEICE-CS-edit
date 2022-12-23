@@ -20,7 +20,7 @@ export default function AuthNavBar() {
     >
       <span>{greetingMessage}</span>
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/xplore/">Xplore</Link>
         {` `}
         <Link to="/xplore/profile">Login</Link>
         {` `}
