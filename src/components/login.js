@@ -35,11 +35,11 @@ class Login extends React.Component {
           }}
         >
           <label>
-            Username
+            Username: 
             <input type="text" name="username" onChange={this.handleUpdate} />
           </label>
           <label>
-            Password
+            Password: 
             <input type="password" name="password" onChange={this.handleUpdate} />
           </label>
           <input type="submit" value="Log In" />

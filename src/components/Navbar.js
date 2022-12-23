@@ -2,7 +2,7 @@ import React from "react";
 import { Link, navigate } from "gatsby";
 import cslogo from "../img/cslogo.svg";
 import logo from "../img/logo.svg";
-import { getUser, isLoggedIn, logout } from "../services/auth";
+import { isLoggedIn, logout } from "../services/auth";
 
 const Navbar = class extends React.Component {
   constructor(props) {
