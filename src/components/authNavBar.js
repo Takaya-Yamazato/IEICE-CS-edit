@@ -1,13 +1,13 @@
-import React from "react"
-import { Link, navigate } from "gatsby"
-import { getUser, isLoggedIn, logout } from "../services/auth"
+import React from "react";
+import { Link, navigate } from "gatsby";
+import { getUser, isLoggedIn, logout } from "../services/auth";
 
 export default function AuthNavBar() {
-  let greetingMessage = ""
+  let greetingMessage = "";
   if (isLoggedIn()) {
-    greetingMessage = `Hello ${getUser().name}`
+    greetingMessage = `Hello ${getUser().name}`;
   } else {
-    greetingMessage = "You are not logged in"
+    greetingMessage = "You are not logged in";
   }
   return (
     <div
@@ -18,24 +18,11 @@ export default function AuthNavBar() {
         borderBottom: "1px solid #d1c1e0",
       }}
     >
-      <span>{greetingMessage}</span>
-      <nav>
-        <Link to="/xplore/">Xplore</Link>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;{greetingMessage}</span>
+      {/* <nav>
+        <Link to="/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/">Xplore</Link>
         {` `}
-        <Link to="/xplore/profile">Login</Link>
-        {` `}
-        {isLoggedIn() ? (
-          <a
-            href="/"
-            onClick={event => {
-              event.preventDefault()
-              logout(() => navigate(`/xplore/login`))
-            }}
-          >
-            Logout
-          </a>
-        ) : null}
-      </nav>
+      </nav> */}
     </div>
-  )
+  );
 }

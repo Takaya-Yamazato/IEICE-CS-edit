@@ -5,11 +5,11 @@ export const getUser = () => (isBrowser() && window.localStorage.getItem("gatsby
 const setUser = (user) => window.localStorage.setItem("gatsbyUser", JSON.stringify(user));
 
 export const handleLogin = ({ username, password }) => {
-  if (username === `john` && password === `pass`) {
+  if (username === `editor-cs` && password === `10imuh0u`) {
     return setUser({
-      username: `john`,
-      name: `Johnny`,
-      email: `johnny@example.org`,
+      username: `editor-cs`,
+      name: `CS Editorial Board`,
+      email: `editorial-board-cs@ml.ieice.org`,
     });
   }
 

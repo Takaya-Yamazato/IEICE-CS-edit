@@ -73,6 +73,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact/">
                 Contact
               </Link>
+              <Link className="navbar-item" to="/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/">
+                Xplore
+              </Link>
               <div className="navbar-item">
                 {isLoggedIn() ? (
                   <a
@@ -84,7 +87,11 @@ const Navbar = class extends React.Component {
                   >
                     Logout
                   </a>
-                ) : null}
+                ) : (
+                  <Link className="navbar-item" to="/xplore/login">
+                    Login
+                  </Link>
+                )}
               </div>
             </div>
 
