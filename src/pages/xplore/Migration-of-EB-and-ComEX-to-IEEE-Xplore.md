@@ -1,5 +1,5 @@
 ---
-templateKey: default-page
+templateKey: xplore
 title: Migration of EB and ComEX to IEEE Xplore
 description: IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-Stage to IEEE Xplore.
 date: 2022-11-01T11:00:57.137Z

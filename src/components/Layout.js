@@ -4,6 +4,7 @@ import { withPrefix } from "gatsby";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import AuthNavBar from "./authNavBar";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import ScrollButton from "../components/scrollToTop";
@@ -31,6 +32,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
       </Helmet>
       <Navbar />
+      <AuthNavBar />
       <div>{children}</div>
       <ScrollButton />
       <Footer />

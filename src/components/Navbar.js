@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, navigate } from "gatsby";
 import cslogo from "../img/cslogo.svg";
 import logo from "../img/logo.svg";
+import { isLoggedIn, logout } from "../services/auth";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -72,10 +73,28 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact/">
                 Contact
               </Link>
-              {/* <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link> */}
+              <Link className="navbar-item" to="/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/">
+                Xplore
+              </Link>
+              <div className="navbar-item">
+                {isLoggedIn() ? (
+                  <a
+                    href="/"
+                    onClick={(event) => {
+                      event.preventDefault();
+                      logout(() => navigate(`/xplore/login`));
+                    }}
+                  >
+                    Logout
+                  </a>
+                ) : (
+                  <Link className="navbar-item" to="/xplore/login">
+                    Login
+                  </Link>
+                )}
+              </div>
             </div>
+
             <div className="navbar-end has-text-centered">
               <a className="navbar-item" title="IEICE Communication Society" href="https://www.ieice.org/cs_r/eng/index.html" target="_blank" rel="noopener noreferrer">
                 <span className="icon">
