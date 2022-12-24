@@ -1,8 +1,8 @@
 import React from "react";
-import { Link, navigate } from "gatsby";
+import Link from "gatsby";
 import cslogo from "../img/cslogo.svg";
 import logo from "../img/logo.svg";
-import { isLoggedIn, logout } from "../services/auth";
+// import { isLoggedIn, logout } from "../services/auth";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -76,7 +76,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/">
                 Xplore
               </Link>
-              <div className="navbar-item">
+              {/* <div className="navbar-item">
                 {isLoggedIn() ? (
                   <a
                     href="/"
@@ -92,7 +92,7 @@ const Navbar = class extends React.Component {
                     Login
                   </Link>
                 )}
-              </div>
+              </div> */}
             </div>
 
             <div className="navbar-end has-text-centered">
