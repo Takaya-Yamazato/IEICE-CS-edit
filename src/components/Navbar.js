@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby";
+import { Link } from "gatsby";
 import cslogo from "../img/cslogo.svg";
 import logo from "../img/logo.svg";
 // import { isLoggedIn, logout } from "../services/auth";
