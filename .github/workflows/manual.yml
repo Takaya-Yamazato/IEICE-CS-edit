@@ -35,8 +35,8 @@ jobs:
         run: ls -laFG
       # 以下のサイトを参考に github action で build, netlify へ publicフォルダを転送
       # https://github.com/marketplace/actions/netlify-actions
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.2
+      - name: Netlify Actions
+        uses: nwtgck/actions-netlify@v2.0.0
         with:
           publish-dir: "./public"
           production-branch: master
