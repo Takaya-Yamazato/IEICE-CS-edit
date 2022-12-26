@@ -95,13 +95,13 @@ const Navbar = class extends React.Component {
               </div>
             </div>
 
-            <div className="navbar-end has-text-centered">
+            {/* <div className="navbar-end has-text-centered">
               <a className="navbar-item" title="IEICE Communication Society" href="https://www.ieice.org/cs_r/eng/index.html" target="_blank" rel="noopener noreferrer">
                 <span className="icon">
                   <img src={cslogo} alt="IEICE Communication Society logo" />
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
