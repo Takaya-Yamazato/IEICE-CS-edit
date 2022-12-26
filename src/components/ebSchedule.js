@@ -21,7 +21,7 @@ const EBschedule = () => (
                   2023-5
                   <ul>
                     <li>
-                      <strong>May 31, 2023 :Termination of submissions to J-Stage (January 2024 issue)</strong>
+                      <strong>May 31, 2023 :Termination of submissions to J-STAGE (January 2024 issue)</strong>
                     </li>
                   </ul>
                 </li>
@@ -34,7 +34,7 @@ const EBschedule = () => (
                 <li>
                   2023-9
                   <ul>
-                    <li>The decision of papers for the January 2024 issue (the final issue of J-Stage) is made.</li>
+                    <li>The decision of papers for the January 2024 issue (the final issue of J-STAGE) is made.</li>
                   </ul>
                 </li>
                 <li>
@@ -43,9 +43,9 @@ const EBschedule = () => (
                     <li>
                       Papers accepted for publication in the February 2024 issue (IEEE Xplore) (All peer review processes need to complete up to this point.)
                       <br />
-                      DOI is J-Stage until the last issue of J-Stage (Jan. 2024).
+                      DOI is J-STAGE until the last issue of J-STAGE (Jan. 2024).
                       <br />
-                      Two special sections will be published on J-Stage
+                      Two special sections will be published on J-STAGE
                       <br />
                       <ul>
                         <li>Photonic network technology for Beyond 5G/6G Era (submission due March 31, 2023)</li>

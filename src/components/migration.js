@@ -9,7 +9,7 @@ const Migration = () => (
           <div className="column is-10 is-offset-1">
             <p className="blogPost">
               {/* ここから blogPost */}
-              <p>IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-Stage to IEEE Xplore.</p>
+              <p>IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-STAGE to IEEE Xplore.</p>
               <p>EB will be an open access journal.</p>
               <p>
                 We are currently finalizing the transition schedule, Information for Authors, and the revision of publication fees. We will announce these changes through the <a href="https://www.ieice.org/cs/cs-edit/en/">IEICE Editorial Board homepage</a> (this site), so please check back regularly for updates.
@@ -37,7 +37,7 @@ const Migration = () => (
               </ul>
               <hr />
               <h1 id="eb-および-comex-の-ieee-xplore-への移行について">EB および ComEX の IEEE Xplore への移行について</h1>
-              <p>通信ソサイエティの英文論文誌，IEICE Transactions on Communications (EB) および IEICE Communications Express (ComEX) は論文の公開サイトを現在の J-Stage から IEEE Xplore へ変更します．</p>
+              <p>通信ソサイエティの英文論文誌，IEICE Transactions on Communications (EB) および IEICE Communications Express (ComEX) は論文の公開サイトを現在の J-STAGE から IEEE Xplore へ変更します．</p>
               <p>EB についてはオープンアクセスでの公開になります．</p>
               <p>
                 現在，移行スケジュール，Information for Authors および掲載料の改定について詰めの作業を行っております．これらについては，<a href="https://www.ieice.org/cs/cs-edit/en/">通ソ編集会議 HP</a> (このサイトです) などを通して随時お知らせいたしますので，会員の皆様におかれましては適宜ご確認下さいますようお願い申し上げます．

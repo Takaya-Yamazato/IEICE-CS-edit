@@ -1,7 +1,7 @@
 ---
 templateKey: xplore
 title: Migration of EB and ComEX to IEEE Xplore
-description: IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-Stage to IEEE Xplore.
+description: IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-STAGE to IEEE Xplore.
 date: 2022-11-01T11:00:57.137Z
 tags:
   - IEICE Transactions on Communications
@@ -13,7 +13,7 @@ tags:
   - Migration Schedule
 ---
 
-IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-Stage to IEEE Xplore.
+IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-STAGE to IEEE Xplore.
 
 EB will be an open access journal.
 
@@ -35,7 +35,7 @@ There will be no change in the publication on [IEICE Transactions online](https:
 
 # EB および ComEX の IEEE Xplore への移行について
 
-通信ソサイエティの英文論文誌，IEICE Transactions on Communications (EB) および IEICE Communications Express (ComEX) は論文の公開サイトを現在の J-Stage から IEEE Xplore へ変更します．
+通信ソサイエティの英文論文誌，IEICE Transactions on Communications (EB) および IEICE Communications Express (ComEX) は論文の公開サイトを現在の J-STAGE から IEEE Xplore へ変更します．
 
 EB についてはオープンアクセスでの公開になります．
 
