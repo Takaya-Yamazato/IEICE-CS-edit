@@ -13,7 +13,8 @@ tags:
 - 2023-1
   - Revision of Information for authors
 - 2023-2
-  - Migration procedure to IEEE Xplore starts at J-STAGE (Notify CrossRef of DOI change (J-STAGE -> IEEE Xplore)
+  - Migration procedure to IEEE Xplore starts at J-STAGE 
+    - Notification to CrossRef of DOI change from J-STAGE to IEEE Xplore
 - 2023-5
   - <span style="color: red; ">May 31, 2023</span>: **Termination of submissions to J-STAGE (September 2023 issue)**
 - 2023-6
