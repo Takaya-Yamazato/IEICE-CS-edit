@@ -2,7 +2,7 @@
 templateKey: index-page
 title: IEICE Communication Society Editorial Board
 subtitle: CE-EDIT
-image: /img/home-jumbotron2.jpg
+image: /img/home-jumbotron.webp
 heading: Journal information
 date: 2021-03-28
 description: "Publishing online monthly (EB, JB, and ComEX) and quarterly (Bplus), 
