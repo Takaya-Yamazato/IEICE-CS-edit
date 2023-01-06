@@ -51,9 +51,8 @@ const IndexPageTemplate = ({ data }) => (
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-10 is-offset-1">
+            <div className="column is-12">
               <div className="content">
-                <div className="content">
                   <div className="tile">
                     {/* <p>{data.markdownRemark.frontmatter.aboutUs}</p> */}
                   </div>
@@ -89,6 +88,7 @@ const IndexPageTemplate = ({ data }) => (
                             href="https://www.ieice.org/cs/jpn/EB/index.html"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Link to IEICE EB page."
                           >
                             <PreviewCompatibleImage
                               imageInfo={
@@ -106,6 +106,7 @@ const IndexPageTemplate = ({ data }) => (
                           href="https://search.ieice.org/bin/index.php?category=B&amp;lang=E"
                           target="_blank"
                           rel="noopener noreferrer"
+                          aria-label="Link to IEICE Transactions Online EB page."
                         >
                           See latest papers
                         </a>
@@ -125,6 +126,7 @@ const IndexPageTemplate = ({ data }) => (
                             href="https://www.ieice.org/publications/comex/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Link to IEICE ComEX page."
                           >
                             <PreviewCompatibleImage
                               imageInfo={
@@ -142,6 +144,7 @@ const IndexPageTemplate = ({ data }) => (
                           href="https://www.ieice.org/publications/comex/"
                           target="_blank"
                           rel="noopener noreferrer"
+                          aria-label="Link to IEICE Transactions Online ComEX page."
                         >
                           See latest papers
                         </a>
@@ -164,6 +167,7 @@ const IndexPageTemplate = ({ data }) => (
                             href="https://www.ieice.org/cs/jpn/JB/index-new.html"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Link to IEICE JB page."
                           >
                             <PreviewCompatibleImage
                               imageInfo={
@@ -181,6 +185,7 @@ const IndexPageTemplate = ({ data }) => (
                           href="https://search.ieice.org/bin/index.php?category=B&amp;lang=J"
                           target="_blank"
                           rel="noopener noreferrer"
+                          aria-label="Link to IEICE Transactions Online JB page."
                         >
                           See latest papers
                         </a>
@@ -200,6 +205,7 @@ const IndexPageTemplate = ({ data }) => (
                             href="https://www.ieice.org/~cs-edit/magazine/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Link to IEICE Communication Society Magazine page."
                           >
                             <PreviewCompatibleImage
                               imageInfo={
@@ -239,7 +245,6 @@ const IndexPageTemplate = ({ data }) => (
               </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
   </Layout>

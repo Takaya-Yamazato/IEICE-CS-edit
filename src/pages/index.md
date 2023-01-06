@@ -53,6 +53,20 @@ bPlus:
     members.
 ---
 
-### About us
+# Important Notice
+
+**[<span style="color: #CC3700; ">IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-STAGE to IEEE Xplore.</span>](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore)
+For detail, please refer [here](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/).**
+
+----
+
+# 重要なお知らせ
+
+**[<span style="color: #CC3700; ">通信ソサイエティの英文論文誌，IEICE Transactions on Communications (EB) および IEICE Communications Express (ComEX) は論文の公開サイトを現在の J-STAGE から IEEE Xplore へ変更します．</span>](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/)
+詳細は[こちら](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/)をご覧下さい．**
+
+-----
+
+## About us
 
 We govern four of the society transactions and magazine; IEICE Transaction on Communications (EB), IEICE Transactions on Communications (Japanese Edition, JB), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).

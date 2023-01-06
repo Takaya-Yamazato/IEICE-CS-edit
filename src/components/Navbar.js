@@ -1,8 +1,9 @@
 import React from "react";
-import { Link, navigate } from "gatsby";
+// import { Link, navigate } from "gatsby";
+import { Link } from "gatsby";
 import cslogo from "../img/cslogo.svg";
 import logo from "../img/logo.svg";
-import { isLoggedIn, logout } from "../services/auth";
+// import { isLoggedIn, logout } from "../services/auth";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -49,6 +50,7 @@ const Navbar = class extends React.Component {
               onClick={() => this.toggleHamburger()}
               // https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md#how-do-i-resolve-this-error
               role="menuitem"
+              aria-label="NavBar Burger"
               tabIndex={0}
             >
               <span />
