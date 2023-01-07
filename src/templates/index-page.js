@@ -238,7 +238,7 @@ const IndexPageTemplate = ({ data }) => (
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/news">
-                      Read more
+                      Read more news and updates
                     </Link>
                   </div>
                 </div>

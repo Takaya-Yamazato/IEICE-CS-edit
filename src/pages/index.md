@@ -56,14 +56,14 @@ bPlus:
 # Important Notice
 
 **[<span style="color: #CC3700; ">IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-STAGE to IEEE Xplore.</span>](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore)
-For detail, please refer [here](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/).**
+For detail, please refer to [the migration of EB and ComEX to IEEE Xplore](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/) page.**
 
 ----
 
 # 重要なお知らせ
 
 **[<span style="color: #CC3700; ">通信ソサイエティの英文論文誌，IEICE Transactions on Communications (EB) および IEICE Communications Express (ComEX) は論文の公開サイトを現在の J-STAGE から IEEE Xplore へ変更します．</span>](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/)
-詳細は[こちら](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/)をご覧下さい．**
+詳細は[Migration of EB and ComEX to IEEE Xplore](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/)ページをご覧下さい．**
 
 -----
 

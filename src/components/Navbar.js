@@ -46,11 +46,11 @@ const Navbar = class extends React.Component {
             {/* Hamburger menu */}
             <button
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
+              role="button"
+              aria-label="menu" 
+              aria-expanded="false"
               onClick={() => this.toggleHamburger()}
               // https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md#how-do-i-resolve-this-error
-              role="menuitem"
-              aria-label="NavBar Burger"
               tabIndex={0}
             >
               <span />
