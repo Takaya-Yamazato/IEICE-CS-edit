@@ -39,7 +39,7 @@ const BlogPostTemplate = ({ data, location }) => {
               </p>
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
-                  <h4>Tags</h4>
+                  <h2 className="is-size-4 has-text-weight-bold is-bold-light">Tags</h2>
                   <ul className="taglist">
                     {post.frontmatter.tags.map((tag) => (
                       <li key={tag + `tag`}>
