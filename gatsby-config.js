@@ -1,3 +1,5 @@
+// const siteUrl = process.env.URL || `https://www.ieice.org/cs/cs-edit/en/`;
+
 module.exports = {
   // flags: {
   //   DEV_SSR: true
@@ -7,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "IEICE Communication Society Editorial Board",
     description: "The IEICE Communication Society Editorial Board governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).",
-    siteUrl: `https://www.ieice.org/cs/cs-edit/en/`,
+    siteUrl: `https://www.ieice.org`,
     social: {
       twitter: `ieice_EIC`,
     },
