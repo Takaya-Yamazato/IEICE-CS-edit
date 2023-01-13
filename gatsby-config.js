@@ -5,15 +5,15 @@ module.exports = {
   // pathPrefix: `~yamazato`,　//チェック用
   pathPrefix: `/cs/cs-edit/en`, // https://www.ieice.org/cs/cs-edit/en/
   siteMetadata: {
-    title: 'IEICE Communication Society Editorial Board',
-    description:
-      'The IEICE Communication Society Editorial Board governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).',
-    siteUrl: `https://www.ieice.org/en/`,
+    title: "IEICE Communication Society Editorial Board",
+    description: "The IEICE Communication Society Editorial Board governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).",
+    siteUrl: `https://www.ieice.org/cs/cs-edit/en/`,
     social: {
       twitter: `ieice_EIC`,
     },
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -40,32 +40,30 @@ module.exports = {
         //   exclude: ["/preview/**", "/do-not-track/me/too/"],
         //   // Defaults to https://www.googletagmanager.com
         //   origin: "YOUR_SELF_HOSTED_ORIGIN",
-        //   // Delays processing pageview events on route update (in milliseconds)
-        //   delayOnRouteUpdate: 0,
         // },
       },
-    },  
+    },
     `gatsby-plugin-image`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/img`,
-        name: 'uploads',
+        name: "uploads",
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
+        name: "pages",
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/img`,
-        name: 'images',
+        name: "images",
       },
     },
     `gatsby-transformer-sharp`,
@@ -77,7 +75,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-relative-images`,
             options: {
-              name: 'uploads',
+              name: "uploads",
             },
           },
           {
@@ -92,7 +90,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-copy-linked-files`,
             options: {
-              destinationDir: 'static',
+              destinationDir: "static",
             },
           },
         ],
@@ -110,9 +108,9 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`, // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
-        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+        purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
     `gatsby-plugin-netlify`, // make sure to keep it last in the array
   ],
-}
+};
