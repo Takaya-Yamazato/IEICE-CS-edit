@@ -29,7 +29,7 @@ In response to a suggestion by President Kawazoe, we asked IEEE, and it was deci
 # IEICE Transactions on Communications (EB)
 
 - [Migration schedule](/xplore/EB-Migration-Schedule)
-- [New information for authors, effective from February 1st, 2024.](/xplore/EB-Information-for-Authors/)
+- [New information for authors, effective from June 1st, 2023.](/xplore/EB-Information-for-Authors/)
 
 # IEICE Communications Express (ComEX)
 
@@ -47,12 +47,12 @@ EB についてはオープンアクセスでの公開になります．
 現在，移行スケジュール，Information for Authors および掲載料の改定について詰めの作業を行っております．これらについては，[通ソ編集会議 HP](https://www.ieice.org/cs/cs-edit/en/) (このサイトです) などを通して随時お知らせいたしますので，会員の皆様におかれましては適宜ご確認下さいますようお願い申し上げます．
 
 なお，[IEICE Transactions online](https://www.ieice.org/jpn_r/transactions/transactions_online/index.html) での公開については変更はありません．
-また，川添会長のご提案をうけIEEEへ打診したところ， J-STAGE でも継続して公開できるようになりました．
+また，川添会長のご提案をうけ IEEE へ打診したところ， J-STAGE でも継続して公開できるようになりました．
 
 # IEICE Transactions on Communications (EB)
 
 - [IEEE Xplore への移行スケジュール](/xplore/EB-Migration-Schedule/)
-- [新しい投稿のしおり（2024 年 2 月 1 日以降の投稿から有効）](/xplore/EB-Information-for-Authors/)
+- [新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）](/xplore/EB-Information-for-Authors/)
 
 # IEICE Communications Express (ComEX)
 
