@@ -51,7 +51,7 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         timeout-minutes: 1
       # rsync の設定
-      # - name: rsync deployments
+      - name: rsync deployments
         uses: burnett01/rsync-deployments@4.1
         with:
           switches: -avzr --delete --exclude="xplore/.htaccess"
