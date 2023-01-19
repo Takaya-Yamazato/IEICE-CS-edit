@@ -51,12 +51,12 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         timeout-minutes: 1
       # rsync の設定
-      - name: rsync deployments
-        uses: burnett01/rsync-deployments@4.1
-        with:
-          switches: -avzr --delete --exclude="xplore/.htaccess"
-          path: public/
-          remote_path: ${{ secrets.REMOTE_PATH }}
-          remote_host: ${{ secrets.REMOTE_HOST }}
-          remote_user: ${{ secrets.REMOTE_USER }}
-          remote_key: ${{ secrets.ID_ECDSA_FREEDOM }}
+      # - name: rsync deployments
+      #   uses: burnett01/rsync-deployments@4.1
+      #   with:
+      #     switches: -avzr --delete --exclude="xplore/.htaccess"
+      #     path: public/
+      #     remote_path: ${{ secrets.REMOTE_PATH }}
+      #     remote_host: ${{ secrets.REMOTE_HOST }}
+      #     remote_user: ${{ secrets.REMOTE_USER }}
+      #     remote_key: ${{ secrets.ID_ECDSA_FREEDOM }}

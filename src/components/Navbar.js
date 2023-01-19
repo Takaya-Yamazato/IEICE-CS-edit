@@ -1,9 +1,9 @@
 import React from "react";
-// import { Link, navigate } from "gatsby";
-import { Link } from "gatsby";
+import { Link, navigate } from "gatsby";
+// import { Link } from "gatsby";
 import cslogo from "../img/cslogo.svg";
 import logo from "../img/logo.svg";
-// import { isLoggedIn, logout } from "../services/auth";
+import { isLoggedIn, logout } from "../services/auth";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -47,7 +47,7 @@ const Navbar = class extends React.Component {
             <button
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               role="button"
-              aria-label="menu" 
+              aria-label="menu"
               aria-expanded="false"
               onClick={() => this.toggleHamburger()}
               // https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md#how-do-i-resolve-this-error
@@ -78,7 +78,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/">
                 Xplore
               </Link>
-              {/* <div className="navbar-item">
+              <div className="navbar-item">
                 {isLoggedIn() ? (
                   <a
                     href="/"
@@ -94,7 +94,7 @@ const Navbar = class extends React.Component {
                     Login
                   </Link>
                 )}
-              </div> */}
+              </div>
             </div>
 
             <div className="navbar-end has-text-centered">
