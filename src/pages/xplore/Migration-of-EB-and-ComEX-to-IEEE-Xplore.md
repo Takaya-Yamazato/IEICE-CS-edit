@@ -29,7 +29,7 @@ In response to a suggestion by President Kawazoe, we asked IEEE, and it was deci
 # IEICE Transactions on Communications (EB)
 
 - [Migration schedule](/xplore/EB-Migration-Schedule)
-- [New information for authors, effective from June 1st, 2023.](/xplore/EB-Information-for-Authors/)
+- [New information for authors, effective from June 1st, 2023.](https://www.ieice.org/eng/shiori/mokuji_cs.html)
 
 # IEICE Communications Express (ComEX)
 

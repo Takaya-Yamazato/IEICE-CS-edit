@@ -1,8 +1,12 @@
-export const isBrowser = () => typeof window !== "undefined";
+export const isBrowser = () => typeof window !== 'undefined'
 
-export const getUser = () => (isBrowser() && window.localStorage.getItem("gatsbyUser") ? JSON.parse(window.localStorage.getItem("gatsbyUser")) : {});
+export const getUser = () =>
+  isBrowser() && window.localStorage.getItem('gatsbyUser')
+    ? JSON.parse(window.localStorage.getItem('gatsbyUser'))
+    : {}
 
-const setUser = (user) => window.localStorage.setItem("gatsbyUser", JSON.stringify(user));
+const setUser = (user) =>
+  window.localStorage.setItem('gatsbyUser', JSON.stringify(user))
 
 export const handleLogin = ({ username, password }) => {
   if (username === `editor-cs` && password === `10imuh0u`) {
@@ -10,19 +14,19 @@ export const handleLogin = ({ username, password }) => {
       username: `editor-cs`,
       name: `CS Editorial Board`,
       email: `editorial-board-cs@ml.ieice.org`,
-    });
+    })
   }
 
-  return false;
-};
+  return false
+}
 
 export const isLoggedIn = () => {
-  const user = getUser();
+  const user = getUser()
 
-  return !!user.username;
-};
+  return !!user.username
+}
 
 export const logout = (callback) => {
-  setUser({});
-  callback();
-};
+  setUser({})
+  callback()
+}

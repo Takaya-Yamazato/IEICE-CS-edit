@@ -1,27 +1,27 @@
-import React from "react";
-import { navigate } from "gatsby";
-import { handleLogin, isLoggedIn } from "../services/auth";
+import React from 'react'
+import { navigate } from 'gatsby'
+import { handleLogin, isLoggedIn } from '../services/auth'
 
 class Login extends React.Component {
   state = {
     username: ``,
     password: ``,
-  };
+  }
 
   handleUpdate = (event) => {
     this.setState({
       [event.target.name]: event.target.value,
-    });
-  };
+    })
+  }
 
   handleSubmit = (event) => {
-    event.preventDefault();
-    handleLogin(this.state);
-  };
+    event.preventDefault()
+    handleLogin(this.state)
+  }
 
   render() {
     if (isLoggedIn()) {
-      navigate(`/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/`);
+      navigate(`/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/`)
     }
 
     return (
@@ -30,9 +30,9 @@ class Login extends React.Component {
         <form
           method="post"
           onSubmit={(event) => {
-            this.handleSubmit(event);
+            this.handleSubmit(event)
             // navigate(`/xplore/profile`);
-            navigate(`/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/`);
+            navigate(`/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/`)
           }}
         >
           <label>
@@ -41,13 +41,17 @@ class Login extends React.Component {
           </label>
           <label>
             &nbsp;and password:&nbsp;
-            <input type="password" name="password" onChange={this.handleUpdate} />
+            <input
+              type="password"
+              name="password"
+              onChange={this.handleUpdate}
+            />
           </label>
           <input type="submit" value="Log In" />
         </form>
       </>
-    );
+    )
   }
 }
 
-export default Login;
+export default Login

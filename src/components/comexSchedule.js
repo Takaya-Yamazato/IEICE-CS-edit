@@ -1,5 +1,5 @@
-import React from "react";
-import "./all.sass";
+import React from 'react'
+import './all.sass'
 // import { getUser } from "../services/auth";
 
 const ComEXschedule = () => (
@@ -20,14 +20,20 @@ const ComEXschedule = () => (
                 <li>
                   2023-2
                   <ul>
-                    <li>Migration procedure to IEEE Xplore starts at J-STAGE (Notify CrossRef of DOI change (J-STAGE -&gt; IEEE Xplore)</li>
+                    <li>
+                      Migration procedure to IEEE Xplore starts at J-STAGE
+                      (Notify CrossRef of DOI change (J-STAGE -&gt; IEEE Xplore)
+                    </li>
                   </ul>
                 </li>
                 <li>
                   2023-5
                   <ul>
                     <li>
-                      <strong>May 31, 2023: Termination of submissions to J-STAGE (September 2023 issue)</strong>
+                      <strong>
+                        May 31, 2023: Termination of submissions to J-STAGE
+                        (September 2023 issue)
+                      </strong>
                     </li>
                   </ul>
                 </li>
@@ -35,7 +41,10 @@ const ComEXschedule = () => (
                   2023-6
                   <ul>
                     <li>
-                      <strong>June 1, 2023: Beginning of submissions to Xplore (October 2023 issue)</strong>
+                      <strong>
+                        June 1, 2023: Beginning of submissions to Xplore
+                        (October 2023 issue)
+                      </strong>
                     </li>
                   </ul>
                 </li>
@@ -45,14 +54,18 @@ const ComEXschedule = () => (
                     <li>
                       One special section will be published in J-STAGE.
                       <br />
-                      ICETC 2022-related (tentative) (submission due January 5, 2023)
+                      ICETC 2022-related (tentative) (submission due January 5,
+                      2023)
                     </li>
                   </ul>
                 </li>
                 <li>
                   2023-9
                   <ul>
-                    <li>DOI is J-STAGE until the last issue of J-STAGE (September 2023)</li>
+                    <li>
+                      DOI is J-STAGE until the last issue of J-STAGE (September
+                      2023)
+                    </li>
                   </ul>
                 </li>
                 <li>
@@ -74,6 +87,6 @@ const ComEXschedule = () => (
       </div>
     </section>
   </>
-);
+)
 
-export default ComEXschedule;
+export default ComEXschedule
