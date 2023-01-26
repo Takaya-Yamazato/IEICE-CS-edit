@@ -52,7 +52,7 @@ EB についてはオープンアクセスでの公開になります．
 # IEICE Transactions on Communications (EB)
 
 - [IEEE Xplore への移行スケジュール](/xplore/EB-Migration-Schedule/)
-- [新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）](/xplore/EB-Information-for-Authors/)
+- [新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）](https://www.ieice.org/eng/shiori/mokuji_cs.html)
 
 # IEICE Communications Express (ComEX)
 
