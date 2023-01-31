@@ -34,7 +34,7 @@ In response to a suggestion by President Kawazoe, we asked IEEE, and it was deci
 # IEICE Communications Express (ComEX)
 
 - [Migration schedule](/xplore/ComEX-Migration-Schedule)
-- [New information for authors, effective from June 1st, 2023.](/xplore/ComEX-Information-for-Authors/)
+- [New information for authors, effective from June 1st, 2023.](https://www.ieice.org/cs_r/eng/comex/for_authors.html)
 
 ---
 
@@ -57,4 +57,4 @@ EB についてはオープンアクセスでの公開になります．
 # IEICE Communications Express (ComEX)
 
 - [IEEE Xplore への移行スケジュール](/xplore/ComEX-Migration-Schedule/)
-- [新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）](/xplore/ComEX-Information-for-Authors/)
+- [新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）](https://www.ieice.org/cs_r/eng/comex/for_authors.html)
