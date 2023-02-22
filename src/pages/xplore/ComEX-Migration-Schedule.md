@@ -13,12 +13,12 @@ tags:
 - 2023-1
   - Revision of Information for authors
 - 2023-2
-  - Migration procedure to IEEE Xplore starts at J-STAGE 
+  - Migration procedure to IEEE Xplore starts at J-STAGE
     - Notification to CrossRef of DOI change from J-STAGE to IEEE Xplore
 - 2023-5
   - <span style="color: red; ">May 31, 2023</span>: **Termination of submissions to J-STAGE (September 2023 issue)**
 - 2023-6
-  - <span style="color: red; ">June 1, 2023</span>: **Beginning of submissions to Xplore (October 2023 issue)**
+  - <span style="color: red; ">June 1, 2023</span>: **Beginning of submissions to IEEE Xplore (October 2023 issue)**
 - 2023-8
   - One special section will be published in J-STAGE.<br />
     ICETC 2022-related (tentative) (submission due January 5, 2023)

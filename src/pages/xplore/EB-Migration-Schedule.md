@@ -25,5 +25,5 @@ tags:
     - Photonic network technology for Beyond 5G/6G Era (submission due March 31, 2023)
     - Wired-and-Wireless Network System Technologies in Beyond 5G/6G (tentative) (submission due May 9, 2023)
 - 2024-2
-  - DOI changes to IEEE.<br />
+  - DOI changes to IEEE Xplore.<br />
     Start hosting EB papers on IEEE Xplore.
