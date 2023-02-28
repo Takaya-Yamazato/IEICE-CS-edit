@@ -3,6 +3,8 @@ templateKey: xplore
 title: Migration Schedule of IEICE Transactions on Communications (EB)
 description: IEICE Transactions on Communications (EB) will migrate to IEEE Xplore according to the schedule below.
 date: 2023-01-01T00:00:57.137Z
+featuredpost: true
+featuredimage: /img/cs-edit-green.jpg
 tags:
   - IEICE Transactions on Communications
   - EB

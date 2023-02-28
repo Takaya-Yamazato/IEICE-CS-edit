@@ -55,16 +55,16 @@ bPlus:
 
 # Important Notice
 
-**[<span style="color: #CC3700; ">IEICE Transactions on Communications and IEICE Communications Express, the English-language journals of the IEICE Communications Society, will be available on IEEE Xplore. Both journals will be open access. </span>](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore)
-For detail, please refer to [the migration of EB and ComEX to IEEE Xplore](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/) page.**
+**[<span style="color: #CC3700; ">IEICE Transactions on Communications and IEICE Communications Express, the English-language journals of the IEICE Communications Society, will be available on IEEE Xplore. Both journals will be open access. </span>](/xplore/)
+For detail, please refer to [the migration of EB and ComEX to IEEE Xplore](/xplore/) page.**
 
 ---
 
 # 重要なお知らせ
 
 **[<span style="color: #CC3700; ">通信ソサイエティの英文論文誌，IEICE Transactions on Communications および IEICE Communications Express が IEEE Xplore に掲載されることになりました．
-両誌ともオープンアクセスでの公開となります．詳細はこちらをご覧ください．</span>](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/)
-詳細は [Migration of EB and ComEX to IEEE Xplore](/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/) ページをご覧下さい．**
+両誌ともオープンアクセスでの公開となります．詳細はこちらをご覧ください．</span>](/xplore/)
+詳細は [Migration of EB and ComEX to IEEE Xplore](/xplore/) ページをご覧下さい．**
 
 ---
 
