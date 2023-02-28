@@ -86,7 +86,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    markdownRemark(frontmatter: { templateKey: { eq: "blog-post" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "blog-post" }, title: { eq: "Migration of EB and ComEX to IEEE Xplore" } }) {
       id
       excerpt
       html
