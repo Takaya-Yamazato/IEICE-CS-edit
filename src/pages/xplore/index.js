@@ -97,7 +97,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "xplore" } } }) {
+    allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "xplore" } } }, sort: { frontmatter: { date: DESC } }) {
       edges {
         node {
           id
