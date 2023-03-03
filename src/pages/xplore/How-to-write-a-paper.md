@@ -36,4 +36,6 @@ The program includes four sessions:
 - (3) "How to Write Responses and Letters" by Hiroaki Morino (Shibaura Institute of Technology), and
 - (4) "English Transactions of Communications Society (EB and ComEX) will also be published in IEEE Xplore" by Takaya Yamazato (Nagoya University).
 
-The lecture has a capacity of 100 persons, and admission is free. We look forward to seeing you there.
+The lecture has a capacity of 100 persons, and admission is free.
+
+We look forward to seeing you there.
