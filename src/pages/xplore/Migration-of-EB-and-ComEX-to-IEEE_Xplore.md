@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Migration of EB and ComEX to IEEE Xplore
-description: This page explains the change of the publication platform of two IEICE English-language journals, EB and ComEX, from the current J-STAGE to IEEE Xplore.
+description: This page provides information about IEICE Transactions on Communications （EB) and IEICE Communications Express (ComEX), both published by the IEICE Communications Society, which will soon be available on IEEE Xplore.
 date: 2023-01-01T11:08:57.137Z
 featuredpost: true
 featuredimage: /img/cs-edit-green.jpg
@@ -17,7 +17,7 @@ tags:
 
 ---
 
-IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), the English-language journals of the IEICE Communications Society, will change their paper publication platform from the current J-STAGE to IEEE Xplore.
+IEICE Communications Society's English-language journals, namely IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), will soon be accessible via IEEE Xplore.
 
 EB will be an open access journal.
 
@@ -40,11 +40,11 @@ In response to a suggestion by President Kawazoe, we asked IEEE, and it was deci
 
 # EB および ComEX の IEEE Xplore への移行について
 
-通信ソサイエティの英文論文誌，IEICE Transactions on Communications (EB) および IEICE Communications Express (ComEX) は論文の公開サイトを現在の J-STAGE から IEEE Xplore へ変更します．
+通信ソサイエティの英文論文誌，IEICE Transactions on Communications (EB) および IEICE Communications Express (ComEX)，が IEEE Xplore に掲載されます．
 
 EB についてはオープンアクセスでの公開になります．
 
-現在，移行スケジュール，Information for Authors および掲載料の改定について詰めの作業を行っております．これらについては，[通ソ編集会議 HP](https://www.ieice.org/cs/cs-edit/en/) (このサイトです) などを通して随時お知らせいたしますので，会員の皆様におかれましては適宜ご確認下さいますようお願い申し上げます．
+現在，移行スケジュール，Information for Authors および掲載料の改定について詰めの作業を行っております．これらについては，[通ソ編集会議 HP](https://www.ieice.org/cs/cs-edit/en/xplore/) (このサイトです) などを通して随時お知らせいたしますので，会員の皆様におかれましては適宜ご確認下さいますようお願い申し上げます．
 
 なお，[IEICE Transactions online](https://www.ieice.org/jpn_r/transactions/transactions_online/index.html) での公開については変更はありません．
 また，川添会長のご提案をうけ IEEE へ打診したところ， [J-STAGE](https://www.jstage.jst.go.jp/browse/transcom) でも継続して公開できるようになりました．
