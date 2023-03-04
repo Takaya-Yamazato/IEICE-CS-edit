@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "gatsby";
 import cslogo from "../img/cslogo.svg";
 import logo from "../img/logo.svg";
+// import logo from "../img/logo-white.svg";
 // import { isLoggedIn, logout } from "../services/auth";
 
 const Navbar = class extends React.Component {
@@ -60,9 +61,9 @@ const Navbar = class extends React.Component {
           </div>
           <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
             <div className="navbar-start has-text-centered">
-              {/* <Link className="navbar-item" to="/xplore/">
+              <Link className="navbar-item" to="/xplore/">
                 Migration of EB and ComEX to IEEE Xplore
-              </Link> */}
+              </Link>
               <Link className="navbar-item" to="/awards/">
                 Awards
               </Link>
@@ -75,9 +76,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact/">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/xplore/">
+              {/* <Link className="navbar-item" to="/xplore/">
                 Xplore
-              </Link>
+              </Link> */}
               {/* <div className="navbar-item">
                 {isLoggedIn() ? (
                   <a
