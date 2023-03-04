@@ -21,11 +21,11 @@ tags:
 - 2023-9
   - The decision of papers for the January 2024 issue (the final issue of J-STAGE) is made.
 - 2024-1
-  - Papers accepted for publication in the February 2024 issue (IEEE Xplore) (All peer review processes need to complete up to this point.)<br />
-    DOI is J-STAGE until the last issue of J-STAGE (Jan. 2024).<br />
-    Two special sections will be published on J-STAGE<br />
+  - Papers accepted for publication in the February 2024 issue (IEEE Xplore) (All peer review processes need to complete up to this point.)
+  - DOI is J-STAGE until the last issue of J-STAGE (Jan. 2024).
+  - Two special sections will be published on J-STAGE
     - Photonic network technology for Beyond 5G/6G Era (submission due March 31, 2023)
     - Wired-and-Wireless Network System Technologies in Beyond 5G/6G (tentative) (submission due May 9, 2023)
 - 2024-2
-  - DOI changes to IEEE Xplore.<br />
-    Start hosting EB papers on IEEE Xplore.
+  - DOI changes to IEEE Xplore.
+  - Start hosting EB papers on IEEE Xplore.

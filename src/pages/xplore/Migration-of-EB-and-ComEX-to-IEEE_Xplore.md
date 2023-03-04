@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Migration of EB and ComEX to IEEE Xplore
-description: This page provides information about IEICE Transactions on Communications （EB) and IEICE Communications Express (ComEX), both published by the IEICE Communications Society, which will soon be available on IEEE Xplore.
+description: This page provides information about IEICE Transactions on Communications (EB) and IEICE Communications Express (ComEX), both published by the IEICE Communications Society, which will soon be available on IEEE Xplore.
 date: 2023-01-01T11:08:57.137Z
 featuredpost: true
 featuredimage: /img/cs-edit-green.jpg
@@ -21,20 +21,21 @@ IEICE Communications Society's English-language journals, namely IEICE Transacti
 
 EB will be an open access journal.
 
-We are currently finalizing the transition schedule, Information for Authors, and the revision of publication fees. We will announce these changes through the [IEICE Editorial Board homepage](https://www.ieice.org/cs/cs-edit/en/xplore/) (this site), so please check back regularly for updates.
+We are currently finalizing the transition process. 
+We will announce the details through the [IEICE Editorial Board homepage](https://www.ieice.org/cs/cs-edit/en/xplore/) (this site), so please check back regularly for updates.
 
-There will be no change in the publication on [IEICE Transactions online](https://search.ieice.org/bin/index.php?category=B&lang=E&curr=1), and EB and ComEX will remain available on [IEICE Transactions online](https://search.ieice.org/bin/index.php?category=B&lang=E&curr=1).
-In response to a suggestion by President Kawazoe, we asked IEEE, and it was decided to continue publishing the papers on [J-STAGE](https://www.jstage.jst.go.jp/browse/transcom) as well.
+There will be no change in the publication on <a href="https://search.ieice.org/bin/index.php?category=B&lang=E&curr=1" target="_blank" rel="noreferrer">IEICE Transactions online</a>, and EB and ComEX will remain available on <a href="https://search.ieice.org/bin/index.php?category=B&lang=E&curr=1" target="_blank" rel="noreferrer">IEICE Transactions online</a>.
+In response to a suggestion by President Kawazoe, we asked IEEE, and it was decided to continue publishing the papers on <a href="https://www.jstage.jst.go.jp/browse/transcom" target="_blank" rel="noreferrer">J-STAGE</a> as well.
 
 # IEICE Transactions on Communications (EB)
 
 - [Migration schedule](/xplore/EB-Migration-Schedule)
-- [New information for authors, effective from June 1st, 2023.](https://www.ieice.org/eng/shiori/mokuji_cs.html)
+- <a href="https://www.ieice.org/eng/shiori/mokuji_cs.html" target="_blank" rel="noreferrer">New information for authors, effective from June 1st, 2023.</a>
 
 # IEICE Communications Express (ComEX)
 
 - [Migration schedule](/xplore/ComEX-Migration-Schedule)
-- [New information for authors, effective from June 1st, 2023.](https://www.ieice.org/cs_r/eng/comex/for_authors.html)
+- <a href="https://www.ieice.org/cs_r/eng/comex/for_authors.html" target="_blank" rel="noreferrer">New information for authors, effective from June 1st, 2023.</a>
 
 ---
 
@@ -44,7 +45,8 @@ In response to a suggestion by President Kawazoe, we asked IEEE, and it was deci
 
 EB についてはオープンアクセスでの公開になります．
 
-現在，移行スケジュール，Information for Authors および掲載料の改定について詰めの作業を行っております．これらについては，[通ソ編集会議 HP](https://www.ieice.org/cs/cs-edit/en/xplore/) (このサイトです) などを通して随時お知らせいたしますので，会員の皆様におかれましては適宜ご確認下さいますようお願い申し上げます．
+現在，最終の詰めの作業を行っております．
+詳細は，[通ソ編集会議 HP](https://www.ieice.org/cs/cs-edit/en/xplore/) (このサイトです) などを通して随時お知らせいたしますので，会員の皆様におかれましては適宜ご確認下さいますようお願い申し上げます．
 
 [IEICE Transactions online](https://www.ieice.org/jpn_r/transactions/transactions_online/index.html) での公開については変更はありません．
 
@@ -57,10 +59,10 @@ EB についてはオープンアクセスでの公開になります．
 
 # IEICE Transactions on Communications (EB)
 
-- [IEEE Xplore への移行スケジュール](/xplore/EB-Migration-Schedule/)
-- [新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）](https://www.ieice.org/eng/shiori/mokuji_cs.html)
+- [IEEE Xplore への移行スケジュール](/xplore/EB-Migration-Schedule-ja/)
+- <a href="https://www.ieice.org/eng/shiori/mokuji_cs.html" target="_blank" rel="noreferrer">新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）</a>
 
 # IEICE Communications Express (ComEX)
 
 - [IEEE Xplore への移行スケジュール](/xplore/ComEX-Migration-Schedule/)
-- [新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）](https://www.ieice.org/cs_r/eng/comex/for_authors.html)
+- <a href="https://www.ieice.org/cs_r/eng/comex/for_authors.html" target="_blank" rel="noreferrer">新しい投稿のしおり（2023 年 6 月 1 日以降の投稿から有効）</a>
