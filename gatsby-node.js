@@ -135,6 +135,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 //   }
 // };
 
+// // Generally you create redirects while creating pages.
+// exports.createPages = ({ graphql, actions }) => {
+//   const { createRedirect } = actions
+//   createRedirect({ fromPath: "/xplore/Migration-of-EB-and-ComEX-to-IEEE-Xplore/", toPath: "/xplore/", isPermanent: true });
+//   // Create pages here
+// }
+
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
 
