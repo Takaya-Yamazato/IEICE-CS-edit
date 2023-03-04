@@ -1,8 +1,8 @@
 ---
-templateKey: xplore
+templateKey: blog-post
 title: 論文の書き方講座
-description: 論文の書き方講座で Xplore について説明します．
-date: 2023-03-08T12:08:55.137Z
+description: 論文の書き方講座開催のお知らせ(2023年3月8日（水）9:40-11:45)
+date: 2023-03-08T09:40:00.137Z
 featuredpost: true
 featuredimage: /img/cs-edit-green.jpg
 tags:
@@ -11,7 +11,6 @@ tags:
   - IEICE Communications Express
   - ComEX
   - IEEE Xplore
-  - IEICE Journal
 ---
 
 ---

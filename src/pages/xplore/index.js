@@ -18,7 +18,7 @@ const XplorePage = ({ data }) => {
         </header>
         <div className="container content">
           <div className="columns"></div>
-          <div className="column is-10 is-offset-1">
+          <div className="column is-12">
             {data.markdownRemark.frontmatter.date}
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{data.markdownRemark.frontmatter.title}</h1>
             <p>{data.markdownRemark.frontmatter.description}</p>
