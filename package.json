@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "prettier": "^2.8.4",
-    "webpack": "^5.75.0"
+    "webpack": "^5.76.0"
   },
   "resolutions": {
     "graphql": "^15.4.0",
