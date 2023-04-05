@@ -18,7 +18,7 @@ tags:
 
 The April issue of the IEICE Journal features an article by Prof. Masaki Bandai, Editor-in-Chief, IEICE Communications Express (ComEX).
 
-The article, titled "Starting in February 2024, articles in the IEICE Communications Express (ComEX) will be published in IEEE Xplore as open access papers," can be accessed for free at https://www.journal.ieice.org/bin/pdf_link.php?fname=k106_4_347&lang=J&year=2023.
+The article, titled "Starting in October 2023, articles in the IEICE Communications Express (ComEX) will be published in IEEE Xplore as open access papers," can be accessed for free at https://www.journal.ieice.org/bin/pdf_link.php?fname=k106_4_347&lang=J&year=2023.
 
 In the piece, Prof. Bandai explains the revision of Information for Authors of ComEX.
 
