@@ -51,7 +51,7 @@
     "netlify-build": "gatsby clean && gatsby build",
     "develop": "gatsby clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "package update": "ncu -u && rm -rf node_modules yarn.lock && yarn install"
   },
   "devDependencies": {
     "prettier": "^2.8.8",
