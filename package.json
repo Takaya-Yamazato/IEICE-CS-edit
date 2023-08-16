@@ -54,7 +54,7 @@
     "package update": "ncu -u && rm -rf node_modules yarn.lock && yarn install && yarn run build"
   },
   "devDependencies": {
-    "prettier": "^3.0.1",
+    "prettier": "^3.0.2",
     "webpack": "^5.88.2"
   },
   "resolutions": {
