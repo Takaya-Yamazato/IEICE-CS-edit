@@ -18,12 +18,12 @@ jobs:
     # 実行する処理やコマンドを指定
     steps:
       # レポジトリからの checkout を実行
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       # Node のセットアップ
-      - name: Use Node.js 19.x
-        uses: actions/setup-node@v3
+      - name: Use Node.js latest
+        uses: actions/setup-node@v4
         with:
-          node-version: "19.x"
+          node-version: "latest"
           cache: "yarn"
       # Node の実行（npm install, npm run build）
       - name: Build Project
