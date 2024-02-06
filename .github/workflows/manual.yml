@@ -52,7 +52,7 @@ jobs:
       #   timeout-minutes: 1
       # rsync の設定
       - name: rsync deployments
-        uses: burnett01/rsync-deployments@4.1
+        uses: burnett01/rsync-deployments@5.2.1
         with:
           switches: -avzr --delete --exclude="xplore/.htaccess"
           path: public/
