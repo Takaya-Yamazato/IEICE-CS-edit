@@ -100,7 +100,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-netlify-cms`,
+      // resolve: `gatsby-plugin-netlify-cms`,
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
@@ -114,7 +114,7 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    `gatsby-plugin-netlify`, // make sure to keep it last in the array
+    // `gatsby-plugin-netlify`, // make sure to keep it last in the array
     `gatsby-plugin-meta-redirect`, // make sure to put last in the array
   ],
 }
