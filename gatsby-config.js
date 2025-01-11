@@ -10,7 +10,7 @@ module.exports = {
     title: 'IEICE Communication Society Editorial Board',
     description:
       'The IEICE Communication Society Editorial Board governs four of the society journals; IEICE Transaction on Communications, IEICE Transactions on Communications (Japanese Edition), IEICE Communications Express (ComEX), and IEICE Bplus (Communication Society Magazine).',
-    siteUrl: `https://www.ieice.org`,
+    siteUrl: `https://www.ieice.org/cs/cs-edit/en/`,
     social: {
       twitter: `ieice_EIC`,
     },
@@ -111,7 +111,7 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`, // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
-        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+        // purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
     // `gatsby-plugin-netlify`, // make sure to keep it last in the array
