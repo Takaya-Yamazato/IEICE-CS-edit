@@ -1,10 +1,8 @@
-// const siteUrl = process.env.URL || `https://www.ieice.org/cs/cs-edit/en/`;
-
 module.exports = {
   // flags: {
   //   DEV_SSR: true
   // },
-  // pathPrefix: `~yamazato`,　//チェック用
+  // pathPrefix: `~yamazato`, //チェック用
   pathPrefix: `/cs/cs-edit/en`, // https://www.ieice.org/cs/cs-edit/en/
   siteMetadata: {
     title: 'IEICE Communication Society Editorial Board',
@@ -16,6 +14,12 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.ieice.org/cs/cs-edit/en/`,
+      },
+    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-gtag`,
